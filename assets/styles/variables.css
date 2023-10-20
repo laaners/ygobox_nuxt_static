@@ -1,0 +1,58 @@
+:root {
+	/* https://coolors.co/494331-878472-d6d6b1-b44418-e46a3a */
+
+	--image-height: 7em;
+	--image-highlight-height: 18em;
+
+	--card-max-width: 20rem;
+
+	--max-width: 920px;
+
+	/* Make 3 columns */
+	--grid-template-columns: 1fr;
+
+	--navigator-step-height: 9em;
+	--navigator-template-columns: 1fr;
+
+	/* Mine */
+	--font-family-heading: "Playfair Display", serif;
+	--font-family-body: "Work Sans", sans-serif;
+
+	--color-accent: #f25b1f;
+	--color-accent-dark: #b13d0f;
+	--color-light-transparent: rgba(255, 255, 255, 0.33);
+	--color-light: white;
+	--color-neutral: #f1f1f1;
+	--color-dark: #403b2a;
+	--color-darker: #222222;
+
+	--space-0: 0.5rem;
+	--space-1: 1rem;
+	--space-2: 2rem;
+	--space-3: 3rem;
+
+	--font-size-h1: 2vmax;
+	--font-size-h2: 1.75vmax;
+	--font-size-h3: 1.5vmax;
+	--font-size-h4: 1.25vmax;
+	--font-size-body: 1vmax;
+
+	--font-size-header-links: 2rem;
+	--font-size-header-title: 1.7rem;
+	--font-size-header-menu: 1.2rem;
+	--font-size-button: 1.1rem;
+	--font-size-season-button: 1.3rem;
+	--font-size-category: 1.3rem;
+
+	--border-radius: 8px;
+
+	--pack-width: 15vw;
+
+	--header-padding: 6vmax;
+}
+
+@media screen and (min-width: 840px) {
+	:root {
+		--header-padding: 3.5vmax;
+	}
+}

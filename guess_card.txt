@@ -1,0 +1,54 @@
+_=> { 
+    return _.type.includes("Monster") &&
+	!(_.type.includes("Fusion") || _.type.includes("Synchro") || _.type.toLowerCase().includes("xyz") || _.type.toLowerCase().includes("link"))
+}
+	&& (_.attribute == "DARK" || _.attribute == "LIGHT" || _.attribute == "EARTH") &&
+    !((_.level <= 4 || _.desc.toLowerCase().includes("without tributing")) && !_.type.includes("Fusion") && !_.type.includes("Ritual") && !_.type.includes("Synchro") && !_.type.toLowerCase().includes("xyz") && !_.desc.includes("cannot be normal")) &&
+    _.tcg_date >= "2016-01-01" &&
+    !(_.archetype === "Unchained") &&
+    !_.type.includes("Link") &&
+    _.type.includes("Fusion") || _.type.includes("Synchro") || _.type.toLowerCase().includes("xyz") &&
+    !_.type.toLowerCase().includes("xyz")
+}
+    _.atk > 1000 &&
+    !(_.desc.toLowerCase().search(new RegExp("this card is.* sum.*:", "g")) >= 0) &&
+    true &&
+    _.archetype !== undefined &&
+    true &&
+    true &&
+    _.desc.toLowerCase().search(new RegExp("sent.*g.*y.*:", "g")) >= 0
+
+_.name.toLowerCase().search(new RegExp(cardName.toLowerCase(), "g")) >= 0
+
+    _.level !== undefined &&
+    _.archetype === undefined &&
+    _.tcg_date >= "2005-03-01" &&
+    _.level <= 6 &&
+    !_.type.includes("Synchro") &&
+    true &&
+    true &&
+    true &&
+    _.tcg_date <= "2008-06-18" &&
+    !_.type.includes("Fusion") &&
+    _.attribute === "DARK" &&
+    _.atk <= 1500 &&
+    _.card_sets.find(set=>set.set_name === "Phantom Darkness") === undefined &&
+    _.level <= 3
+    (_.level === undefined || _.level <= 4) &&
+    _.tcg_date <= "2010-12-31" &&
+    !_.type.includes("Normal") &&
+    _.archetype !== undefined &&
+    _.race === "Warrior" &&
+    _.level === 4 &&
+    _.archetype.includes("HERO") &&
+    _.attribute === "DARK" &&
+    _.type.includes("Monster") && !_.type.includes("Normal") &&
+	_.tcg_date < "2010-01-01" &&
+	_.archetype === undefined &&
+	(_.level === undefined || _.level > 3) &&
+	_.tcg_date < "2005-01-01" &&
+	!"abcdefghijkl".includes(_.name.toLowerCase()[0]) &&
+	!_.desc.toLowerCase().includes("flip") &&
+	_.level === 4 &&
+	_.race === "Warrior" &&
+	_.attribute === "DARK"

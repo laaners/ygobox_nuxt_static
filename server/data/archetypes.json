@@ -1,0 +1,2216 @@
+[
+    {"arc":"@Ignister & A.I.",
+        "imgs": {
+            "Poster": 54374642,
+            "Effect": 55762976,
+            "Ritual": 37061511,
+            "Fusion": 62111090,
+            "Synchro": 98506199,
+            "Xyz": 61399402,
+            "Link": 11738489
+        },
+        "crest": "/crests/@Ignister.png",
+        "credit": "https://www.pixiv.net/en/artworks/95467923"
+    },
+    {"arc":"A.I.",
+        "img": {
+            "Poster": 32056070
+        }
+    },
+    {"arc":"ABC",
+        "imgs": {
+            "Poster": 39778366,
+            "Effect": 30012506,
+            "Fusion": 1561110,
+            "Link": 83152482
+        }
+    },
+    {"arc":"Ogdoadic",
+        "imgs": {
+            "Poster": 23837054,
+            "Effect": 97565997
+        }
+    },
+    {"arc":"Abyss Actor & Abyss Script",
+        "imgs": {
+            "Poster": 4682617,
+            "Effect": 52240819,
+            "Link": 2368215
+        },
+        "crest": "/crests/Abyss Actor.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515098"
+    },
+    {"arc":"Adamancipator",
+        "imgs": {
+            "Poster": 99927991,
+            "Effect": 11302671,
+            "Synchro": 9464441
+        }
+    },
+    {"arc":"Aether","url":"https://images.ygoprodeck.com/images/cards_cropped/56804361.jpg"},
+    {"arc":"Alien",
+        "imgs": {
+            "Poster": 59258334,
+            "Effect": 63253763,
+            "Synchro": 68319538,
+            "Link": 1487805
+        }
+    },
+    {"arc":"Alligator","url":"NO"},
+    {"arc":"Allure Queen","url":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/192788bc-39d8-4892-a13f-ded75db42e69/dbw37lc-15f545b4-2a47-423d-a4af-8a2859c97219.png/v1/fill/w_1280,h_1280,q_80,strp/allure_queen_lv5_by_omgitsjohannes_dbw37lc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzE5Mjc4OGJjLTM5ZDgtNDg5Mi1hMTNmLWRlZDc1ZGI0MmU2OVwvZGJ3MzdsYy0xNWY1NDViNC0yYTQ3LTQyM2QtYTRhZi04YTI4NTljOTcyMTkucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4Qb511wQWP-MmAJtbATOj2lxLmyjko1iiu3MorjhKGA","waifu":"a"},
+    {"arc":"Ally of Justice",
+        "imgs": {
+            "Poster": 26593852,
+            "Effect": 71438011,
+            "Synchro": 9888196
+        },
+        "crest": "https://ms.yugipedia.com//f/f4/Crest-AllyofJustice.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-AllyofJustice.svg"
+    },
+    {"arc":"Altergeist","url":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/15b84c98-5292-47ff-853e-44ffd3d074b8/dbftnfk-896a7d6e-6ad2-45d1-8bfc-4bed933c6f49.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE1Yjg0Yzk4LTUyOTItNDdmZi04NTNlLTQ0ZmZkM2QwNzRiOFwvZGJmdG5may04OTZhN2Q2ZS02YWQyLTQ1ZDEtOGJmYy00YmVkOTMzYzZmNDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._cLWRgmHbKLbjAY3G_meBapsodeeqw9xyZs5BWZta6c"},
+    {"arc":"Amazement & Attraction",
+        "imgs": {
+            "Poster": 6374519,
+            "Effect": 94821366
+        },
+        "crest": "/crests/Amazement.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1350774873287761924"
+    },
+    {"arc":"Amazoness",
+        "imgs": {
+            "Poster": 712559,
+            "Effect": 94004268,
+            "Fusion": 100428034
+        }
+    },
+    {"arc":"Amorphage","url":"https://vignette3.wikia.nocookie.net/yugioh/images/6/66/AmorphageArchetype.png/revision/latest?cb=20160219013150",
+    "crest": "/crests/Amorphage.png",
+    "credit": "https://www.pixiv.net/en/artworks/74516791"},
+    {"arc":"Ancient Gear", "url": "https://images.ygoprodeck.com/images/cards_cropped/83104731.jpg"},
+    {"arc":"Ancient Warriors","url":"https://ms.yugipedia.com//3/3a/AncientWarriorsSagaThreeVisits-LOD2-JP-VG-artwork.png"},
+    {"arc":"Angel","url":"NO"},
+    {"arc":"Anti","url":"NO"},
+    {"arc":"Apoqliphort","url":"NO"},
+    {"arc":"Appliancer","url":"https://images.ygoprodeck.com/images/cards_cropped/30996652.jpg"},
+    {"arc":"Aquaactress",
+        "imgs": {
+            "Poster": 66668900,
+            "Effect": 92053608
+        }
+    },
+    {"arc":"Arcana Force",
+        "imgs": {
+            "Poster": 23846921,
+            "Effect": 5861892
+        }
+    },
+    {"arc":"Archfiend",
+        "imgs": {
+            "Poster": 56246017,
+            "Effect": 28423537,
+            "Ritual": 95825679,
+            "Fusion": 45349196,
+            "Synchro": 62242678,
+            "Xyz": 61248471,
+            "Link": 68295149
+        }
+    },
+    {"arc":"Armed Dragon","url":"https://images.ygoprodeck.com/images/cards_cropped/58153103.jpg"},
+    {"arc":"Aroma",
+        "imgs": {
+            "Poster": 15177750,
+            "Effect": 85967160,
+            "Synchro": 79656239,
+            "Link": 21200905
+        },
+        "crest": "/crests/Aroma.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516570"
+    },
+    {"arc":"Artifact",
+        "imgs": {
+            "Poster": 12444060,
+            "Effect": 20292186,
+            "Xyz": 69840739,
+            "Link": 7480763
+        },
+        "crest": "/crests/Artifact.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516570"
+    },
+    {"arc":"/Assault Mode",
+        "imgs": {
+            "Poster": 80280737,
+            "Effect": 47027714
+        }
+    },
+    {"arc":"Atlantean","url":"https://images.ygoprodeck.com/images/cards_cropped/73199638.jpg"},
+    {"arc":"B.E.S.",
+        "imgs": {
+            "Poster": 66947414,
+            "Effect": 82821760
+        }
+    },
+    {"arc":"Bamboo Sword","url":"https://images.ygoprodeck.com/images/cards_cropped/41587307.jpg"},
+    {"arc":"Barbaros","url":"https://images.ygoprodeck.com/images/cards_cropped/78651105.jpg"},
+    {"arc":"Batteryman",
+        "imgs": {
+            "Poster": 88086137,
+            "Effect": 19441018
+        }
+    },
+    {"arc":"Battleguard","url":"https://images.ygoprodeck.com/images/cards_cropped/78621186.jpg"},
+    {"arc":"Battlewasp","url":"https://images.ygoprodeck.com/images/cards_cropped/80949182.jpg"},
+    {"arc":"Battlin' Boxer",
+        "imgs": {
+            "Poster": 36916401,
+            "Effect": 5361647,
+            "Xyz": 85121942
+        }
+    },
+    {"arc":"Black Luster Soldier","url":"https://images.ygoprodeck.com/images/cards_cropped/72989439.jpg"},
+    {"arc":"Blackwing",
+        "imgs": {
+            "Poster": 2009101,
+            "Effect": 4068622,
+            "Synchro": 54082269
+        }
+    },
+    {"arc":"Blaze Accelerator",
+        "imgs": {
+            "Poster": 52198054,
+            "Effect": 32543380
+        }
+    },
+    {"arc":"Blue-Eyes",
+        "imgs": {
+            "Poster": 29432790,
+            "Effect": 22804410,
+            "Ritual": 55410871,
+            "Fusion": 56532353,
+            "Synchro": 59822133,
+            "Xyz": 501000016
+        },
+        "crest": "/crests/Blue-Eyes.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516520"
+    },
+    {"arc":"Bonding","url":"https://images.ygoprodeck.com/images/cards_cropped/6022371.jpg"},
+    {"arc":"Book of","url":"https://images.ygoprodeck.com/images/cards_cropped/14087893.jpg"},
+    {"arc":"Boot-Up","url":"https://images.ygoprodeck.com/images/cards_cropped/63717421.jpg"},
+    {"arc":"Borrel","url":"https://images.ygoprodeck.com/images/cards_cropped/31833038.jpg"},
+    {"arc":"Bounzer",
+        "imgs": {
+            "Poster": 48582558,
+            "Effect": 17189532,
+            "Xyz": 92661479
+        }
+    },
+    {"arc":"Branded","url":"https://images.ygoprodeck.com/images/cards_cropped/62022479.jpg"},
+    {"arc":"Bujin",
+        "imgs": {
+            "Poster": 33611061,
+            "Effect": 68601507,
+            "Xyz": 75840616,
+            "Link": 71095768
+        },
+        "crest": "/crests/Bujin.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Burning Abyss",
+        "imgs": {
+            "Poster": 83531441,
+            "Effect": 36553319,
+            "Ritual": 35330871,
+            "Fusion": 18386170,
+            "Synchro": 601193,
+            "Xyz": 27552504,
+            "Link": 58699500
+        }
+    },
+    {"arc":"Butterfly","url":"NO"},
+    {"arc":"Butterspy",
+        "imgs": {
+            "Poster": 75797046,
+            "Effect": 79972330,
+            "Xyz": 2191144
+        }
+    },
+    {"arc":"CXyz",
+        "imgs": {
+            "Poster": 47660516,
+            "Xyz": 67926903
+        }
+    },
+    {"arc":"Cataclysmic","url":"https://images.ygoprodeck.com/images/cards_cropped/39505816.jpg"},
+    {"arc":"Celtic Guard","url":"https://images.ygoprodeck.com/images/cards_cropped/52077741.jpg"},
+    {"arc":"Chaos Phantom","url":"https://images.ygoprodeck.com/images/cards_cropped/89190953.jpg"},
+    {"arc":"Chaos",
+        "imgs": {
+            "Poster": 76766706,
+            "Effect": 82301904,
+            "Ritual": 70551291,
+            "Fusion": 85059922,
+            "Synchro": 3040496,
+            "Link": 49202162
+        }
+    },
+    {"arc":"Charmer & Possessed",
+        "imgs": {
+            "Poster": 62256492,
+            "Effect": 86395581,
+            "Link": 9839945
+        }
+    },
+    {"arc":"Chemicritter","url":"https://images.ygoprodeck.com/images/cards_cropped/38026562.jpg"},
+    {"arc":"Chronomaly",
+        "imgs": {
+            "Poster": 26345570,
+            "Effect": 88552992,
+            "Xyz": 6387204
+        }
+    },
+    {"arc":"Chrysalis",
+        "imgs": {
+            "Poster": 80368942,
+            "Effect": 42682609
+        }
+    },
+    {"arc":"Cipher","url":"https://images.ygoprodeck.com/images/cards_cropped/18963306.jpg"},
+    {"arc":"Clear Wing","url":"https://images.ygoprodeck.com/images/cards_cropped/82044280.jpg"},
+    {"arc":"Cloudian",
+        "imgs": {
+            "Poster": 88210105,
+            "Effect": 57610714
+        }
+    },
+    {"arc":"Code Talker","url":"https://images.ygoprodeck.com/images/cards_cropped/1861629.jpg"},
+    {"arc":"Codebreaker","url":"https://images.ygoprodeck.com/images/cards_cropped/84121193.jpg"},
+    {"arc":"Constellar",
+        "imgs": {
+            "Poster": 35631584,
+            "Effect": 42391240,
+            "Xyz": 38495396
+        },
+        "crest": "https://ms.yugipedia.com//d/db/Crest-Constellar.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Constellar.svg"
+    },
+    {"arc":"Crusadia",
+        "imgs": {
+            "Poster": 55312487,
+            "Effect": 81524756,
+            "Link": 45002991
+        },
+        "crest":"/crests/Crusadia.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516800"
+    },
+    {"arc":"Crystal Beast",
+        "imgs": {
+            "Poster": 87259933,
+            "Effect": 79856792,
+            "Fusion": 100344101
+        }
+    },
+    {"arc":"Crystron",
+        "imgs": {
+            "Poster": 3576031,
+            "Effect": 3422200,
+            "Synchro": 13455674,
+            "Link": 50588353
+        },
+        "crest":"/crests/Crystron.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516791"
+    },
+    {"arc":"Cubic","url":"https://images.ygoprodeck.com/images/cards_cropped/30270176.jpg"},
+    {"arc":"Cupid","url":"https://images.ygoprodeck.com/images/cards_cropped/11851647.jpg","waifu":"a"},
+    {"arc":"Cyber Angel","url":"https://images.ygoprodeck.com/images/cards_cropped/27331568.jpg","waifu":"a"},
+    {"arc":"Cyber Dragon",
+        "imgs": {
+            "Poster": 18597560,
+            "Effect": 70095154,
+            "Fusion": 1546123,
+            "Xyz": 10443957,
+            "Link": 46724542
+        }
+    },
+    {"arc":"Cyber","url":"https://images.ygoprodeck.com/images/cards_cropped/32768230.jpg"},
+    {"arc":"Cyberdark","url":"https://images.ygoprodeck.com/images/cards_cropped/37542782.jpg"},
+    {"arc":"Cynet","url":"https://images.ygoprodeck.com/images/cards_cropped/57160136.jpg"},
+    {"arc":"D.D.",
+        "imgs": {
+            "Poster": 27174286,
+            "Effect": 7572887
+        }
+    },
+    {"arc":"D/D & Dark Contract",
+        "imgs": {
+            "Poster": 44852429,
+            "Effect": 40227329,
+            "Fusion": 84569886,
+            "Synchro": 72402069,
+            "Xyz": 46593546,
+            "Link": 9024198
+        }
+    },
+    {"arc":"Danger!","url":"https://images.ygoprodeck.com/images/cards_cropped/15083304.jpg"},
+    {"arc":"Dark Contract","url":"https://images.ygoprodeck.com/images/cards_cropped/46372010.jpg"},
+    {"arc":"Dark Magician",
+        "imgs": {
+            "Poster": 86509711,
+            "Effect": 40737112,
+            "Ritual": 79613121,
+            "Fusion": 50237654,
+            "Xyz": 96471335
+        }
+    },
+    {"arc":"Dark Scorpion",
+        "imgs": {
+            "Poster": 68191243,
+            "Effect": 76922029
+        },
+        "crest": "https://ms.yugipedia.com//7/7c/Crest-Dark_Scorpion.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Dark_Scorpion.svg"
+    },
+    {"arc":"Dark World", "url": "https://images.ygoprodeck.com/images/cards_cropped/34230233.jpg"},
+    {"arc":"Darklord",
+        "imgs": {
+            "Poster": 58787301,
+            "Effect": 52840267,
+            "Fusion": 4167084,
+            "Link": 35306215
+        },
+        "crest":"/crests/Darklord.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Deep Sea",
+        "imgs": {
+            "Poster": 72060415,
+            "Effect": 78868119,
+            "Synchro": 50793215
+        },
+        "waifu": "a"
+    },
+    {"arc":"Ruin & Demise",
+        "imgs": {
+            "Poster": 13518809,
+            "Ritual": 59913418
+        },
+        "waifu": "a"
+    },
+    {"arc":"Deskbot",
+        "imgs": {
+            "Poster": 94693857,
+            "Effect": 25494711,
+            "Synchro": 89544521
+        }
+    },
+    {"arc":"Destiny HERO",
+        "imgs": {
+            "Poster": 48032131,
+            "Effect": 83965310,
+            "Fusion": 60461804,
+            "Link": 58004362
+        },
+        "crest": "https://ms.yugipedia.com//8/8b/Crest-Destiny_HERO.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Destiny_HERO.svg"
+    },
+    {"arc":"Buster Blader & Destruction Sword",
+        "imgs": {
+            "Poster": 33280639,
+            "Effect": 78193831,
+            "Fusion": 86240887,
+            "Synchro": 11790356,
+            "Link": 47158777
+        },
+        "crest": "/crests/Destruction Sword.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516520"
+    },
+    {"arc":"Dice","url":"NO"},
+    {"arc":"Digital Bug","url":"https://images.ygoprodeck.com/images/cards_cropped/86643777.jpg"},
+    {"arc":"Dinomist",
+        "imgs": {
+            "Poster": 41554273,
+            "Effect": 63251695
+        },
+        "crest":"/crests/Dinomist.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516791"
+    },
+    {"arc":"Dinowrestler",
+        "imgs": {
+            "Poster": 56980148,
+            "Effect": 82385847,
+            "Fusion": 22900219,
+            "Synchro": 58672736,
+            "Link": 77967790
+        },
+        "crest": "/crests/Dinowrestler.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515295"
+    },
+    {"arc":"Djinn",
+        "imgs": {
+            "Poster": 26563200,
+            "Xyz": 25341652
+        },
+        "crest": "https://ms.yugipedia.com//f/f2/MusicMajin.png",
+        "credit": "https://yugipedia.com/wiki/File:MusicMajin.png"
+    },
+    {"arc":"Divine Dragon",
+        "imgs": {
+            "Poster": 62113340,
+            "Effect": 32975247,
+            "Fusion": 13756293
+        }
+    },
+    {"arc":"Dododo",
+        "imgs": {
+            "Poster": 73866096,
+            "Effect": 75421661
+        }
+    },
+    {"arc":"Dogmatika",
+        "imgs": {
+            "Poster": 56588755,
+            "Effect": 22073844,
+            "Ritual": 40352445,
+            "Fusion": 41373230
+        },
+        "crest": "/crests/Dogmatika.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1248521098494386177"
+    },
+    {"arc":"Doll","url":"NO"},
+    {"arc":"Doriado","url":"https://images.ygoprodeck.com/images/cards_cropped/99414168.jpg"},
+    {"arc":"Dracoslayer","url":"https://images.ygoprodeck.com/images/cards_cropped/34079868.jpg"},
+    {"arc":"Dracoverlord","url":"https://images.ygoprodeck.com/images/cards_cropped/98287529.jpg"},
+    {"arc":"Dragonmaid","url":"https://images.ygoprodeck.com/images/cards_cropped/15754711.jpg","waifu":"a"},
+    {"arc":"Dragunity",
+        "imgs": {
+            "Poster": 28927782,
+            "Effect": 53184342,
+            "Synchro": 48891960,
+            "Link": 11969228
+        },
+        "crest": "/crests/Dragunity.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516590"
+    },
+    {"arc":"Dream Mirror","url":"https://images.ygoprodeck.com/images/cards_cropped/25964547.jpg",
+    "crest": "/crests/Dream Mirror.png",
+    "credit": "https://www.pixiv.net/en/artworks/95676500"},
+    {"arc":"Dual Avatar",
+        "imgs": {
+            "Poster": 13764602,
+            "Effect": 11759079,
+            "Fusion": 33026283
+        },
+        "crest": "/crests/Dual Avatar.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Duston",
+        "imgs": {
+            "Poster": 40343749,
+            "Effect": 95403418
+        }
+    },
+    {"arc":"Earthbound Immortal",
+        "imgs": {
+            "Poster": 44710391,
+            "Effect": 41181774,
+            "Synchro": 95453143
+        },
+        "crest": "/crests/Earthbound Immortal.png",
+        "credit": "https://yugipedia.com/wiki/Offering_to_the_Immortals"
+    },
+    {"arc":"Edge Imp","url":"https://images.ygoprodeck.com/images/cards_cropped/30068120.jpg"},
+    {"arc":"Egyptian God",
+        "imgs": {
+            "Poster": 10000090,
+            "Effect": 10000040,
+            "Fusion": 42166000
+        }
+    },
+    {"arc":"Eldlich & Eldlixir & Golden Land","url":"https://images.ygoprodeck.com/images/cards_cropped/95440946.jpg"},
+    {"arc":"Elemental HERO",
+        "imgs": {
+            "Poster": 55428811,
+            "Effect": 40044918,
+            "Fusion": 29343734
+        },
+        "crest": "https://ms.yugipedia.com//a/a8/Crest-HERO.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-HERO.svg"
+    },
+    {"arc":"Elemental Lord","url":"https://images.ygoprodeck.com/images/cards_cropped/13959634.jpg"},
+    {"arc":"Elementsaber","url":"https://images.ygoprodeck.com/images/cards_cropped/71797713.jpg"},
+    {"arc":"Empowered Warrior","url":"https://images.ygoprodeck.com/images/cards_cropped/54250060.jpg"},
+    {"arc":"Endymion",
+        "imgs": {
+            "Poster": 38943357,
+            "Effect": 3611830,
+            "Link": 45819647
+        },
+        "crest": "/crests/Endymion.png",
+        "credit": "https://yugipedia.com/wiki/Pitch-Black_Power_Stone"
+    },
+    {"arc":"Evil Eye",
+        "imgs": {
+            "Poster": 7610394,
+            "Effect": 82466274,
+            "Link": 17739335
+        },
+        "crest": "/crests/Evil Eye.png",
+        "credit": "https://www.deviantart.com/linkgamecube23/art/Crest-of-The-Evil-Eye-856528535"
+    },
+    {"arc":"Evil HERO","url":"https://images.ygoprodeck.com/images/cards_cropped/58332301.jpg"},
+    {"arc":"Evil★Twin & Live☆Twin",
+        "url":"https://images.ygoprodeck.com/images/cards_cropped/62098216.jpg",
+        "waifu":"a",
+        "crest": "/crests/EvilTwinLiveTwin.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Evilswarm & Infestation",
+        "imgs": {
+            "Poster": 35419032,
+            "Effect": 77841719,
+            "Xyz": 38273745,
+            "Link": 61888819
+        },
+        "crest": "https://ms.yugipedia.com//2/23/Crest-lswarm.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-lswarm.svg"
+    },
+    {"arc":"Evol",
+        "imgs": {
+            "Poster": 24362891,
+            "Effect": 69633792,
+            "Xyz": 74294676
+        },
+        "crest": "/crests/Evol.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516570"
+    },
+    {"arc":"Exodia","url":"https://images.ygoprodeck.com/images/cards_cropped/58604027.jpg"},
+    {"arc":"Eyes Restrict",
+        "imgs": {
+            "Poster": 78063197,
+            "Effect": 15173384,
+            "Ritual": 64631466,
+            "Fusion": 63519819,
+            "Link": 94259633
+        }
+    },
+    {"arc":"F.A.","url":"https://images.ygoprodeck.com/images/cards_cropped/33158448.jpg"},
+    {"arc":"Fabled",
+        "imgs": {
+            "Poster": 22555834,
+            "Effect": 82888408,
+            "Synchro": 39477584
+        },
+        "crest": "/crests/Fabled.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516590"
+    },
+    {"arc":"Fairy Tail","url":"https://images.ygoprodeck.com/images/cards_cropped/55623480.jpg"},
+    {"arc":"Fire Fist & Fire Formation",
+        "imgs": {
+            "Poster": 57103969,
+            "Effect": 6353603,
+            "Ritual": 93877990,
+            "Fusion": 61472381,
+            "Synchro": 89856523,
+            "Xyz": 96381979,
+            "Link": 46241344
+        }
+    },
+    {"arc":"Fire King",
+        "imgs": {
+            "Poster": 23015896,
+            "Effect": 66413481
+        }
+    },
+    {"arc":"Fishborg",
+        "imgs": {
+            "Poster": 93369354,
+            "Effect": 10560119
+        }
+    },
+    {"arc":"Flamvell",
+        "imgs": {
+            "Poster": 74845897,
+            "Effect": 23297235,
+            "Synchro": 26304459
+        }
+    },
+    {"arc":"Fleur",
+        "imgs": {
+            "Poster": 45037489,
+            "Effect": 36405256,
+            "Fusion": 33129626,
+            "Synchro": 84815190
+        }
+    },
+    {"arc":"Flower Cardian","url":"https://images.ygoprodeck.com/images/cards_cropped/42291297.jpg"},
+    {"arc":"Fluffal & Edge Imp & Frightfur",
+        "imgs": {
+            "Poster": 34773082,
+            "Effect": 61173621,
+            "Fusion": 80889750
+        }
+    },
+    {"arc":"Floowandereeze","url":"https://images.ygoprodeck.com/images/cards_cropped/80611581.jpg"},
+    {"arc":"Forbidden","url":"https://images.ygoprodeck.com/images/cards_cropped/27243130.jpg"},
+    {"arc":"Fortune Fairy","url":"https://images.ygoprodeck.com/images/cards_cropped/31461282.jpg"},
+    {"arc":"Fortune Lady",
+        "imgs": {
+            "Poster": 84218527,
+            "Effect": 57869175,
+            "Synchro": 70252926
+        },
+        "crest": "/crests/Fortune Lady.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515061"
+    },
+    {"arc":"Fossil",
+        "imgs": {
+            "Poster": 59419719,
+            "Effect": 42009836,
+            "Fusion": 21225115
+        }
+    },
+    {"arc":"Frightfur","url":"https://images.ygoprodeck.com/images/cards_cropped/464362.jpg"},
+    {"arc":"Frog",
+        "imgs": {
+            "Poster": 6203182,
+            "Effect": 9126351,
+            "Fusion": 9910360,
+            "Xyz": 90809975
+        }
+    },
+    {"arc":"Fur Hire","url":"https://images.ygoprodeck.com/images/cards_cropped/48214588.jpg",
+        "crest":"/crests/Fur Hire.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Gadget",
+        "imgs": {
+            "Poster": 63717421,
+            "Effect": 36322312,
+            "Link": 40216089
+        }
+    },
+    {"arc":"Gagaga",
+        "imgs": {
+            "Poster": 21831848,
+            "Effect": 67120578,
+            "Xyz": 86331741
+        },
+        "crest": "https://ms.yugipedia.com//0/0b/Gagaga_crest.png",
+        "credit": "https://yugipedia.com/wiki/File:Gagaga_crest.png"
+    },
+    {"arc":"Gaia The Fierce Knight",
+        "imgs": {
+            "Poster": 56461575,
+            "Effect": 33318980,
+            "Ritual": 54484652,
+            "Fusion": 15989522,
+            "Synchro": 97204936,
+            "Xyz": 91949988,
+            "Link": 67598234
+        }
+    },
+    {"arc":"Galaxy-Eyes",
+        "imgs": {
+            "Poster": 31801517,
+            "Effect": 93717133,
+            "Ritual": 85346853,
+            "Xyz": 68396121
+        }        
+    },
+    {"arc":"Galaxy","imgs": {"Poster": 63956833}},
+    {"arc":"Gandora","url":"https://images.ygoprodeck.com/images/cards_cropped/64681432.jpg"},
+    {"arc":"Geargia",
+        "imgs": {
+            "Poster": 6148016,
+            "Effect": 73428497,
+            "Xyz": 28912357
+        }
+    },
+    {"arc":"Gem-",
+        "imgs": {
+            "Poster": 7394770,
+            "Effect": 76908448,
+            "Fusion": 19355597,
+            "Xyz": 71594310,
+            "Link": 24484270
+        },
+        "crest": "/crests/Gem-Knight.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516601"
+    },
+    {"arc":"Generaider",
+        "imgs": {
+            "Poster": 37931734,
+            "Effect": 68199168,
+            "Xyz": 2665273
+        },
+        "crest":"/crests/Generaider.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Genex",
+        "imgs": {
+            "Poster": 23269426,
+            "Effect": 64034255,
+            "Synchro": 38354937
+        }
+    },
+    {"arc":"Ghostrick",
+        "imgs": {
+            "Poster": 27170599,
+            "Effect": 81907872,
+            "Xyz": 53334641,
+            "Link": 35871958
+        }
+    },
+    {"arc":"Gimmick Puppet",
+        "imgs": {
+            "Poster": 32875265,
+            "Effect": 92418590,
+            "Xyz": 6165656,
+            "Link": 97520532
+        }
+    },
+    {"arc":"Gishki & Aquamirror",
+        "imgs": {
+            "Poster": 46337945,
+            "Effect": 63942761,
+            "Ritual": 66729231,
+            "Xyz": 76372778
+        },
+        "crest": "https://ms.yugipedia.com//b/bb/Crest-Gishki.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Gishki.svg",
+        "waifu": "a"
+    },
+    {"arc":"Gizmek","url":"https://images.ygoprodeck.com/images/cards_cropped/24793135.jpg"},
+    {"arc":"Glacial Beast","url":"https://images.ygoprodeck.com/images/cards_cropped/6568731.jpg"},
+    {"arc":"Gladiator Beast",
+        "imgs": {
+            "Poster": 52394047,
+            "Effect": 41470137,
+            "Fusion": 33652635,
+            "Link": 62000467
+        }
+    },
+    {"arc":"Gogogo",
+        "imgs": {
+            "Poster": 62476815,
+            "Effect": 59911557,
+            "Xyz": 46871387
+        }
+    },
+    {"arc":"Golden Castle of Stromberg","url":"https://images.ygoprodeck.com/images/cards_cropped/72283691.jpg"},
+    {"arc":"Golden Land","url":"https://images.ygoprodeck.com/images/cards_cropped/20590515.jpg"},
+    {"arc":"Gorgonic",
+        "imgs": {
+            "Poster": 37984162,
+            "Effect": 64379261,
+            "Xyz": 84401683
+        }
+    },
+    {"arc":"Gouki","url":"https://images.ygoprodeck.com/images/cards_cropped/62376646.jpg"},
+    {"arc":"Gravekeeper's",
+        "imgs": {
+            "Poster": 30450531,
+            "Effect": 25524823,
+            "Fusion": 79206925
+        },
+        "crest": "/crests/Gravekeeper.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516552"
+    },
+    {"arc":"Graydle","url":"https://images.ygoprodeck.com/images/cards_cropped/52145422.jpg"},
+    {"arc":"Greed","url":"https://images.ygoprodeck.com/images/cards_cropped/55144522.jpg"},
+    {"arc":"Grepher","url":"https://images.ygoprodeck.com/images/cards_cropped/75953262.jpg"},
+    {"arc":"Guardian",
+        "imgs": {
+            "Poster": 55569674,
+            "Effect": 34022290
+        }
+    },
+    {"arc":"Guardragon","url":"https://images.ygoprodeck.com/images/cards_cropped/59537380.jpg"},
+    {"arc":"Gusto",
+        "imgs": {
+            "Poster": 91822647,
+            "Effect": 27944249,
+            "Synchro": 10755984,
+            "Xyz": 581014
+        },
+        "crest": "https://ms.yugipedia.com//2/21/Crest-Gusto.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Gusto.svg",
+        "waifu": "a"
+    },
+    {"arc":"HERO","url":"https://images.ygoprodeck.com/images/cards_cropped/73239437.jpg"},
+    {"arc":"Harpie",
+        "imgs": {
+            "Poster": 39275698,
+            "Effect": 12206212,
+            "Synchro": 63261835,
+            "Xyz": 85909450,
+            "Link": 85696777
+        }
+    },
+    {"arc":"Hazy",
+        "imgs": {
+            "Poster": 43708041,
+            "Effect": 38525760,
+            "Xyz": 23776077
+        }
+    },
+    {"arc":"Herald",
+        "imgs": {
+            "Poster": 27383110,
+            "Effect": 92919429,
+            "Ritual": 48546368,
+            "Synchro": 79606837,
+            "Xyz": 1249315,
+            "Link": 46935289
+        }
+    },
+    {"arc":"Heraldic Beast & Heraldry",
+        "imgs": {
+            "Poster": 84482694,
+            "Effect": 82293134,
+            "Xyz": 47387961
+        },
+        "crest": "/crests/Heraldic Beast & Heraldry.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515079"
+    },
+    {"arc":"Zubaba",
+        "imgs": {
+            "Poster": 97896503,
+            "Effect": 82293134,
+            "Xyz": 47387961
+        },
+        "crest": "/crests/Zubaba.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515079"
+    },
+
+    {"arc":"Heraldry","url":"https://images.ygoprodeck.com/images/cards_cropped/61314842.jpg"},
+    {"arc":"Heroic",
+        "imgs": {
+            "Poster": 53466826,
+            "Effect": 26885836,
+            "Xyz": 63504681
+        },
+        "crest":"/crests/Heroic.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515079"
+    },
+    {"arc":"Hi-Speedroid","url":"https://images.ygoprodeck.com/images/cards_cropped/86154370.jpg"},
+    {"arc":"Hieratic",
+        "imgs": {
+            "Poster": 25377819,
+            "Effect": 66789970,
+            "Xyz": 64332231,
+            "Link": 24361622
+        },
+        "crest": "/crests/Hieratic.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Hole","url":"https://images.ygoprodeck.com/images/cards_cropped/29401950.jpg"},
+    {"arc":"Holy Knight","url":"NO"},
+    {"arc":"Holy Night","url":"https://images.ygoprodeck.com/images/cards_cropped/85590798.jpg"},
+    {"arc":"Horus the Black Flame Dragon",
+        "imgs": {
+            "Poster": 11224103,
+            "Effect": 48229808
+        }
+    },
+    {"arc":"Hyperion","url":"https://images.ygoprodeck.com/images/cards_cropped/55794644.jpg"},
+    {"arc":"Ice Barrier",
+        "imgs": {
+            "Poster": 64990807,
+            "Effect": 9056100,
+            "Synchro": 70980824
+        },
+        "crest": "https://ms.yugipedia.com//f/fa/Crest-Ice_Barrier.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Ice_Barrier.svg"
+    },
+    {"arc":"Icejade","url":"https://images.ygoprodeck.com/images/cards_cropped/82777208.jpg","waifu":"a"},
+    {"arc":"Igknight","url":"https://images.ygoprodeck.com/images/cards_cropped/23296404.jpg",
+        "crest": "/crests/Igknight.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516791"
+    },
+    {"arc":"Impcantation","url":"https://images.ygoprodeck.com/images/cards_cropped/86758915.jpg"},
+    {"arc":"Infernoble Knight & Roland",
+        "imgs": {
+            "Poster": 56824871,
+            "Effect": 58346901,
+            "Synchro": 77656797
+        },
+        "crest": "/crests/Infernoble Knight.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Infernoid & Void",
+        "imgs": {
+            "Poster": 23440231,
+            "Effect": 14799437,
+            "Fusion": 82734805
+        },
+        "crest": "/crests/Infernoid.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Infernoid",
+        "imgs": {
+            "Poster": 23440231,
+            "Effect": 14799437,
+            "Fusion": 82734805
+        },
+        "crest": "/crests/Infernoid.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Infestation","url":"https://images.ygoprodeck.com/images/cards_cropped/35419032.jpg"},
+    {"arc":"Infinitrack",
+        "imgs": {
+            "Poster": 22866836,
+            "Effect": 97316367,
+            "Xyz": 97584719,
+            "Link": 69073023
+        },
+        "crest":"/crests/Infinitrack.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Invoked","url":"https://images.ygoprodeck.com/images/cards_cropped/74063034.jpg",
+    "crest": "/crests/Invoked.png",
+    "credit": "https://www.pixiv.net/en/artworks/74516520"},
+    {"arc":"Inzektor",
+        "imgs": {
+            "Poster": 97946536,
+            "Effect": 69207766,
+            "Xyz": 44505297,
+            "Link": 97273514
+        }
+    },
+    {"arc":"Iron Chain",
+        "imgs": {
+            "Poster": 33302407,
+            "Effect": 53152590,
+            "Synchro": 19974580
+        }
+    },
+    {"arc":"Jester","url":"NO"},
+    {"arc":"Jinzo",
+        "imgs": {
+            "Poster": 37042505,
+            "Effect": 35803249,
+            "Xyz": 99666430
+        }
+    },
+    {"arc":"Junk",
+        "imgs": {
+            "Poster": 23442438,
+            "Effect": 63977008,
+            "Synchro": 74860293,
+            "Link": 37337327
+        }
+    },
+    {"arc":"Jurrac",
+        "imgs": {
+            "Poster": 11012887,
+            "Effect": 85028288,
+            "Synchro": 17548456
+        }
+    },
+    {"arc":"Kaiju","url":"https://images.ygoprodeck.com/images/cards_cropped/93332803.jpg"},
+    {"arc":"Karakuri",
+        "imgs": {
+            "Poster": 23874409,
+            "Effect": 50615578,
+            "Synchro": 25904894
+        }
+    },
+    {"arc":"Knight","url":"NO"},
+    {"arc":"Knightmare","url":"https://images.ygoprodeck.com/images/cards_cropped/65330383.jpg",
+        "crest":"/crests/Mekk-Knight.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516800"
+    },
+    {"arc":"Koa'ki Meiru",
+        "imgs": {
+            "Poster": 36623431,
+            "Effect": 65026212
+        },
+        "crest": "https://ms.yugipedia.com//c/c9/Crest-Koa%27ki_Meiru.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Koa%27ki_Meiru.svg"
+    },
+    {"arc":"Koala","url":"NO"},
+    {"arc":"Kozmo","url":"https://images.ygoprodeck.com/images/cards_cropped/55885348.jpg"},
+    {"arc":"Kragen","url":"NO"},
+    {"arc":"Krawler","url":"https://images.ygoprodeck.com/images/cards_cropped/88316955.jpg",
+    "crest": "/crests/Krawler.png",
+    "credit": "https://www.pixiv.net/en/artworks/74516800"},
+    {"arc":"Kuriboh","url":"https://images.ygoprodeck.com/images/cards_cropped/20065322.jpg"},
+    {"arc":"Labrynth",
+        "imgs": {
+            "Poster": 2347656,
+            "Effect": 2347656
+        },
+        "crest": "/crests/Labrynth.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1504789714456350721",
+        "waifu": "a"
+    },
+    {"arc":"Laval",
+        "imgs": {
+            "Poster": 8041569,
+            "Effect": 14047624,
+            "Synchro": 12018201,
+            "Xyz": 34086406
+        },
+        "crest": "https://ms.yugipedia.com//f/f1/Crest-Laval.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Laval.svg"
+    },
+    {"arc":"Legendary Knight",
+        "imgs": {
+            "Poster": 89397517,
+            "Effect": 80019195,
+            "Fusion": 53315891
+        }
+    },
+    {"arc":"Lightsworn",
+        "imgs": {
+            "Poster": 30100551,
+            "Effect": 57774843,
+            "Synchro": 4779823,
+            "Xyz": 30100551,
+            "Link": 98095162
+        },
+        "crest": "/crests/Lightsworn.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516570"
+    },
+    {"arc":"Live Twin","url":"NO"},
+    {"arc":"Live☆Twin","url":"https://images.ygoprodeck.com/images/cards_cropped/37582948.jpg","waifu":"a"},
+    {"arc":"Lunalight",
+        "imgs": {
+            "Poster": 11193246,
+            "Effect": 35618217,
+            "Fusion": 24550676
+        },
+        "crest": "/crests/Lunalight.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515098"
+    },
+    {"arc":"Lyrilusc","url":"https://images.ygoprodeck.com/images/cards_cropped/45354718.jpg","waifu":"a"},
+    {"arc":"Machina",
+        "imgs": {
+            "Poster": 86852702,
+            "Effect": 46033517
+        }
+    },
+    {"arc":"Madolche",
+        "imgs": {
+            "Poster": 23681456,
+            "Effect": 74641045,
+            "Xyz": 37164373,
+            "Link": 96150936
+        }
+    },
+    {"arc":"Madoor","url":"NO"},
+    {"arc":"Magical Musket","url":"https://images.ygoprodeck.com/images/cards_cropped/47810543.jpg"},
+    {"arc":"Magician Girl",
+        "imgs": {
+            "Poster": 89448140,
+            "Effect": 38033123,
+            "Ritual": 50237654,
+            "Fusion": 43892408,
+            "Xyz": 10000030
+        }
+    },
+    {"arc":"Magician","url":"NO"},
+    {"arc":"Magikey",
+        "imgs": {
+            "Poster": 51510279,
+            "Effect": 98234196,
+            "Ritual": 45877457,
+            "Fusion": 71159974,
+            "Synchro": 69522668,
+            "Xyz": 100289001
+        },
+        "crest": "/crests/Magikey.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1375417253076770824"
+    },
+    {"arc":"Magistus","url":"https://images.ygoprodeck.com/images/cards_cropped/34755994.jpg"},
+    {"arc":"Magnet Warrior","url":"https://images.ygoprodeck.com/images/cards_cropped/54734082.jpg"},
+    {"arc":"Majespecter",
+        "imgs": {
+            "Poster": 76473843,
+            "Effect": 31178212
+        },
+        "crest": "/crests/Majespecter.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516791"
+    },
+    {"arc":"Majestic",
+        "imgs": {
+            "Poster": 365213,
+            "Effect": 21159309,
+            "Synchro": 40939228
+        }
+    },
+    {"arc":"Maju","url":"https://images.ygoprodeck.com/images/cards_cropped/36584821.jpg"},
+    {"arc":"Malefic",
+        "imgs": {
+            "Poster": 75223115,
+            "Effect": 37115575,
+            "Synchro": 8310162
+        }
+    },
+    {"arc":"Malicevorous",
+        "imgs": {
+            "Poster": 98780137,
+            "Effect": 61791132
+        }
+    },
+    {"arc":"Man-Eater Bug","url":"NO"},
+    {"arc":"Marincess",
+        "imgs": {
+            "Poster": 83723605,
+            "Effect": 54569495,
+            "Link": 47910940
+        },
+        "crest": "https://ms.yugipedia.com//3/37/Crest-Marincess.png",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Marincess.png"
+    },
+    {"arc":"Mask","url":"NO"},
+    {"arc":"Masked HERO",
+        "imgs": {
+            "Poster": 93600443,
+            "Effect": 50720316,
+            "Fusion": 58481572,
+            "Link": 1948619
+        }
+    },
+    {"arc":"Materiactor","url":"https://images.ygoprodeck.com/images/cards_cropped/70597485.jpg"},
+    {"arc":"Mathmech","url":"https://images.ygoprodeck.com/images/cards_cropped/42632209.jpg"},
+    {"arc":"Mayakashi",
+        "imgs": {
+            "Poster": 39753577,
+            "Effect": 42542842,
+            "Synchro": 39475024,
+            "Link": 2645637
+        },
+        "crest": "/crests/Mayakashi.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Mecha Phantom Beast",
+        "imgs": {
+            "Poster": 22110647,
+            "Synchro": 26949946,
+            "Xyz": 22110647,
+            "Link": 44097050
+        },
+        "crest": "/crests/Mecha Phantom Beast.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Megalith",
+        "imgs": {
+            "Poster": 84504242,
+            "Ritual": 25726386
+        },
+        "crest": "/crests/Megalith.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Mekk-Knight",
+        "imgs": {
+            "Poster": 2930675,
+            "Effect": 28692962,
+            "Link": 38502358
+        },
+        "crest":"/crests/Mekk-Knight.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516800"
+    },
+    {"arc":"Meklord",
+        "imgs": {
+            "Poster": 68140974,
+            "Effect": 63468625
+        },
+        "crest": "/crests/Meklord.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515061"
+    },
+    {"arc":"Melffy",
+        "imgs": {
+            "Poster": 37256135,
+            "Effect": 20129614,
+            "Xyz": 76833149
+        },
+        "crest": "/crests/Melffy.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Melodious",
+        "imgs": {
+            "Poster": 84988419,
+            "Effect": 3395226,
+            "Fusion": 24672164,
+            "Link": 34974462
+        }
+    },
+    {"arc":"Mermail",
+        "imgs": {
+            "Poster": 23899727,
+            "Effect": 21954587,
+            "Xyz": 74371660,
+            "Link": 23545031
+        }
+    },
+    {"arc":"Metalfoes","url":"https://images.ygoprodeck.com/images/cards_cropped/4688231.jpg"},
+    {"arc":"Metaphys","url":"https://images.ygoprodeck.com/images/cards_cropped/66719533.jpg"},
+    {"arc":"Mist Valley",
+        "imgs": {
+            "Poster": 82199284,
+            "Effect": 29587993,
+            "Synchro": 89310929
+        }
+    },
+    {"arc":"Monarch & Vassal",
+        "imgs": {
+            "Poster": 19870120,
+            "Effect": 23064604
+        }
+    },
+    {"arc":"Morphtronic",
+        "imgs": {
+            "Poster": 49833312,
+            "Effect": 93542102
+        }
+    },
+    {"arc":"Mystical Beast of the Forest","url":"https://images.ygoprodeck.com/images/cards_cropped/97317530.jpg"},
+    {"arc":"Myutant","url":"https://images.ygoprodeck.com/images/cards_cropped/6182103.jpg",
+    "crest": "/crests/Myutant.png",
+    "credit": "https://www.pixiv.net/en/artworks/111184057"},
+    {"arc":"Naturia",
+        "imgs": {
+            "Poster": 37322745,
+            "Effect": 20174189,
+            "Fusion": 99916754,
+            "Synchro": 16527176
+        },
+        "crest": "/crests/Naturia.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516590"
+    },
+    {"arc":"Nekroz",
+        "imgs": {
+            "Poster": 51124303,
+            "Effect": 53180020,
+            "Ritual": 21105106
+        },
+        "crest": "/crests/Nekroz.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Nemeses","url":"https://images.ygoprodeck.com/images/cards_cropped/6728559.jpg"},
+    {"arc":"Neos & Neo-Spacian",
+        "imgs": {
+            "Poster": 74414885,
+            "Effect": 89943723,
+            "Fusion": 90050480
+        }
+    },
+    {"arc":"Nephthys","url":"https://images.ygoprodeck.com/images/cards_cropped/50847759.jpg"},
+    {"arc":"Nimble",
+        "imgs": {
+            "Poster": 2843014,
+            "Effect": 68353324
+        }
+    },
+    {"arc":"Ninja & Ninjitsu Art",
+        "imgs": {
+            "Poster": 50766506,
+            "Effect": 95027497,
+            "Synchro": 76471944,
+            "Xyz": 19333131,
+            "Link": 37354507
+        }
+    },
+    {"arc":"Twilight Ninja",
+        "imgs": {
+            "Poster": 50766506,
+            "Effect": 95027497,
+            "Synchro": 76471944,
+            "Xyz": 19333131,
+            "Link": 37354507
+        },
+        "crest": "/crests/Twilight Ninja.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515098"
+    },
+    {"arc":"Shien",
+        "imgs": {
+            "Poster": 50766506,
+            "Effect": 95027497,
+            "Synchro": 76471944,
+            "Xyz": 19333131,
+            "Link": 37354507
+        },
+        "crest": "https://ms.yugipedia.com//c/c5/Crest-Shien.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Shien.svg"
+    },
+    {"arc":"Ninjitsu Art","url":"https://images.ygoprodeck.com/images/cards_cropped/90200789.jpg"},
+    {"arc":"Noble Knight & Noble Arms & Artorigus & Roland",
+        "imgs": {
+            "Poster": 55742055,
+            "Effect": 59057152,
+            "Synchro": 83519853,
+            "Xyz": 10613952,
+            "Link": 59934749
+        }
+    },
+    {"arc":"Nordic & Aesir",
+        "imgs": {
+            "Poster": 40844552,
+            "Effect": 91697229,
+            "Synchro": 93483212,
+            "Link": 90207654
+        }
+    },
+    {"arc":"Number",
+        "imgs": {
+            "Poster": 847915,
+            "Effect": 64591429,
+            "Xyz": 15862758
+        }
+    },
+    {"arc":"Numeron","url":"https://images.ygoprodeck.com/images/cards_cropped/77402960.jpg"},
+    {"arc":"Odd-Eyes",
+        "imgs": {
+            "Poster": 16178681,
+            "Effect": 16306932,
+            "Ritual": 66425726,
+            "Fusion": 45014450,
+            "Synchro": 58074177,
+            "Xyz": 45627618
+        }
+    },
+    {"arc":"Ojama",
+        "imgs": {
+            "Poster": 90011152,
+            "Effect": 37132349,
+            "Fusion": 90140980,
+            "Link": 34031284
+        },
+        "crest": "/crests/Ojama.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Onomat",
+        "imgs": {
+            "Poster": 26493435,
+            "Effect": 69852487,
+            "Xyz": 31563350
+        }
+    },
+    {"arc":"Orcust","url":"https://images.ygoprodeck.com/images/cards_cropped/30741503.jpg",
+    "crest": "/crests/Orcust.png",
+    "credit": "https://www.pixiv.net/en/artworks/74516800"},
+    {"arc":"PSY-Frame","url":"https://images.ygoprodeck.com/images/cards_cropped/74586817.jpg"},
+    {"arc":"Paladins of Dragons","url":"NO"},
+    {"arc":"Paleozoic","url":"https://images.ygoprodeck.com/images/cards_cropped/35035481.jpg"},
+    {"arc":"Parasite","url":"NO"},
+    {"arc":"Parshath","url":"https://images.ygoprodeck.com/images/cards_cropped/18036057.jpg"},
+    {"arc":"Pendulum Dragon","url":"https://images.ygoprodeck.com/images/cards_cropped/16178681.jpg"},
+    {"arc":"Pendulum","url":"https://images.ygoprodeck.com/images/cards_cropped/37469904.jpg"},
+    {"arc":"Penguin",
+        "imgs": {
+            "Poster": 91397409,
+            "Effect": 93920745,
+            "Synchro": 91397409
+        }
+    },
+    {"arc":"Performage","url":"https://images.ygoprodeck.com/images/cards_cropped/68819554.jpg"},
+    {"arc":"Performapal",
+        "imgs": {
+            "Poster": 92958307,
+            "Effect": 17330916,
+            "Fusion": 65029288
+        }
+    },
+    {"arc":"Phantasm Spiral","url":"https://images.ygoprodeck.com/images/cards_cropped/56649609.jpg"},
+    {"arc":"Phantom Knights","url":"https://images.ygoprodeck.com/images/cards_cropped/62709239.jpg"},
+    {"arc":"Photon",
+        "imgs": {
+            "Poster": 60222582,
+            "Effect": 93717133,
+            "Ritual": 85346853,
+            "Fusion": 29455728,
+            "Xyz": 39272762,
+            "Link": 3356494
+        }
+    },
+    {"arc":"Plunder Patroll",
+        "imgs": {
+            "Poster": 20426176,
+            "Effect": 31374201,
+            "Fusion": 18832779,
+            "Synchro": 94253655,
+            "Xyz": 20248754,
+            "Link": 67647362
+        },
+        "crest": "/crests/Plunder Patroll.png",
+        "credit": "https://www.pixiv.net/en/artworks/95676500"
+    },
+    {"arc":"Possessed","url":"https://images.ygoprodeck.com/images/cards_cropped/65046521.jpg","waifu":"a"},
+    {"arc":"Potan","url":"https://images.ygoprodeck.com/images/cards_cropped/76218643.jpg"},
+    {"arc":"Power Tool",
+        "imgs": {
+            "Poster": 2403771,
+            "Synchro": 100428005
+        }
+    },
+    {"arc":"Prank-Kids",
+        "imgs": {
+            "Poster": 43664494,
+            "Effect": 31440046,
+            "Fusion": 81997228,
+            "Link": 70875686
+        },
+        "crest":"/crests/Prank-Kids.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Predaplant","url":"https://images.ygoprodeck.com/images/cards_cropped/72129804.jpg"},
+    {"arc":"Prediction Princess",
+        "imgs": {
+            "Poster": 32231618,
+            "Effect": 31118030,
+            "Ritual": 94997874
+        }
+    },
+    {"arc":"Priestess","url":"NO"},
+    {"arc":"Qli",
+        "imgs": {
+            "Poster": 65518099,
+            "Effect": 27279764,
+            "Link": 22423493
+        },
+        "crest": "/crests/Qli.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Raidraptor",
+        "imgs": {
+            "Poster": 73887236,
+            "Effect": 53251824,
+            "Xyz": 43047672,
+            "Link": 36429703
+        },
+        "crest": "/crests/Raidraptor.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515098"
+    },
+    {"arc":"Rank-Up-Magic","url":"https://images.ygoprodeck.com/images/cards_cropped/47660516.jpg"},
+    {"arc":"Red-Eyes",
+        "imgs": {
+            "Poster": 74677422,
+            "Effect": 88264978,
+            "Ritual": 19025379,
+            "Fusion": 45349196,
+            "Synchro": 38192988,
+            "Xyz": 44405066
+        }
+    },
+    {"arc":"Reptilianne",
+        "imgs": {
+            "Poster": 81615450,
+            "Effect": 16886617,
+            "Synchro": 32138660,
+            "Link": 8602351
+        }
+    },
+    {"arc":"Resonator",
+        "imgs": {
+            "Poster": 41197012,
+            "Effect": 40975574,
+            "Synchro": 66141736
+        }
+    },
+    {"arc":"Rikka",
+        "imgs": {
+            "Poster": 69164989,
+            "Effect": 60880471,
+            "Xyz": 33779875
+        },
+        "crest": "/crests/Rikka.png",
+        "credit": "https://www.pixiv.net/en/artworks/95575591"
+    },
+    {"arc":"Ritual Beast",
+        "imgs": {
+            "Poster": 11556339,
+            "Effect": 87118301,
+            "Fusion": 56655675,
+            "Link": 58811192
+        },
+        "crest": "/crests/Ritual Beast.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Rokket","url":"https://images.ygoprodeck.com/images/cards_cropped/53266486.jpg"},
+    {"arc":"Roland","url":"https://images.ygoprodeck.com/images/cards_cropped/40251688.jpg"},
+    {"arc":"Rose Dragon","url":"https://images.ygoprodeck.com/images/cards_cropped/73580471.jpg"},
+    {"arc":"Rose",
+        "imgs": {
+            "Poster": 71645242,
+            "Effect": 96470883,
+            "Synchro": 53325667,
+            "Link": 72218246
+        }
+    },
+    {"arc":"S-Force",
+        "imgs": {
+            "Poster": 95974848,
+            "Effect": 27383719,
+            "Link": 35334193
+        },
+        "crest": "/crests/S-Force.png",
+        "credit": "https://www.pixiv.net/en/artworks/95676500"
+    },
+    {"arc":"SPYRAL",
+        "imgs": {
+            "Poster": 39373426,
+            "Effect": 91258852,
+            "Link": 1322368
+        },
+        "crest":"/crests/SPYRAL.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Sacred Beast",
+        "imgs": {
+            "Poster": 89190953,
+            "Effect": 69890967,
+            "Fusion": 43378048
+        }
+    },
+    {"arc":"Salamangreat","url":"https://images.ygoprodeck.com/images/cards_cropped/87871125.jpg"},
+    {"arc":"Scrap",
+        "imgs": {
+            "Poster": 76774528,
+            "Effect": 82012319,
+            "Synchro": 92361635,
+            "Link": 47363932
+        }
+    },
+    {"arc":"Secret Six Samurai",
+        "imgs": {
+            "Poster": 6357341,
+            "Effect": 6579928,
+            "Fusion": 33964637
+        },
+        "crest": "/crests/Secret Six Samurai.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516552"
+    },
+    {"arc":"Shaddoll",
+        "imgs": {
+            "Poster": 94977269,
+            "Effect": 3717252,
+            "Fusion": 20366274,
+            "Link": 86938484
+        },
+        "crest": "/crests/Shaddoll.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Shark",
+        "imgs": {
+            "Poster": 50449881,
+            "Effect": 10532969,
+            "Fusion": 80727036,
+            "Xyz": 49221191
+        }
+    },
+    {"arc":"Shinobird",
+        "imgs": {
+            "Poster": 276357,
+            "Effect": 66815913,
+            "Ritual": 52900000
+        },
+        "crest":"/crests/Shinobird.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Shiranui",
+        "imgs": {
+            "Poster": 40005099,
+            "Effect": 94801854,
+            "Synchro": 59843383,
+            "Link": 86926989
+        },
+        "crest": "/crests/Shiranui.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Rainbow Bridge","url":"https://images.ygoprodeck.com/images/cards_cropped/10938846.jpg"},
+    {"arc":"Silent Magician","url":"https://images.ygoprodeck.com/images/cards_cropped/72443568.jpg","waifu":"a"},
+    {"arc":"Silent Swordsman","url":"https://images.ygoprodeck.com/images/cards_cropped/37267041.jpg"},
+    {"arc":"Phantasm","url":"https://images.ygoprodeck.com/images/cards_cropped/89190953.jpg"},
+    {"arc":"Simorgh","url":"https://images.ygoprodeck.com/images/cards_cropped/14989021.jpg"},
+    {"arc":"Six Samurai",
+        "imgs": {
+            "Poster": 72345736,
+            "Effect": 63176202,
+            "Fusion": 33964637,
+            "Synchro": 29981921,
+            "Xyz": 1828513,
+            "Link": 74752631
+        },
+        "crest": "/crests/Six Samurai.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516552"
+    },
+    {"arc":"Skull Servant",
+        "imgs": {
+            "Poster": 32274490,
+            "Effect": 36021814
+        }
+    },
+    {"arc":"Sky Scourge",
+        "imgs": {
+            "Poster": 11458071,
+            "Effect": 48453776
+        }
+    },
+    {"arc":"Sky Striker",
+        "imgs": {
+            "Poster": 63166095,
+            "Effect": 26077387,
+            "Link": 63288574
+        },
+        "crest": "/crests/Sky Striker.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Slime","url":"NO"},
+    {"arc":"Solemn","url":"https://images.ygoprodeck.com/images/cards_cropped/41420027.jpg"},
+    {"arc":"Solfachord","url":"https://images.ygoprodeck.com/images/cards_cropped/92043888.jpg","waifu":"a"},
+    {"arc":"Speedroid","url":"https://images.ygoprodeck.com/images/cards_cropped/81275020.jpg"},
+    {"arc":"Spellbook",
+        "imgs": {
+            "Poster": 97997309,
+            "Effect": 29146185,
+            "Xyz": 92918648
+        },
+        "crest": "/crests/Spellbook.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516520"
+    },
+    {"arc":"Sphinx",
+        "imgs": {
+            "Poster": 53569894,
+            "Effect": 55737443
+        }
+    },
+    {"arc":"Spirit Message",
+        "imgs": {
+            "Poster": 40771118,
+            "Effect": 14509651
+        }
+    },
+    {"arc":"Springans","imgs": { "Poster": 62941499} },
+    {"arc":"Star Seraph",
+        "imgs": {
+            "Poster": 49678559,
+            "Effect": 38331564,
+            "Xyz": 67173574
+        },
+        "crest": "https://ms.yugipedia.com//2/2c/StarSeraph-Crest.png",
+        "credit": "https://yugipedia.com/wiki/File:StarSeraph-Crest.png"
+    },
+    {"arc":"Stardust",
+        "imgs": {
+            "Poster": 44508094,
+            "Effect": 37799519,
+            "Synchro": 26268488
+        }
+    },
+    {"arc":"Starliege","url":"NO"},
+    {"arc":"Starry Knight","url":"https://images.ygoprodeck.com/images/cards_cropped/85590798.jpg",
+    "crest": "/crests/Starry Knight.png",
+    "credit": "https://www.pixiv.net/en/artworks/95676500"},
+    {"arc":"Steelswarm & Infestation",
+        "imgs": {
+            "Poster": 27207573,
+            "Effect": 94092230,
+            "Xyz": 37926346,
+            "Link": 61888819
+        },
+        "crest": "https://ms.yugipedia.com//b/b4/Crest-Steelswarm.svg",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Steelswarm.svg"
+    },
+    {"arc":"Stealth Kragen","url":"https://images.ygoprodeck.com/images/cards_cropped/67557908.jpg"},
+    {"arc":"Stigmata","url":"NO"},
+    {"arc":"Stigmatika","url":"NO"},
+    {"arc":"Subterror","url":"https://images.ygoprodeck.com/images/cards_cropped/74640994.jpg"},
+    {"arc":"Sunavalon & Sunvine & Sunseed","url":"https://images.ygoprodeck.com/images/cards_cropped/92770064.jpg"},
+    {"arc":"Sunseed","url":"https://images.ygoprodeck.com/images/cards_cropped/66407907.jpg"},
+    {"arc":"Sunvine","url":"https://images.ygoprodeck.com/images/cards_cropped/91557476.jpg"},
+    {"arc":"Super Defense Robot",
+        "imgs": {
+            "Poster": 8091563,
+            "Effect": 45496268,
+            "Xyz": 77799846
+        }
+    },
+    {"arc":"Super Quant",
+        "imgs": {
+            "Poster": 72332074,
+            "Effect": 73422829,
+            "Xyz": 84025439,
+            "Link": 95493471
+        },
+        "crest":"/crests/Super Quant.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Superheavy Samurai",
+        "imgs": {
+            "Poster": 494922,
+            "Effect": 3117804,
+            "Synchro": 17775525,
+            "Link": 33918636
+        }
+    },
+    {"arc":"Supreme King","url":"https://images.ygoprodeck.com/images/cards_cropped/84869738.jpg"},
+    {"arc":"Suship","url":"https://images.ygoprodeck.com/images/cards_cropped/75215744.jpg"},
+    {"arc":"Sylvan",
+        "imgs": {
+            "Poster": 82016179,
+            "Effect": 25824484,
+            "Xyz": 10406322,
+            "Link": 21903613
+        }
+    },
+    {"arc":"Symphonic Warrior",
+        "imgs": {
+            "Poster": 75304793,
+            "Effect": 5399521,
+            "Synchro": 24070330
+        }
+    },
+    {"arc":"Synchro","url":"https://images.ygoprodeck.com/images/cards_cropped/36737092.jpg"},
+    {"arc":"Synchron",
+        "imgs": {
+            "Poster": 50091196,
+            "Effect": 20932152,
+            "Synchro": 84664085
+        }
+    },
+    {"arc":"T.G.",
+        "imgs": {
+            "Poster": 93138457,
+            "Effect": 47027714,
+            "Synchro": 97836203,
+            "Link": 50750868
+        },
+        "crest": "/crests/T.G..png",
+        "credit": "https://www.pixiv.net/en/artworks/74515061"
+    },
+    {"arc":"Tellarknight",
+        "imgs": {
+            "Poster": 70422863,
+            "Effect": 75878039,
+            "Xyz": 9272381
+        },
+        "crest": "/crests/Tellarknight.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Tenyi","url":"https://images.ygoprodeck.com/images/cards_cropped/39730727.jpg"},
+    {"arc":"The Agent & Hyperion",
+        "imgs": {
+            "Poster": 91188343,
+            "Effect": 55794644,
+            "Synchro": 37706769,
+            "Link": 90290572
+        }
+    },
+    {"arc":"The Weather",
+        "imgs": {
+            "Poster": 74218258,
+            "Effect": 27784944,
+            "Link": 54178659
+        },
+        "crest": "/crests/The Weather.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516815"
+    },
+    {"arc":"Thunder Dragon","url":"https://images.ygoprodeck.com/images/cards_cropped/41685633.jpg"},
+    {"arc":"Time Thief",
+        "imgs": {
+            "Poster": 76587747,
+            "Effect": 56308388,
+            "Xyz": 55285840
+        },
+        "crest":"/crests/Time Thief.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Rescue Squad",
+        "imgs": {
+            "Poster": 97926515,
+            "Effect": 56308388,
+            "Xyz": 55285840
+        },
+        "crest":"/crests/Rescue Squad.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516846"
+    },
+    {"arc":"Timelord","url":"https://images.ygoprodeck.com/images/cards_cropped/8967776.jpg"},
+    {"arc":"Tindangle",
+        "imgs": {
+            "Poster": 99157310,
+            "Effect": 31759689,
+            "Link": 75119040
+        },
+        "crest": "/crests/Tindangle.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515295"
+    },
+    {"arc":"Toon",
+        "imgs": {
+            "Poster": 43175858,
+            "Effect": 90960358
+        }
+    },
+    {"arc":"Trap Monster","url":"NO"},
+    {"arc":"Traptrix",
+        "imgs": {
+            "Poster": 6511113,
+            "Effect": 91812341,
+            "Xyz": 59071624,
+            "Link": 952523
+        }
+    },
+    {"arc":"Train",
+        "imgs": {
+            "Poster": 76136345,
+            "Effect": 51126152,
+            "Xyz": 26096328,
+            "Link": 146746
+        }
+    },
+    {"arc":"Tri-Brigade",
+        "imgs": {
+            "Poster": 40975243,
+            "Effect": 87209160,
+            "Fusion": 34848821,
+            "Link": 99726621
+        },
+        "crest": "/crests/Tri-Brigade.png",
+        "credit": "https://www.pixiv.net/en/artworks/95676513"
+    },
+    {"arc":"Triamid","url":"https://images.ygoprodeck.com/images/cards_cropped/72772445.jpg"},
+    {"arc":"Trickstar",
+        "imgs": {
+            "Poster": 35371948,
+            "Effect": 61283655,
+            "Fusion": 91272072,
+            "Link": 41302052
+        },
+        "crest": "/crests/Trickstar.png",
+        "credit": "https://www.pixiv.net/en/artworks/74515295"
+    },
+    {"arc":"True Draco & True King",
+        "imgs": {
+            "Poster": 75425320,
+            "Effect": 21377582,
+            "Xyz": 88581108
+        },
+        "crest":"/crests/True Draco & True King.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516800"
+    },
+    {"arc":"True Draco",
+        "imgs": {
+            "Poster": 75425320,
+            "Effect": 21377582,
+            "Xyz": 88581108
+        },
+        "crest":"/crests/True Draco.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516800"
+    },
+    {"arc":"True King",
+        "imgs": {
+            "Poster": 75425320,
+            "Effect": 21377582,
+            "Xyz": 88581108
+        },
+        "crest":"/crests/True King.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516800"
+    },
+    {"arc":"U.A.",
+        "imgs": {
+            "Poster": 35884610,
+            "Effect": 82419869
+        }
+    },
+    {"arc":"Umbral Horror",
+        "imgs": {
+            "Poster": 7152333,
+            "Effect": 70546737,
+            "Xyz": 49456901
+        }
+    },
+    {"arc":"Umi",
+        "imgs": {
+            "Poster": 95602345,
+            "Effect": 10485110
+        }
+    },
+    {"arc":"Unchained","url":"https://images.ygoprodeck.com/images/cards_cropped/27412542.jpg"},
+    {"arc":"Utopia",
+        "imgs": {
+            "Poster": 84013237,
+            "Effect": 4647954,
+            "Xyz": 95134948
+        }
+    },
+    {"arc":"Utopic",
+        "imgs": {
+            "Poster": 52653092,
+            "Effect": 69852487,
+            "Xyz": 26973555
+        }
+    },
+    {"arc":"Valkyrie","url":"https://images.ygoprodeck.com/images/cards_cropped/2204038.jpg","waifu":"a"},
+    {"arc":"Vampire",
+        "imgs": {
+            "Poster": 68688135,
+            "Effect": 22056710,
+            "Xyz": 73082255,
+            "Link": 72860663
+        }
+    },
+    {"arc":"Vassal","url":"https://images.ygoprodeck.com/images/cards_cropped/95993388.jpg"},
+    {"arc":"Vendread","url":"https://images.ygoprodeck.com/images/cards_cropped/4388680.jpg"},
+    {"arc":"Venom",
+        "imgs": {
+            "Poster": 73899015,
+            "Effect": 8062132,
+            "Fusion": 39915560
+        }
+    },
+    {"arc":"Virtual World","url":"https://images.ygoprodeck.com/images/cards_cropped/13364097.jpg"},
+    {"arc":"Vision HERO","url":"https://images.ygoprodeck.com/images/cards_cropped/46759931.jpg"},
+    {"arc":"Void","url":"https://images.ygoprodeck.com/images/cards_cropped/57047293.jpg"},
+    {"arc":"Volcanic & Blaze Accelerator",
+        "imgs": {
+            "Poster": 69750546,
+            "Effect": 32543380
+        }
+    },
+    {"arc":"Vylon",
+        "imgs": {
+            "Poster": 168917,
+            "Effect": 74064212,
+            "Synchro": 93157004,
+            "Xyz": 39987164
+        }
+    },
+    {"arc":"War Rock","url":"https://images.ygoprodeck.com/images/cards_cropped/19275188.jpg"},
+    {"arc":"Watt",
+        "imgs": {
+            "Poster": 56577312,
+            "Effect": 402568,
+            "Synchro": 29765339
+        }
+    },
+    {"arc":"Wicked God",
+        "imgs": {
+            "Poster": 21208154,
+            "Effect": 57793869
+        }
+    },
+    {"arc":"Wind-Up",
+        "imgs": {
+            "Poster": 95714077,
+            "Effect": 59297550,
+            "Xyz": 77334267,
+            "Link": 1735088
+        },
+        "crest": "/crests/Wind-Up.png",
+        "credit": "https://yugipedia.com/wiki/Legendary_Wind-Up_Key"
+    },
+    {"arc":"Windwitch",
+        "url":"https://images.ygoprodeck.com/images/cards_cropped/96156729.jpg","waifu":"a"},
+    {"arc":"Witchcrafter",
+        "imgs": {
+            "Poster": 94553671,
+            "Effect": 21522601,
+            "Fusion": 9603252
+        },
+        "crest": "https://ms.yugipedia.com//c/c9/Crest-Witchcrafter.png",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Witchcrafter.png"
+    },
+    {"arc":"World Chalice","url":"https://images.ygoprodeck.com/images/cards_cropped/97648103.jpg"},
+    {"arc":"World Legacy","url":"https://images.ygoprodeck.com/images/cards_cropped/92562411.jpg"},
+    {"arc":"Worm",
+        "imgs": {
+            "Poster": 11722335,
+            "Effect": 10026986,
+            "Fusion": 74506079
+        }
+    },
+    {"arc":"X-Saber",
+        "imgs": {
+            "Poster": 6112401,
+            "Effect": 51808422,
+            "Synchro": 52352005,
+            "Xyz": 4423206
+        },
+        "crest": "/crests/X-Saber.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516590"
+    },
+    {"arc":"Yang Zing",
+        "imgs": {
+            "Poster": 30398342,
+            "Effect": 61488417,
+            "Synchro": 19048328
+        },
+        "crest": "/crests/Yang Zing.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516779"
+    },
+    {"arc":"Yosenju",
+        "imgs": {
+            "Poster": 54903668,
+            "Effect": 93368494
+        },
+        "crest": "https://ms.yugipedia.com//9/9c/Crest-Yosenju.png",
+        "credit": "https://yugipedia.com/wiki/File:Crest-Yosenju.png"
+    },
+    {"arc":"Yubel",
+        "imgs": {
+            "Poster": 78371393,
+            "Effect": 31764700,
+            "Fusion": 90307498
+        }
+    },
+    {"arc":"ZEXAL","url":"https://images.ygoprodeck.com/images/cards_cropped/36224040.jpg"},
+    {"arc":"Zefra",
+        "imgs": {
+            "Poster": 98076754,
+            "Effect": 29432356,
+            "Link": 85216896
+        },
+        "crest": "https://ms.yugipedia.com//3/3d/Zefra-Crest.png",
+        "credit": "https://yugipedia.com/wiki/File:Zefra-Crest.png"
+    },
+    {"arc":"Zexal","url":"https://images.ygoprodeck.com/images/cards_cropped/36224040.jpg"},
+    {"arc":"Zoodiac",
+        "imgs": {
+            "Poster": 98918572,
+            "Effect": 78872731,
+            "Xyz": 48905153
+        },
+        "crest":"/crests/Zoodiac.png",
+        "credit": "https://www.pixiv.net/en/artworks/74516791"
+    },
+    {"arc":"roid",
+        "imgs": {
+            "Poster": 70628672,
+            "Effect": 9069157,
+            "Fusion": 54702678
+        }
+    },
+    {"arc":"Ɐttraction","url":"NO"},
+    {"arc":"Star","url":"NO"},
+    {"arc":"P.U.N.K.",
+        "imgs": {
+            "Poster": 19535693,
+            "Effect": 81914447,
+            "Fusion": 18313046,
+            "Synchro": 44708154
+        },
+        "waifu": "a"
+    },
+    {"arc":"Beetrooper","url":"https://images.ygoprodeck.com/images/cards_cropped/38229962.jpg"},
+    {"arc":"Swordsoul",
+        "imgs": {
+            "Poster": 99137266,
+            "Effect": 62849088,
+            "Synchro": 96633955
+        },
+        "crest": "/crests/Swordsoul.png",
+        "credit": "https://www.pixiv.net/en/artworks/95676513"
+    },
+    {"arc":"Exosister",
+        "imgs": {
+            "Poster": 77913594,
+            "Effect": 16474916,
+            "Xyz": 59242457
+        },
+        "crest": "/crests/Exosister.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1431224987550195713",
+        "waifu": "a"
+    },
+    {"arc":"Adventurer Token","url":"https://images.ygoprodeck.com/images/cards_cropped/39568067.jpg"},
+    {"arc":"The Sanctuary in the Sky",
+        "imgs": {
+            "Poster": 56433456,
+            "Effect": 18378582,
+            "Synchro": 63101468,
+            "Link": 48589580
+        }
+    },
+    {"arc":"D/D/D","url":"NO"},
+    {"arc":"Abhyss","url":"NO"},
+    {"arc":"White","url":"NO"},
+    {"arc":"Tearlaments",
+        "imgs": {
+            "Poster": 74920585
+        },
+        "crest": "/crests/Tearlaments.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1517427992842190848",
+        "waifu": "a"
+    },
+    {"arc":"Dinomorphia",
+        "imgs": {
+            "Poster": 78420796
+        }
+    },
+    {"arc":"Exchange of the Spirit",
+        "imgs": {
+            "Poster": 63542003
+        }
+    },
+    {"arc":"Vaylantz", "imgs": { "Poster": 40680521},
+        "crest": "/crests/Vaylantz.png",
+        "credit": "https://ygorganization.com/reference-art-some-valiants/"},
+    {"arc":"Mysterune", "imgs": { "Poster": 92107604 } },
+    {"arc":"Runick", "imgs": { "Poster": 92107604 } },
+    {"arc":"Spright", "imgs": { "Poster": 54498517} },
+    {"arc":"Hellfire", "imgs": { "Poster": 64104037} },
+    {"arc":"Mokey Mokey", "imgs": { "Poster": 27288416} },
+    {"arc":"Kairyu-Shin", "imgs": { "Poster": 95602345} },
+    {"arc":"Therion", "imgs": { "Poster": 10604644} },
+    {"arc":"Scareclaw", "imgs": { "Poster": 82361809} },
+    {"arc":"Libromancer", "imgs": { "Poster": 15590355} },
+    {"arc":"Crystal", "imgs": { "Poster": 63945693} },
+    {"arc":"Pendulum Magician", "imgs": { "Poster": 53208660} },
+    {"arc":"Vernusylph", "imgs": { "Poster": 63708033 }, "crest": "/crests/Vernusylph.png", "credit": "https://twitter.com/YuGiOh_TCG/status/1551960655598538754" },
+    {"arc":"Lady of Lament","url":"https://images.ygoprodeck.com/images/cards_cropped/25643346.jpg","waifu":"a"},
+    {"arc":"Seventh","url": "https://images.ygoprodeck.com/images/cards_cropped/97769122.jpg"},
+    {"arc":"Barian's","url":"https://images.ygoprodeck.com/images/cards_cropped/47660516.jpg"},
+    {"arc": "Ghoti", "url": "https://images.ygoprodeck.com/images/cards_cropped/38409239.jpg"},
+    {"arc": "\"C\"", "url": "https://images.ygoprodeck.com/images/cards_cropped/23434538.jpg"},
+    {"arc": "Kashtira", "url": "https://images.ygoprodeck.com/images/cards_cropped/48626373.jpg"},
+    {"arc": "Bystial", "url": "https://images.ygoprodeck.com/images/cards_cropped/33854624.jpg"},
+    {"arc": "Spider", "url": "https://images.ygoprodeck.com/images/cards_cropped/26640671.jpg"},
+    {"arc": "Advanced Crystal Beast", "url": "https://images.ygoprodeck.com/images/cards_cropped/12644061.jpg"},
+    {"arc": "Doodle Beast & Doodlebook", "url": "https://images.ygoprodeck.com/images/cards_cropped/67725394.jpg"},
+    {"arc": "G Golem", "url": "https://images.ygoprodeck.com/images/cards_cropped/50546029.jpg"},
+
+    {"arc": "Purrely", "url": "https://images.ygoprodeck.com/images/cards_cropped/25550531.jpg",
+        "crest": "/crests/Purrely.png",
+        "credit": "https://yugipedia.com/wiki/Purrely_(card)"},
+    {
+        "arc": "Mikanko",
+        "url": "https://images.ygoprodeck.com/images/cards_cropped/16310544.jpg",
+        "crest":"/crests/Mikanko.png",
+        "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1613513753034723329",
+        "waifu":"a"
+    },
+    {"arc":"Rescue-ACE","url": "https://images.ygoprodeck.com/images/cards_cropped/37495766.jpg", "crest": "/crests/Rescue-ACE.png", "credit": "https://yugipedia.com/wiki/File:Crest-RescueACE.png" },
+    {"arc":"Nouvelles","url": "https://images.ygoprodeck.com/images/cards_cropped/88890658.jpg", "crest": "/crests/Nouvelles.png", "credit": "https://www.pixiv.net/en/artworks/111185806" },
+    {"arc":"Horus","url": "https://images.ygoprodeck.com/images/cards_cropped/16528181.jpg", "crest": "/crests/Horus.png", "credit": "https://www.pixiv.net/en/artworks/111185806" },
+    {"arc":"Despia","url":"https://images.ygoprodeck.com/images/cards_cropped/18666161.jpg",
+        "crest": "/crests/Despia.png",
+        "credit": "https://yugipedia.com/wiki/White_Relic_of_Dogmatika"
+    },
+    {"arc":"Infernity & Void",
+        "imgs": {
+            "Poster": 66957584,
+            "Effect": 99177923,
+            "Synchro": 72896720
+        },
+        "crest": "/crests/Infernity.png",
+        "credit": "https://www.reddit.com/r/yugioh/comments/10gftyh/comment/j5jwqbg/?utm_source=share&utm_medium=web2x&context=3"
+    },
+    {"arc":"Ursarctic","url":"https://images.ygoprodeck.com/images/cards_cropped/53865474.jpg",
+    "crest": "/crests/Ursarctic.png",
+    "credit": "https://www.pixiv.net/en/artworks/111184057"},
+    {"arc":"Centurion","url":"https://images.ygoprodeck.com/images/cards_cropped/41371602.jpg",
+    "crest": "/crests/Centurion.png",
+    "credit": "https://twitter.com/YuGiOh_OCG_INFO/status/1695043354306678946"},
+    {"arc":"Drytron","url":"https://images.ygoprodeck.com/images/cards_cropped/22398665.jpg",
+    "crest": "/crests/Drytron.png",
+    "credit": "https://www.pixiv.net/en/artworks/111184057"},
+    {"arc":"Ninja (Meizen's group)",
+        "imgs": {
+            "Poster": 50766506,
+            "Effect": 95027497,
+            "Synchro": 76471944,
+            "Xyz": 19333131,
+            "Link": 37354507
+        },
+        "crest": "/crests/NinjaM.png",
+        "credit": "https://www.pixiv.net/en/artworks/111184151"
+    }
+]    

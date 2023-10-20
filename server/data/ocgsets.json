@@ -1,0 +1,4972 @@
+[
+    {
+        "set_name": "Carte Mancanti (non OCG, garantiti come Deck)",
+        "tcg_date": "2023-03-11",
+        "url": "https://yugipedia.com/wiki/V_Jump_November_2022_promotional_card",
+        "ocg_pic_url": "https://images.ygoprodeck.com/images/cards_cropped/55948544.jpg",
+        "done": false,
+        "set_code": "CASO",
+        "cards": {
+            "662853": {
+                "set_code": "CASO-0178",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "662854": {
+                "set_code": "CASO-0179",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "662855": {
+                "set_code": "CASO-0175",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "662857": {
+                "set_code": "CASO-0177",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "732302": {
+                "set_code": "CASO-0077",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "1761063": {
+                "set_code": "CASO-0025",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "1929294": {
+                "set_code": "CASO-0002",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2139640": {
+                "set_code": "CASO-0096",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2370081": {
+                "set_code": "CASO-0205",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2519690": {
+                "set_code": "CASO-0167",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2830619": {
+                "set_code": "CASO-0013",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "3170832": {
+                "set_code": "CASO-0075",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "3627449": {
+                "set_code": "CASO-0148",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "3701074": {
+                "set_code": "CASO-0214",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "4179849": {
+                "set_code": "CASO-0080",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "5628232": {
+                "set_code": "CASO-0042",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "5861892": {
+                "set_code": "CASO-0135",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "6297941": {
+                "set_code": "CASO-0024",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "6840573": {
+                "set_code": "CASO-0156",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "7200041": {
+                "set_code": "CASO-0109",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "8327462": {
+                "set_code": "CASO-0164",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9666558": {
+                "set_code": "CASO-0105",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "10262698": {
+                "set_code": "CASO-0068",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "10315429": {
+                "set_code": "CASO-0065",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14037717": {
+                "set_code": "CASO-0074",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14181608": {
+                "set_code": "CASO-0012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14344682": {
+                "set_code": "CASO-0108",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14391920": {
+                "set_code": "CASO-0198",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14731897": {
+                "set_code": "CASO-0200",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15013468": {
+                "set_code": "CASO-0132",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15367030": {
+                "set_code": "CASO-0061",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15507080": {
+                "set_code": "CASO-0017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15510988": {
+                "set_code": "CASO-0018",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16469012": {
+                "set_code": "CASO-0112",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16751086": {
+                "set_code": "CASO-0098",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16899564": {
+                "set_code": "CASO-0070",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "17185260": {
+                "set_code": "CASO-0116",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "17238333": {
+                "set_code": "CASO-0009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "17502671": {
+                "set_code": "CASO-0122",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "17573739": {
+                "set_code": "CASO-0120",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "17968114": {
+                "set_code": "CASO-0056",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "18914778": {
+                "set_code": "CASO-0000",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "18937875": {
+                "set_code": "CASO-0202",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "19737320": {
+                "set_code": "CASO-0079",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "20101223": {
+                "set_code": "CASO-0182",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "20315854": {
+                "set_code": "CASO-0050",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "20541432": {
+                "set_code": "CASO-0053",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "20871001": {
+                "set_code": "CASO-0181",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "21323861": {
+                "set_code": "CASO-0180",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "22026707": {
+                "set_code": "CASO-0016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25005816": {
+                "set_code": "CASO-0209",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25727454": {
+                "set_code": "CASO-0094",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "26293219": {
+                "set_code": "CASO-0102",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "26932788": {
+                "set_code": "CASO-0150",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27324313": {
+                "set_code": "CASO-0034",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27416701": {
+                "set_code": "CASO-0143",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "28003512": {
+                "set_code": "CASO-0038",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "28450915": {
+                "set_code": "CASO-0052",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "28563545": {
+                "set_code": "CASO-0115",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "29802344": {
+                "set_code": "CASO-0067",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "29929832": {
+                "set_code": "CASO-0158",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "29948642": {
+                "set_code": "CASO-0007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "30155789": {
+                "set_code": "CASO-0208",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "30451366": {
+                "set_code": "CASO-0095",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "30757396": {
+                "set_code": "CASO-0172",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "31066283": {
+                "set_code": "CASO-0195",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "31339260": {
+                "set_code": "CASO-0151",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "32355828": {
+                "set_code": "CASO-0165",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33413638": {
+                "set_code": "CASO-0097",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33691040": {
+                "set_code": "CASO-0155",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33951077": {
+                "set_code": "CASO-0145",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "34290067": {
+                "set_code": "CASO-0040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "34743446": {
+                "set_code": "CASO-0062",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "35282433": {
+                "set_code": "CASO-0039",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "35752363": {
+                "set_code": "CASO-0159",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "37474917": {
+                "set_code": "CASO-0170",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "38942059": {
+                "set_code": "CASO-0036",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "39175982": {
+                "set_code": "CASO-0010",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "39897277": {
+                "set_code": "CASO-0203",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40173854": {
+                "set_code": "CASO-0154",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40200834": {
+                "set_code": "CASO-0048",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40575313": {
+                "set_code": "CASO-0003",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41098335": {
+                "set_code": "CASO-0103",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41182875": {
+                "set_code": "CASO-0193",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41544074": {
+                "set_code": "CASO-0152",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41762634": {
+                "set_code": "CASO-0060",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "42348802": {
+                "set_code": "CASO-0027",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "42883273": {
+                "set_code": "CASO-0100",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "43352213": {
+                "set_code": "CASO-0083",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "43366227": {
+                "set_code": "CASO-0171",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "43580269": {
+                "set_code": "CASO-0124",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "43694075": {
+                "set_code": "CASO-0194",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "44910027": {
+                "set_code": "CASO-0126",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "45425051": {
+                "set_code": "CASO-0117",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "45895206": {
+                "set_code": "CASO-0183",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "45909477": {
+                "set_code": "CASO-0071",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "46848859": {
+                "set_code": "CASO-0107",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "47852924": {
+                "set_code": "CASO-0189",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "47986555": {
+                "set_code": "CASO-0088",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "48649353": {
+                "set_code": "CASO-0086",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "51402177": {
+                "set_code": "CASO-0133",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "51402908": {
+                "set_code": "CASO-0138",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52367652": {
+                "set_code": "CASO-0055",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53119267": {
+                "set_code": "CASO-0215",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53581214": {
+                "set_code": "CASO-0021",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53606874": {
+                "set_code": "CASO-0059",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53713014": {
+                "set_code": "CASO-0057",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54539105": {
+                "set_code": "CASO-0196",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54702678": {
+                "set_code": "CASO-0168",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54762426": {
+                "set_code": "CASO-0211",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "55321970": {
+                "set_code": "CASO-0204",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "55691901": {
+                "set_code": "CASO-0047",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "55948544": {
+                "set_code": "CASO-0210",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56260110": {
+                "set_code": "CASO-0186",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56413937": {
+                "set_code": "CASO-0163",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56713552": {
+                "set_code": "CASO-0026",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56931015": {
+                "set_code": "CASO-0113",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57405307": {
+                "set_code": "CASO-0076",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57482479": {
+                "set_code": "CASO-0111",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "58074572": {
+                "set_code": "CASO-0185",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "59036972": {
+                "set_code": "CASO-0153",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "59053232": {
+                "set_code": "CASO-0005",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "59983499": {
+                "set_code": "CASO-0001",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60025883": {
+                "set_code": "CASO-0176",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60417395": {
+                "set_code": "CASO-0136",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61405855": {
+                "set_code": "CASO-0206",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61454890": {
+                "set_code": "CASO-0033",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61831093": {
+                "set_code": "CASO-0142",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "62337487": {
+                "set_code": "CASO-0146",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "62403074": {
+                "set_code": "CASO-0072",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "63125616": {
+                "set_code": "CASO-0029",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "63804806": {
+                "set_code": "CASO-0141",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "65623423": {
+                "set_code": "CASO-0022",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "66094973": {
+                "set_code": "CASO-0101",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "67120578": {
+                "set_code": "CASO-0119",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "67508932": {
+                "set_code": "CASO-0173",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "67688478": {
+                "set_code": "CASO-0106",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "68171737": {
+                "set_code": "CASO-0089",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "68339286": {
+                "set_code": "CASO-0078",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "68638985": {
+                "set_code": "CASO-0004",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "68811206": {
+                "set_code": "CASO-0129",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "69123138": {
+                "set_code": "CASO-0149",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "69750536": {
+                "set_code": "CASO-0058",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "70084224": {
+                "set_code": "CASO-0085",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "70924884": {
+                "set_code": "CASO-0030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "71068263": {
+                "set_code": "CASO-0037",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "71746462": {
+                "set_code": "CASO-0043",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "71950093": {
+                "set_code": "CASO-0031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "72144675": {
+                "set_code": "CASO-0121",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "72299832": {
+                "set_code": "CASO-0087",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "72869010": {
+                "set_code": "CASO-0160",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "72929454": {
+                "set_code": "CASO-0082",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "74277583": {
+                "set_code": "CASO-0063",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "75253697": {
+                "set_code": "CASO-0174",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "75559356": {
+                "set_code": "CASO-0064",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "75582395": {
+                "set_code": "CASO-0073",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "75889523": {
+                "set_code": "CASO-0006",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76232340": {
+                "set_code": "CASO-0090",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76634149": {
+                "set_code": "CASO-0081",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76775123": {
+                "set_code": "CASO-0099",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "77454922": {
+                "set_code": "CASO-0191",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "78082039": {
+                "set_code": "CASO-0207",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "78577570": {
+                "set_code": "CASO-0192",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "78637313": {
+                "set_code": "CASO-0213",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "79629370": {
+                "set_code": "CASO-0069",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80234301": {
+                "set_code": "CASO-0032",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80727036": {
+                "set_code": "CASO-0157",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80887952": {
+                "set_code": "CASO-0118",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "81332143": {
+                "set_code": "CASO-0190",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "81756897": {
+                "set_code": "CASO-0197",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "81919143": {
+                "set_code": "CASO-0123",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "82035781": {
+                "set_code": "CASO-0114",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "82065276": {
+                "set_code": "CASO-0035",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "82085619": {
+                "set_code": "CASO-0051",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "84133008": {
+                "set_code": "CASO-0093",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "84285623": {
+                "set_code": "CASO-0015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "84990171": {
+                "set_code": "CASO-0066",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "85448931": {
+                "set_code": "CASO-0044",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "86100785": {
+                "set_code": "CASO-0091",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "86164529": {
+                "set_code": "CASO-0162",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87350908": {
+                "set_code": "CASO-0092",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87567063": {
+                "set_code": "CASO-0199",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87997872": {
+                "set_code": "CASO-0134",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "88494120": {
+                "set_code": "CASO-0212",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "89558090": {
+                "set_code": "CASO-0028",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "90330453": {
+                "set_code": "CASO-0184",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "90844184": {
+                "set_code": "CASO-0147",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "92391084": {
+                "set_code": "CASO-0049",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "92667214": {
+                "set_code": "CASO-0020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "92944626": {
+                "set_code": "CASO-0014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "93151201": {
+                "set_code": "CASO-0104",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "93343894": {
+                "set_code": "CASO-0046",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "94022093": {
+                "set_code": "CASO-0041",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "94042337": {
+                "set_code": "CASO-0045",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "94515289": {
+                "set_code": "CASO-0169",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "94566432": {
+                "set_code": "CASO-0166",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "95144193": {
+                "set_code": "CASO-0161",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "95288024": {
+                "set_code": "CASO-0084",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "95637655": {
+                "set_code": "CASO-0110",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "96643568": {
+                "set_code": "CASO-0023",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "96967123": {
+                "set_code": "CASO-0011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97809599": {
+                "set_code": "CASO-0188",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97973387": {
+                "set_code": "CASO-0019",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99030164": {
+                "set_code": "CASO-0008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99510761": {
+                "set_code": "CASO-0054",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99518961": {
+                "set_code": "CASO-0187",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99721536": {
+                "set_code": "CASO-0144",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99899504": {
+                "set_code": "CASO-0130",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "111000561": {
+                "set_code": "CASO-0201",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000000": {
+                "set_code": "CASO-0140",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000001": {
+                "set_code": "CASO-0125",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000002": {
+                "set_code": "CASO-0137",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000003": {
+                "set_code": "CASO-0127",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000004": {
+                "set_code": "CASO-0139",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000006": {
+                "set_code": "CASO-0131",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "501000007": {
+                "set_code": "CASO-0128",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump April 2019 promotional card",
+        "tcg_date": "OCG 2019-02-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_April_2019_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/e/e3/VJMP-2019-4-Cover.png/257px-VJMP-2019-4-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP159",
+        "cards": {
+            "595626": {
+                "set_code": "VJMP-JP159",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) 20th Anniversary Monster Art Box",
+        "tcg_date": "OCG 2019-11-20",
+        "url": "https://yugipedia.com/wiki/20th_Anniversary_Monster_Art_Box",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/b/b6/YMAB-PromoJP.png/257px-YMAB-PromoJP.png",
+        "done": false,
+        "set_code": "YMAB",
+        "cards": {
+            "37984331": {
+                "set_code": "YMAB-JP001",
+                "set_rarity": "20th Secret Rare",
+                "set_rarity_code": "20th Secret Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Prismatic God Box",
+        "tcg_date": "OCG 2020-12-19",
+        "url": "https://yugipedia.com/wiki/Prismatic_God_Box",
+        "ocg_pic_url": "https://static.wikia.nocookie.net/yugioh/images/8/84/PGB1-DeckJP.png",
+        "done": false,
+        "set_code": "PGB1",
+        "cards": {
+            "2295831": {
+                "set_code": "PGB1-JP036",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "2519690": {
+                "set_code": "PGB1-JP027",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "5130393": {
+                "set_code": "PGB1-JP006",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "5253985": {
+                "set_code": "PGB1-JP003",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "7241272": {
+                "set_code": "PGB1-JP017",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "10000000": {
+                "set_code": "PGB1-JPS02",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "Prismatic Secret Rare"
+            },
+            "10000010": {
+                "set_code": "PGB1-JPS03",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "Prismatic Secret Rare"
+            },
+            "10000020": {
+                "set_code": "PGB1-JPS01",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "Prismatic Secret Rare"
+            },
+            "10000080": {
+                "set_code": "PGB1-JP013",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "10000090": {
+                "set_code": "PGB1-JP014",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "14057297": {
+                "set_code": "PGB1-JP050",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "15180041": {
+                "set_code": "PGB1-JP015",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "16268841": {
+                "set_code": "PGB1-JP023",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "16435215": {
+                "set_code": "PGB1-JP044",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "17484499": {
+                "set_code": "PGB1-JP049",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "18563744": {
+                "set_code": "PGB1-JP037",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "22634473": {
+                "set_code": "PGB1-JP010",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "23995346": {
+                "set_code": "PGB1-JP028",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "24094653": {
+                "set_code": "PGB1-JP032",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "24874630": {
+                "set_code": "PGB1-JP034",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "28297833": {
+                "set_code": "PGB1-JP025",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "29762407": {
+                "set_code": "PGB1-JP045",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "31525442": {
+                "set_code": "PGB1-JP007",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "32247099": {
+                "set_code": "PGB1-JP004",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "41175645": {
+                "set_code": "PGB1-JP016",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "41426869": {
+                "set_code": "PGB1-JP040",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "42469671": {
+                "set_code": "PGB1-JP001",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "43845801": {
+                "set_code": "PGB1-JP039",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "44968459": {
+                "set_code": "PGB1-JP038",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "46986414": {
+                "set_code": "PGB1-JP011",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "48680970": {
+                "set_code": "PGB1-JP046",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "53183600": {
+                "set_code": "PGB1-JP020",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "58330108": {
+                "set_code": "PGB1-JP018",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "58604027": {
+                "set_code": "PGB1-JP019",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "63519819": {
+                "set_code": "PGB1-JP029",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "64043465": {
+                "set_code": "PGB1-JP047",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "64631466": {
+                "set_code": "PGB1-JP026",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "69145169": {
+                "set_code": "PGB1-JP008",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "75500286": {
+                "set_code": "PGB1-JP031",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "76052811": {
+                "set_code": "PGB1-JP022",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "78063197": {
+                "set_code": "PGB1-JP041",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "78642798": {
+                "set_code": "PGB1-JP005",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "79868386": {
+                "set_code": "PGB1-JP002",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "80230510": {
+                "set_code": "PGB1-JP043",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "83764719": {
+                "set_code": "PGB1-JP030",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "87567063": {
+                "set_code": "PGB1-JP035",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "89041555": {
+                "set_code": "PGB1-JP048",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "89194033": {
+                "set_code": "PGB1-JP024",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "89631139": {
+                "set_code": "PGB1-JP012",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            },
+            "89997728": {
+                "set_code": "PGB1-JP042",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "90960358": {
+                "set_code": "PGB1-JP021",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "95286165": {
+                "set_code": "PGB1-JP033",
+                "set_rarity": "Millennium Rare",
+                "set_rarity_code": "Millennium Rare"
+            },
+            "96239878": {
+                "set_code": "PGB1-JP009",
+                "set_rarity": "Millennium Ultra Rare",
+                "set_rarity_code": "Millennium Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Yu-Gi-Oh! OCG Structures Volume 4 promotional card",
+        "tcg_date": "OCG 2021-11-04",
+        "url": "https://yugipedia.com/wiki/Yu-Gi-Oh!_OCG_Structures_Volume_4_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/c/cc/YO04-PromoJP.png/257px-YO04-PromoJP.png",
+        "done": false,
+        "set_code": "YO04",
+        "cards": {
+            "5916510": {
+                "set_code": "YO04-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Premium Pack 2022",
+        "tcg_date": "OCG 2021-12-18",
+        "url": "https://yugipedia.com/wiki/Premium_Pack_2022",
+        "ocg_pic_url": "https://static.wikia.nocookie.net/yugioh/images/1/1e/22PP-BoosterJP.png",
+        "done": false,
+        "set_code": "22PP",
+        "cards": {
+            "1683982": {
+                "set_code": "22PP-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16684346": {
+                "set_code": "22PP-JP029",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "18859369": {
+                "set_code": "22PP-JP026",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "19050066": {
+                "set_code": "22PP-JP019",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "19272658": {
+                "set_code": "22PP-JP016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "20994205": {
+                "set_code": "22PP-JP013",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "25607552": {
+                "set_code": "22PP-JP032",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "35705817": {
+                "set_code": "22PP-JP012",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "38412161": {
+                "set_code": "22PP-JP031",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "42228966": {
+                "set_code": "22PP-JP004",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "43256007": {
+                "set_code": "22PP-JP028",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "45420955": {
+                "set_code": "22PP-JP027",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "47077697": {
+                "set_code": "22PP-JP006",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49964567": {
+                "set_code": "22PP-JP030",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "50354944": {
+                "set_code": "22PP-JP021",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "55554175": {
+                "set_code": "22PP-JP020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56677752": {
+                "set_code": "22PP-JP017",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "57499304": {
+                "set_code": "22PP-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61103515": {
+                "set_code": "22PP-JP011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "64104037": {
+                "set_code": "22PP-JP009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "69975751": {
+                "set_code": "22PP-JP025",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "77590412": {
+                "set_code": "22PP-JP002",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "82661461": {
+                "set_code": "22PP-JP018",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "83888009": {
+                "set_code": "22PP-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "84900597": {
+                "set_code": "22PP-JP007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "86469231": {
+                "set_code": "22PP-JP005",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "88617904": {
+                "set_code": "22PP-JP003",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "89839552": {
+                "set_code": "22PP-JP001",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "90788081": {
+                "set_code": "22PP-JP022",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "94395649": {
+                "set_code": "22PP-JP024",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "96352326": {
+                "set_code": "22PP-JP023",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "99370594": {
+                "set_code": "22PP-JP010",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) The Valuable Book EX 2 promotional cards",
+        "tcg_date": "OCG 2022-03-18",
+        "url": "https://yugipedia.com/wiki/The_Valuable_Book_EX_2_promotional_cards",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/d/d4/VX02-PromoJP.png/257px-VX02-PromoJP.png",
+        "done": false,
+        "set_code": "VX02",
+        "cards": {
+            "54878729": {
+                "set_code": "VX02-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "91262474": {
+                "set_code": "VX02-JP002",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Yu-Gi-Oh! OCG Structures Volume 5 promotional card",
+        "tcg_date": "OCG 2022-06-03",
+        "url": "https://yugipedia.com/wiki/Yu-Gi-Oh!_OCG_Structures_Volume_5_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/0/0c/YO05-PromoJP.png/257px-YO05-PromoJP.png",
+        "done": false,
+        "set_code": "YO05",
+        "cards": {
+            "26988374": {
+                "set_code": "YO05-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump August 2022 promotional card",
+        "tcg_date": "OCG 2022-06-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_August_2022_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/3/31/VJMP-2022-8-Cover.png/257px-VJMP-2022-8-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP219",
+        "cards": {
+            "15464375": {
+                "set_code": "VJMP-JP219",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump October 2022 promotional card",
+        "tcg_date": "OCG 2022-08-20",
+        "url": "https://yugipedia.com/wiki/V_Jump_October_2022_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/4/41/VJMP-2022-10-Cover.png/257px-VJMP-2022-10-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP221",
+        "cards": {
+            "78077209": {
+                "set_code": "VJMP-JP221",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump November 2022 promotional card",
+        "tcg_date": "OCG 2022-09-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_November_2022_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/e/ee/VJMP-2022-11-Cover.png/257px-VJMP-2022-11-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP222",
+        "cards": {
+            "64475743": {
+                "set_code": "VJMP-JP222",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump Fall 2022 subscription bonus",
+        "tcg_date": "OCG 2022-09-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_Fall_2022_subscription_bonus",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/c/cf/VJMPSubscriptionBonus-Fall2022-Booster.png/257px-VJMPSubscriptionBonus-Fall2022-Booster.png",
+        "done": false,
+        "set_code": "VJMP-JP225",
+        "cards": {
+            "13302026": {
+                "set_code": "VJMP-JP225",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "64583600": {
+                "set_code": "VJMP-JP223",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "69133798": {
+                "set_code": "VJMP-JP224",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Selection 5",
+        "tcg_date": "OCG 2022-11-05",
+        "url": "https://yugipedia.com/wiki/Selection_5",
+        "ocg_pic_url": "https://cdn11.bigcommerce.com/s-89ffd/images/stencil/728x728/products/118967/430474/4988602175509_1c40cb87462899af601d99940c703181__17036.1669086369.jpg",
+        "done": false,
+        "set_code": "SLF1",
+        "cards": {
+            "146746": {
+                "set_code": "SLF1-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "458748": {
+                "set_code": "SLF1-JP033",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "844056": {
+                "set_code": "SLF1-JP098",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2857636": {
+                "set_code": "SLF1-JP093",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "3814632": {
+                "set_code": "SLF1-JP090",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "7080743": {
+                "set_code": "SLF1-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "8083925": {
+                "set_code": "SLF1-JP082",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "8491308": {
+                "set_code": "SLF1-JP040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9205573": {
+                "set_code": "SLF1-JP079",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "9726840": {
+                "set_code": "SLF1-JP055",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "11270236": {
+                "set_code": "SLF1-JP028",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "12307878": {
+                "set_code": "SLF1-JP025",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "12421694": {
+                "set_code": "SLF1-JP041",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "13171876": {
+                "set_code": "SLF1-JP058",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "13529466": {
+                "set_code": "SLF1-JP022",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "13647631": {
+                "set_code": "SLF1-JP004",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14625090": {
+                "set_code": "SLF1-JP068",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15754711": {
+                "set_code": "SLF1-JP070",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15848542": {
+                "set_code": "SLF1-JP063",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16960120": {
+                "set_code": "SLF1-JP060",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "21623008": {
+                "set_code": "SLF1-JP053",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24010609": {
+                "set_code": "SLF1-JP051",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24361622": {
+                "set_code": "SLF1-JP094",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24731453": {
+                "set_code": "SLF1-JP005",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24799107": {
+                "set_code": "SLF1-JP066",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24919805": {
+                "set_code": "SLF1-JP007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25274141": {
+                "set_code": "SLF1-JP019",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25733157": {
+                "set_code": "SLF1-JP048",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25955749": {
+                "set_code": "SLF1-JP045",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "26077387": {
+                "set_code": "SLF1-JP035",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "26096328": {
+                "set_code": "SLF1-JP013",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "27923575": {
+                "set_code": "SLF1-JP089",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "29479265": {
+                "set_code": "SLF1-JP092",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "32600024": {
+                "set_code": "SLF1-JP064",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33331231": {
+                "set_code": "SLF1-JP037",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "34365442": {
+                "set_code": "SLF1-JP087",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "34475451": {
+                "set_code": "SLF1-JP010",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "35487920": {
+                "set_code": "SLF1-JP083",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "36326160": {
+                "set_code": "SLF1-JP074",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "36609518": {
+                "set_code": "SLF1-JP080",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "36776089": {
+                "set_code": "SLF1-JP091",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "36848764": {
+                "set_code": "SLF1-JP099",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "37351133": {
+                "set_code": "SLF1-JP036",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "37582948": {
+                "set_code": "SLF1-JP085",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40110009": {
+                "set_code": "SLF1-JP069",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40398073": {
+                "set_code": "SLF1-JP056",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41232647": {
+                "set_code": "SLF1-JP065",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "42055234": {
+                "set_code": "SLF1-JP061",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "46271408": {
+                "set_code": "SLF1-JP054",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "47457347": {
+                "set_code": "SLF1-JP034",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "47679935": {
+                "set_code": "SLF1-JP031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "47961342": {
+                "set_code": "SLF1-JP096",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "48791583": {
+                "set_code": "SLF1-JP026",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49032236": {
+                "set_code": "SLF1-JP012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49121795": {
+                "set_code": "SLF1-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49513164": {
+                "set_code": "SLF1-JP023",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49575521": {
+                "set_code": "SLF1-JP059",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "50005218": {
+                "set_code": "SLF1-JP052",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "51126152": {
+                "set_code": "SLF1-JP002",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "51227866": {
+                "set_code": "SLF1-JP049",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "51369889": {
+                "set_code": "SLF1-JP020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52340444": {
+                "set_code": "SLF1-JP046",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52481437": {
+                "set_code": "SLF1-JP003",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54257392": {
+                "set_code": "SLF1-JP076",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56910167": {
+                "set_code": "SLF1-JP011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57416183": {
+                "set_code": "SLF1-JP071",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60759087": {
+                "set_code": "SLF1-JP088",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60879050": {
+                "set_code": "SLF1-JP017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61692648": {
+                "set_code": "SLF1-JP006",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61976639": {
+                "set_code": "SLF1-JP084",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "62098216": {
+                "set_code": "SLF1-JP078",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "63166095": {
+                "set_code": "SLF1-JP043",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "63288573": {
+                "set_code": "SLF1-JP038",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "70368879": {
+                "set_code": "SLF1-JP095",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "72233469": {
+                "set_code": "SLF1-JP100",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "73355951": {
+                "set_code": "SLF1-JP097",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "73810864": {
+                "set_code": "SLF1-JP075",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "74063034": {
+                "set_code": "SLF1-JP032",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "75147529": {
+                "set_code": "SLF1-JP042",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "75286621": {
+                "set_code": "SLF1-JP027",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "76136345": {
+                "set_code": "SLF1-JP018",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76782778": {
+                "set_code": "SLF1-JP057",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "77515704": {
+                "set_code": "SLF1-JP072",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "78231355": {
+                "set_code": "SLF1-JP067",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "79371769": {
+                "set_code": "SLF1-JP073",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "79850798": {
+                "set_code": "SLF1-JP001",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "81078880": {
+                "set_code": "SLF1-JP077",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "85908279": {
+                "set_code": "SLF1-JP024",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "86120751": {
+                "set_code": "SLF1-JP021",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "88453933": {
+                "set_code": "SLF1-JP062",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "88875132": {
+                "set_code": "SLF1-JP009",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "90673288": {
+                "set_code": "SLF1-JP039",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "93672138": {
+                "set_code": "SLF1-JP081",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97300502": {
+                "set_code": "SLF1-JP029",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97520701": {
+                "set_code": "SLF1-JP016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97616504": {
+                "set_code": "SLF1-JP050",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97973962": {
+                "set_code": "SLF1-JP030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "98338152": {
+                "set_code": "SLF1-JP047",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "98360333": {
+                "set_code": "SLF1-JP086",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99550630": {
+                "set_code": "SLF1-JP044",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump January 2023 promotional card",
+        "tcg_date": "OCG 2022-11-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_January_2023_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/f/f1/VJMP-2023-1-Cover.png/257px-VJMP-2023-1-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP227",
+        "cards": {
+            "62967433": {
+                "set_code": "VJMP-JP227",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Yu-Gi-Oh! OCG Stories Volume 1 promotional card",
+        "tcg_date": "OCG 2022-12-02",
+        "url": "https://yugipedia.com/wiki/Yu-Gi-Oh!_OCG_Stories_Volume_1_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/f/f0/YOS1-PromoJP.png/257px-YOS1-PromoJP.png",
+        "done": false,
+        "set_code": "YOS1",
+        "cards": {
+            "34456146": {
+                "set_code": "YOS1-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Premium Pack 2023",
+        "tcg_date": "OCG 2022-12-17",
+        "url": "https://yugipedia.com/wiki/Premium_Pack_2023",
+        "ocg_pic_url": "https://static.wikia.nocookie.net/yugioh/images/2/2f/23PP-BoosterJP.png",
+        "done": false,
+        "set_code": "23PP",
+        "cards": {
+            "2752099": {
+                "set_code": "23PP-JP009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "3574681": {
+                "set_code": "23PP-JP004",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "4991081": {
+                "set_code": "23PP-JP022",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "22790910": {
+                "set_code": "23PP-JP019",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "23812568": {
+                "set_code": "23PP-JP016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "26077387": {
+                "set_code": "23PP-JP020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27657173": {
+                "set_code": "23PP-JP031",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "31600513": {
+                "set_code": "23PP-JP002",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "32549749": {
+                "set_code": "23PP-JP001",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33467872": {
+                "set_code": "23PP-JP021",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "35756798": {
+                "set_code": "23PP-JP010",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "39973386": {
+                "set_code": "23PP-JP005",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "50699850": {
+                "set_code": "23PP-JP032",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "53754104": {
+                "set_code": "23PP-JP003",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54594017": {
+                "set_code": "23PP-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57511992": {
+                "set_code": "23PP-JP028",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "60023855": {
+                "set_code": "23PP-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60306277": {
+                "set_code": "23PP-JP017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60948488": {
+                "set_code": "23PP-JP027",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "61245403": {
+                "set_code": "23PP-JP011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61322713": {
+                "set_code": "23PP-JP006",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "64591429": {
+                "set_code": "23PP-JP023",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "66367984": {
+                "set_code": "23PP-JP007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76352503": {
+                "set_code": "23PP-JP030",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "79928401": {
+                "set_code": "23PP-JP025",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "86028783": {
+                "set_code": "23PP-JP026",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "87263576": {
+                "set_code": "23PP-JP024",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "90583279": {
+                "set_code": "23PP-JP029",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "96795312": {
+                "set_code": "23PP-JP018",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97417863": {
+                "set_code": "23PP-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97639441": {
+                "set_code": "23PP-JP012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "34034150": {
+                "set_code": "23PP-JP013",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Promotion Pack 2023",
+        "tcg_date": "OCG 2022-12-17",
+        "url": "https://yugipedia.com/wiki/Promotion_Pack_2023",
+        "ocg_pic_url": "https://static.wikia.nocookie.net/yugioh/images/f/fc/23PR-BoosterJP.png",
+        "done": false,
+        "set_code": "23PR",
+        "cards": {
+            "1259814": {
+                "set_code": "23PR-JP005",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "26050548": {
+                "set_code": "23PR-JP001",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "39943352": {
+                "set_code": "23PR-JP003",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "52445243": {
+                "set_code": "23PR-JP002",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "65938950": {
+                "set_code": "23PR-JP004",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump February 2023 promotional card",
+        "tcg_date": "OCG 2022-12-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_February_2023_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/f/fb/VJMP-2023-2-Cover.png/257px-VJMP-2023-2-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP228",
+        "cards": {
+            "98462037": {
+                "set_code": "VJMP-JP228",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Secret Utility Box",
+        "tcg_date": "OCG 2022-12-24",
+        "url": "https://yugipedia.com/wiki/Secret_Utility_Box",
+        "ocg_pic_url": "https://static.wikia.nocookie.net/yugioh/images/b/bf/SUB1-DeckJP.png",
+        "done": false,
+        "set_code": "SUB1",
+        "cards": {
+            "1784686": {
+                "set_code": "SUB1-JP029",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "3040496": {
+                "set_code": "SUB1-JPS02",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "3078576": {
+                "set_code": "SUB1-JP079",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "4606229": {
+                "set_code": "SUB1-JP004",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "5128859": {
+                "set_code": "SUB1-JP046",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "5829717": {
+                "set_code": "SUB1-JP001",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "7478431": {
+                "set_code": "SUB1-JP060",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "9822220": {
+                "set_code": "SUB1-JPS07",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "10406322": {
+                "set_code": "SUB1-JP042",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "11069680": {
+                "set_code": "SUB1-JP019",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "11321089": {
+                "set_code": "SUB1-JPS08",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "11738489": {
+                "set_code": "SUB1-JP016",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "13241004": {
+                "set_code": "SUB1-JP007",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "13662809": {
+                "set_code": "SUB1-JP071",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "13903402": {
+                "set_code": "SUB1-JP077",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "14088859": {
+                "set_code": "SUB1-JP048",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "14105623": {
+                "set_code": "SUB1-JP036",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "16940215": {
+                "set_code": "SUB1-JP061",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "17739335": {
+                "set_code": "SUB1-JP075",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "18239909": {
+                "set_code": "SUB1-JP062",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "19439119": {
+                "set_code": "SUB1-JP015",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "21250202": {
+                "set_code": "SUB1-JP037",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "24484270": {
+                "set_code": "SUB1-JP050",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "24861088": {
+                "set_code": "SUB1-JP020",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "25629622": {
+                "set_code": "SUB1-JP070",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "26914168": {
+                "set_code": "SUB1-JPS05",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "27134209": {
+                "set_code": "SUB1-JPS12",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "28194325": {
+                "set_code": "SUB1-JP041",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "29552709": {
+                "set_code": "SUB1-JP022",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "29888389": {
+                "set_code": "SUB1-JP072",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "30095833": {
+                "set_code": "SUB1-JP005",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "30603688": {
+                "set_code": "SUB1-JP028",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "30757127": {
+                "set_code": "SUB1-JP026",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "31443476": {
+                "set_code": "SUB1-JP025",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "31643613": {
+                "set_code": "SUB1-JP040",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "31817415": {
+                "set_code": "SUB1-JP002",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "32302078": {
+                "set_code": "SUB1-JP035",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "32339440": {
+                "set_code": "SUB1-JP018",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "33158448": {
+                "set_code": "SUB1-JP012",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "33420078": {
+                "set_code": "SUB1-JP045",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "34093683": {
+                "set_code": "SUB1-JP051",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "34773082": {
+                "set_code": "SUB1-JP008",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "35316708": {
+                "set_code": "SUB1-JP080",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "35405755": {
+                "set_code": "SUB1-JPS10",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "37354507": {
+                "set_code": "SUB1-JP066",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "39512984": {
+                "set_code": "SUB1-JP049",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "40318957": {
+                "set_code": "SUB1-JP038",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "42632209": {
+                "set_code": "SUB1-JP053",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "44133040": {
+                "set_code": "SUB1-JP076",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "44155002": {
+                "set_code": "SUB1-JP013",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "45112597": {
+                "set_code": "SUB1-JPS11",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "46291010": {
+                "set_code": "SUB1-JP067",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "47106439": {
+                "set_code": "SUB1-JP073",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "47222536": {
+                "set_code": "SUB1-JP030",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "51435705": {
+                "set_code": "SUB1-JP021",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "52840267": {
+                "set_code": "SUB1-JP009",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "53389254": {
+                "set_code": "SUB1-JP057",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "54082269": {
+                "set_code": "SUB1-JP056",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "54178659": {
+                "set_code": "SUB1-JP043",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "58844135": {
+                "set_code": "SUB1-JPS06",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "60222582": {
+                "set_code": "SUB1-JP069",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "60465049": {
+                "set_code": "SUB1-JPS09",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "63821877": {
+                "set_code": "SUB1-JP010",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "66023650": {
+                "set_code": "SUB1-JP064",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "67111213": {
+                "set_code": "SUB1-JP074",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "68464358": {
+                "set_code": "SUB1-JP024",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "69164989": {
+                "set_code": "SUB1-JP055",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "71039903": {
+                "set_code": "SUB1-JP031",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "71175527": {
+                "set_code": "SUB1-JP023",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "71612253": {
+                "set_code": "SUB1-JP033",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "71734607": {
+                "set_code": "SUB1-JP054",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "73347079": {
+                "set_code": "SUB1-JP011",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "77189532": {
+                "set_code": "SUB1-JP006",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "77202120": {
+                "set_code": "SUB1-JP003",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "78734254": {
+                "set_code": "SUB1-JP047",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "79864860": {
+                "set_code": "SUB1-JP039",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "80577258": {
+                "set_code": "SUB1-JP044",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "81105204": {
+                "set_code": "SUB1-JP058",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "81866673": {
+                "set_code": "SUB1-JP027",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "86066372": {
+                "set_code": "SUB1-JPS01",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "90207654": {
+                "set_code": "SUB1-JP032",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "90448279": {
+                "set_code": "SUB1-JPS03",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "91420202": {
+                "set_code": "SUB1-JP052",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "92746535": {
+                "set_code": "SUB1-JP063",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "93850652": {
+                "set_code": "SUB1-JP065",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "94183877": {
+                "set_code": "SUB1-JP078",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "97439806": {
+                "set_code": "SUB1-JP014",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "98127546": {
+                "set_code": "SUB1-JPS04",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "98506199": {
+                "set_code": "SUB1-JP017",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "98555327": {
+                "set_code": "SUB1-JP068",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "99795159": {
+                "set_code": "SUB1-JP034",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "99916754": {
+                "set_code": "SUB1-JP059",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Yu-Gi-Oh! OCG Structures Volume 6 promotional card",
+        "tcg_date": "OCG 2023-01-04",
+        "url": "https://yugipedia.com/wiki/Yu-Gi-Oh!_OCG_Structures_Volume_6_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/4/45/YO06-PromoJP.png/257px-YO06-PromoJP.png",
+        "done": false,
+        "set_code": "YO06",
+        "cards": {
+            "91479482": {
+                "set_code": "YO06-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump March 2023 promotional card",
+        "tcg_date": "OCG 2023-01-20",
+        "url": "https://yugipedia.com/wiki/V_Jump_March_2023_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/0/09/VJMP-2023-3-Cover.png/257px-VJMP-2023-3-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP229",
+        "cards": {
+            "5182107": {
+                "set_code": "VJMP-JP229",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump April 2023 promotional card",
+        "tcg_date": "OCG 2023-02-21",
+        "url": "https://yugipedia.com/wiki/V_Jump_April_2023_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/8/81/VJMP-2023-4-Cover.png/257px-VJMP-2023-4-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP230",
+        "cards": {
+            "67853262": {
+                "set_code": "VJMP-JP230",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) The Valuable Book EX 3 promotional cards",
+        "tcg_date": "OCG 2023-03-17",
+        "url": "https://yugipedia.com/wiki/The_Valuable_Book_EX_3_promotional_cards",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/4/4a/VX03-PromoJP.png/257px-VX03-PromoJP.png",
+        "done": false,
+        "set_code": "VX03",
+        "cards": {
+            "30342076": {
+                "set_code": "VX03-JP002",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "93347961": {
+                "set_code": "VX03-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump May 2023 promotional card",
+        "tcg_date": "OCG 2023-03-20",
+        "url": "https://yugipedia.com/wiki/V_Jump_May_2023_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/f/f9/VJMP-2023-5-Cover.png/257px-VJMP-2023-5-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP234",
+        "cards": {
+            "76823930": {
+                "set_code": "VJMP-JP234",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) V Jump July 2023 promotional card",
+        "tcg_date": "OCG 2023-05-19",
+        "url": "https://yugipedia.com/wiki/V_Jump_July_2023_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/9/9f/VJMP-2023-7-Cover.png/257px-VJMP-2023-7-Cover.png",
+        "done": false,
+        "set_code": "VJMP-JP236",
+        "cards": {
+            "36629635": {
+                "set_code": "VJMP-JP236",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Duelist Pack: Duelists of Explosion",
+        "tcg_date": "OCG 2023-05-27",
+        "url": "https://yugipedia.com/wiki/Duelist_Pack:_Duelists_of_Explosion",
+        "ocg_pic_url": "https://ms.yugipedia.com//6/64/DP28-BoosterJP.png",
+        "done": false,
+        "set_code": "DP28",
+        "cards": {
+            "1295111": {
+                "set_code": "DP28-JP013",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "5361647": {
+                "set_code": "DP28-JP040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "10140443": {
+                "set_code": "DP28-JP004",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "10300821": {
+                "set_code": "DP28-JP035",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "11522479": {
+                "set_code": "DP28-JP032",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "11654067": {
+                "set_code": "DP28-JP022",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "11962031": {
+                "set_code": "DP28-JP001",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "14812471": {
+                "set_code": "DP28-JP011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "19027895": {
+                "set_code": "DP28-JP007",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "19688343": {
+                "set_code": "DP28-JP038",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "22411609": {
+                "set_code": "DP28-JP019",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "26889158": {
+                "set_code": "DP28-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "32543380": {
+                "set_code": "DP28-JP029",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33365932": {
+                "set_code": "DP28-JP025",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "36916401": {
+                "set_code": "DP28-JP045",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41463181": {
+                "set_code": "DP28-JP000",
+                "set_rarity": "Holographic Rare",
+                "set_rarity_code": "Holographic Rare"
+            },
+            "46412900": {
+                "set_code": "DP28-JP018",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "46804536": {
+                "set_code": "DP28-JP036",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "46898368": {
+                "set_code": "DP28-JP016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "47921178": {
+                "set_code": "DP28-JP033",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "51339637": {
+                "set_code": "DP28-JP017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52155219": {
+                "set_code": "DP28-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52198054": {
+                "set_code": "DP28-JP031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52277807": {
+                "set_code": "DP28-JP009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54529134": {
+                "set_code": "DP28-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57134592": {
+                "set_code": "DP28-JP005",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "57357130": {
+                "set_code": "DP28-JP002",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "58143766": {
+                "set_code": "DP28-JP023",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "59627393": {
+                "set_code": "DP28-JP042",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "59805313": {
+                "set_code": "DP28-JP020",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "63014935": {
+                "set_code": "DP28-JP028",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "68144350": {
+                "set_code": "DP28-JP041",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "69537999": {
+                "set_code": "DP28-JP030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "69750546": {
+                "set_code": "DP28-JP026",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "71921856": {
+                "set_code": "DP28-JP044",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76459806": {
+                "set_code": "DP28-JP027",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "79867938": {
+                "set_code": "DP28-JP039",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "83293635": {
+                "set_code": "DP28-JP037",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "83315222": {
+                "set_code": "DP28-JP034",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "83533296": {
+                "set_code": "DP28-JP006",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "84138874": {
+                "set_code": "DP28-JP024",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "84755744": {
+                "set_code": "DP28-JP003",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "85121942": {
+                "set_code": "DP28-JP043",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "85250352": {
+                "set_code": "DP28-JP021",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "87327776": {
+                "set_code": "DP28-JP010",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87871125": {
+                "set_code": "DP28-JP012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Wild Survivors",
+        "tcg_date": "OCG 2023-03-18",
+        "url": "https://yugipedia.com/wiki/Deck_Build_Pack:_Wild_Survivors",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/d/df/DBWS-BoosterJP.png/257px-DBWS-BoosterJP.png",
+        "done": false,
+        "set_code": "DBWS",
+        "cards": {
+            "5852388": {
+                "set_code": "DBWS-JP001",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "6631034": {
+                "set_code": "DBWS-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14166715": {
+                "set_code": "DBWS-JP038",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15001940": {
+                "set_code": "DBWS-JP032",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15388353": {
+                "set_code": "DBWS-JP035",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "18511599": {
+                "set_code": "DBWS-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "18940556": {
+                "set_code": "DBWS-JP009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "26223582": {
+                "set_code": "DBWS-JP029",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27345070": {
+                "set_code": "DBWS-JP025",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "28168628": {
+                "set_code": "DBWS-JP022",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "29280200": {
+                "set_code": "DBWS-JP019",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "29302858": {
+                "set_code": "DBWS-JP016",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "30128445": {
+                "set_code": "DBWS-JP005",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "30243636": {
+                "set_code": "DBWS-JP041",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "31241087": {
+                "set_code": "DBWS-JP002",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "36042004": {
+                "set_code": "DBWS-JP013",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "38572779": {
+                "set_code": "DBWS-JP011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40551410": {
+                "set_code": "DBWS-JP039",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41773061": {
+                "set_code": "DBWS-JP036",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "44335251": {
+                "set_code": "DBWS-JP012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52495649": {
+                "set_code": "DBWS-JP033",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "53303460": {
+                "set_code": "DBWS-JP043",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53330789": {
+                "set_code": "DBWS-JP026",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "53618197": {
+                "set_code": "DBWS-JP030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54562327": {
+                "set_code": "DBWS-JP023",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "55688914": {
+                "set_code": "DBWS-JP020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57103969": {
+                "set_code": "DBWS-JP028",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "66401502": {
+                "set_code": "DBWS-JP017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "67523044": {
+                "set_code": "DBWS-JP006",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "67745632": {
+                "set_code": "DBWS-JP003",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "80280944": {
+                "set_code": "DBWS-JP010",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80701178": {
+                "set_code": "DBWS-JP044",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80738884": {
+                "set_code": "DBWS-JP027",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80811661": {
+                "set_code": "DBWS-JP042",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "82946847": {
+                "set_code": "DBWS-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87778106": {
+                "set_code": "DBWS-JP037",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87955518": {
+                "set_code": "DBWS-JP040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "88890658": {
+                "set_code": "DBWS-JP034",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "89016236": {
+                "set_code": "DBWS-JP031",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "91073013": {
+                "set_code": "DBWS-JP021",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "91951471": {
+                "set_code": "DBWS-JP024",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "92895501": {
+                "set_code": "DBWS-JP018",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "93918159": {
+                "set_code": "DBWS-JP007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "94130731": {
+                "set_code": "DBWS-JP004",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "96729612": {
+                "set_code": "DBWS-JP045",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Animation Chronicle 2023",
+        "tcg_date": "OCG 2023-06-10",
+        "url": "https://yugipedia.com/wiki/Animation_Chronicle_2023",
+        "ocg_pic_url": "https://ms.yugipedia.com//c/cf/AC03-BoosterJP.png",
+        "done": false,
+        "set_code": "AC03",
+        "cards": {
+            "1508649": {
+                "set_code": "AC03-JP057",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "4796100": {
+                "set_code": "AC03-JP030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "5818798": {
+                "set_code": "AC03-JP031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "6351147": {
+                "set_code": "AC03-JP028",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "7473735": {
+                "set_code": "AC03-JP025",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "8690387": {
+                "set_code": "AC03-JP022",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "9742784": {
+                "set_code": "AC03-JP034",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "10666000": {
+                "set_code": "AC03-JP013",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "10875327": {
+                "set_code": "AC03-JP038",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "11489642": {
+                "set_code": "AC03-JP010",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "12501230": {
+                "set_code": "AC03-JP007",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "19322865": {
+                "set_code": "AC03-JP019",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "19544412": {
+                "set_code": "AC03-JP016",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "22211622": {
+                "set_code": "AC03-JP046",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "22723778": {
+                "set_code": "AC03-JP004",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "23442438": {
+                "set_code": "AC03-JP037",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "23446369": {
+                "set_code": "AC03-JP001",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "25533642": {
+                "set_code": "AC03-JP055",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25853045": {
+                "set_code": "AC03-JP044",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27541563": {
+                "set_code": "AC03-JP059",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "32441317": {
+                "set_code": "AC03-JP036",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33750856": {
+                "set_code": "AC03-JP029",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "33872334": {
+                "set_code": "AC03-JP026",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "42160203": {
+                "set_code": "AC03-JP051",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "42790071": {
+                "set_code": "AC03-JP056",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "43387895": {
+                "set_code": "AC03-JP049",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "44094981": {
+                "set_code": "AC03-JP023",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "44710391": {
+                "set_code": "AC03-JP042",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "45716579": {
+                "set_code": "AC03-JP020",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "45836982": {
+                "set_code": "AC03-JP040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "46939151": {
+                "set_code": "AC03-JP017",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "47051709": {
+                "set_code": "AC03-JP014",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "47873397": {
+                "set_code": "AC03-JP011",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "50834074": {
+                "set_code": "AC03-JP002",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "53143898": {
+                "set_code": "AC03-JP053",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53855409": {
+                "set_code": "AC03-JP033",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "57458399": {
+                "set_code": "AC03-JP035",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "58996839": {
+                "set_code": "AC03-JP008",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "59712426": {
+                "set_code": "AC03-JP005",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "60800381": {
+                "set_code": "AC03-JP000",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "67987302": {
+                "set_code": "AC03-JP039",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "69610326": {
+                "set_code": "AC03-JP047",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "70366448": {
+                "set_code": "AC03-JP027",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "70771599": {
+                "set_code": "AC03-JP050",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "71089030": {
+                "set_code": "AC03-JP024",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "71101678": {
+                "set_code": "AC03-JP021",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "72323266": {
+                "set_code": "AC03-JP018",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "73046708": {
+                "set_code": "AC03-JP015",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "77207191": {
+                "set_code": "AC03-JP032",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "84262395": {
+                "set_code": "AC03-JP012",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "84384943": {
+                "set_code": "AC03-JP009",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "84869738": {
+                "set_code": "AC03-JP052",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "85106525": {
+                "set_code": "AC03-JP006",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "86239173": {
+                "set_code": "AC03-JP003",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "89538537": {
+                "set_code": "AC03-JP054",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "93503294": {
+                "set_code": "AC03-JP058",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "95453143": {
+                "set_code": "AC03-JP041",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "96227613": {
+                "set_code": "AC03-JP045",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "96733134": {
+                "set_code": "AC03-JP048",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "99469936": {
+                "set_code": "AC03-JP043",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Structure Deck: Pulse of the King",
+        "tcg_date": "OCG 2023-06-24",
+        "url": "https://yugipedia.com/wiki/Structure_Deck:_Pulse_of_the_King",
+        "ocg_pic_url": "https://ms.yugipedia.com//7/7f/SD46-DeckJP.png",
+        "done": false,
+        "set_code": "SD46",
+        "cards": {
+            "3431737": {
+                "set_code": "SD46-JP018",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "5376159": {
+                "set_code": "SD46-JP035",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "5780210": {
+                "set_code": "SD46-JP005",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "6901008": {
+                "set_code": "SD46-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "8559524": {
+                "set_code": "SD46-JP029",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9753964": {
+                "set_code": "SD46-JP042",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "10723472": {
+                "set_code": "SD46-JP030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14886469": {
+                "set_code": "SD46-JP011",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15576074": {
+                "set_code": "SD46-JP027",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16209941": {
+                "set_code": "SD46-JP023",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "19665973": {
+                "set_code": "SD46-JP010",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "23008320": {
+                "set_code": "SD46-JP028",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24662957": {
+                "set_code": "SD46-JP032",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "25784595": {
+                "set_code": "SD46-JP003",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "27503418": {
+                "set_code": "SD46-JP034",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "34761841": {
+                "set_code": "SD46-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "35058857": {
+                "set_code": "SD46-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "36857073": {
+                "set_code": "SD46-JP043",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "40975574": {
+                "set_code": "SD46-JP007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "45313993": {
+                "set_code": "SD46-JP012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49238328": {
+                "set_code": "SD46-JP031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "50056656": {
+                "set_code": "SD46-JP033",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "50078509": {
+                "set_code": "SD46-JP037",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52589809": {
+                "set_code": "SD46-JP013",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54343893": {
+                "set_code": "SD46-JP009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60990740": {
+                "set_code": "SD46-JP016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "62242678": {
+                "set_code": "SD46-JPP03",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "62991792": {
+                "set_code": "SD46-JP001",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "63086455": {
+                "set_code": "SD46-JP040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "66141736": {
+                "set_code": "SD46-JPP04",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "68490573": {
+                "set_code": "SD46-JP036",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "70711847": {
+                "set_code": "SD46-JP022",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "70902743": {
+                "set_code": "SD46-JPP01",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "71821687": {
+                "set_code": "SD46-JP021",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "74644400": {
+                "set_code": "SD46-JP019",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "77336644": {
+                "set_code": "SD46-JP017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "77360173": {
+                "set_code": "SD46-JP006",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "78010363": {
+                "set_code": "SD46-JP024",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "78275321": {
+                "set_code": "SD46-JP020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80280737": {
+                "set_code": "SD46-JP039",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80666118": {
+                "set_code": "SD46-JP041",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "84298614": {
+                "set_code": "SD46-JP038",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "87451661": {
+                "set_code": "SD46-JPP05",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "97021916": {
+                "set_code": "SD46-JP004",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97489701": {
+                "set_code": "SD46-JPP02",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "98173209": {
+                "set_code": "SD46-JP026",
+                "set_rarity": "Normal Parallel Rare",
+                "set_rarity_code": "Normal Parallel Rare"
+            },
+            "98396890": {
+                "set_code": "SD46-JP002",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "99585850": {
+                "set_code": "SD46-JP044",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Yu-Gi-Oh! OCG Stories Sky Striker Ace Arc Volume 2 promotional card",
+        "tcg_date": "OCG 2023-06-02",
+        "url": "https://yugipedia.com/wiki/Yu-Gi-Oh!_OCG_Stories_Sky_Striker_Ace_Arc_Volume_2_promotional_card",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/3/3d/YOS1-PromoJP-Volume2.png/257px-YOS1-PromoJP-Volume2.png",
+        "done": false,
+        "set_code": "YOS1",
+        "cards": {
+            "63013339": {
+                "set_code": "YOS1-JP002",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Age of Overlord",
+        "tcg_date": "OCG 2023-07-22",
+        "url": "https://yugipedia.com/wiki/Age_of_Overlord",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/6/60/AGOV-BoosterEN.png/257px-AGOV-BoosterEN.png",
+        "done": false,
+        "set_code": "AGOV",
+        "cards": {
+            "1490690": {
+                "set_code": "AGOV-JP076",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2116237": {
+                "set_code": "AGOV-JP073",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "2339825": {
+                "set_code": "AGOV-JP070",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "3461403": {
+                "set_code": "AGOV-JP067",
+                "set_rarity": "Normal Rare",
+                "set_rarity_code": "Normal Rare"
+            },
+            "6218704": {
+                "set_code": "AGOV-JP030",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "6278008": {
+                "set_code": "AGOV-JP079",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "7930346": {
+                "set_code": "AGOV-JP027",
+                "set_rarity": "Normal Rare",
+                "set_rarity_code": "Normal Rare"
+            },
+            "8152834": {
+                "set_code": "AGOV-JP024",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9091064": {
+                "set_code": "AGOV-JP018",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9275482": {
+                "set_code": "AGOV-JP021",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9674034": {
+                "set_code": "AGOV-JP007",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "10113611": {
+                "set_code": "AGOV-JP015",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "11335209": {
+                "set_code": "AGOV-JP012",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "12058741": {
+                "set_code": "AGOV-JP009",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14283055": {
+                "set_code": "AGOV-JP064",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14391625": {
+                "set_code": "AGOV-JP004",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "14513273": {
+                "set_code": "AGOV-JP001",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "15306543": {
+                "set_code": "AGOV-JP061",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15845914": {
+                "set_code": "AGOV-JP000",
+                "set_rarity": "Quarter Century Secret Rare",
+                "set_rarity_code": "Quarter Century Secret Rare"
+            },
+            "16240772": {
+                "set_code": "AGOV-JP055",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16528181": {
+                "set_code": "AGOV-JP058",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "17462320": {
+                "set_code": "AGOV-JP052",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "20145685": {
+                "set_code": "AGOV-JP040",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "21368273": {
+                "set_code": "AGOV-JP037",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "28189908": {
+                "set_code": "AGOV-JP049",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "29301450": {
+                "set_code": "AGOV-JP046",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "29423048": {
+                "set_code": "AGOV-JP043",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "32480825": {
+                "set_code": "AGOV-JP034",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33202303": {
+                "set_code": "AGOV-JP031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33325951": {
+                "set_code": "AGOV-JP028",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "33499794": {
+                "set_code": "AGOV-JP077",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "33676146": {
+                "set_code": "AGOV-JP080",
+                "set_rarity": "Normal Rare",
+                "set_rarity_code": "Normal Rare"
+            },
+            "34541543": {
+                "set_code": "AGOV-JP025",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "35263180": {
+                "set_code": "AGOV-JP022",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "38511382": {
+                "set_code": "AGOV-JP074",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "39733924": {
+                "set_code": "AGOV-JP071",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40456412": {
+                "set_code": "AGOV-JP068",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "40678060": {
+                "set_code": "AGOV-JP065",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "40785230": {
+                "set_code": "AGOV-JP005",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "41790641": {
+                "set_code": "AGOV-JP062",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41908872": {
+                "set_code": "AGOV-JP002",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "42516299": {
+                "set_code": "AGOV-JP059",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "45663742": {
+                "set_code": "AGOV-JP008",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "46485778": {
+                "set_code": "AGOV-JP019",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "46518210": {
+                "set_code": "AGOV-JP016",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "47330808": {
+                "set_code": "AGOV-JP013",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "48452496": {
+                "set_code": "AGOV-JP010",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "53639887": {
+                "set_code": "AGOV-JP056",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "54573517": {
+                "set_code": "AGOV-JP050",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "54851325": {
+                "set_code": "AGOV-JP053",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "55795155": {
+                "set_code": "AGOV-JP047",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "56818742": {
+                "set_code": "AGOV-JP044",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "60823690": {
+                "set_code": "AGOV-JP029",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "60883493": {
+                "set_code": "AGOV-JP078",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "67630394": {
+                "set_code": "AGOV-JP041",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "67752972": {
+                "set_code": "AGOV-JP038",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "68989420": {
+                "set_code": "AGOV-JP035",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "69601012": {
+                "set_code": "AGOV-JP032",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "71545247": {
+                "set_code": "AGOV-JP026",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "71768839": {
+                "set_code": "AGOV-JP023",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "72270339": {
+                "set_code": "AGOV-JP006",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "72880377": {
+                "set_code": "AGOV-JP020",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "73602965": {
+                "set_code": "AGOV-JP017",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "74725513": {
+                "set_code": "AGOV-JP014",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "74906081": {
+                "set_code": "AGOV-JP075",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "75728539": {
+                "set_code": "AGOV-JP072",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76840111": {
+                "set_code": "AGOV-JP069",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "77066768": {
+                "set_code": "AGOV-JP066",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "77392987": {
+                "set_code": "AGOV-JP003",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "78789356": {
+                "set_code": "AGOV-JP063",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80845034": {
+                "set_code": "AGOV-JP054",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "81978611": {
+                "set_code": "AGOV-JP051",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "82190203": {
+                "set_code": "AGOV-JP048",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "84941194": {
+                "set_code": "AGOV-JP011",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "88901994": {
+                "set_code": "AGOV-JP060",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "89023486": {
+                "set_code": "AGOV-JP057",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "92812851": {
+                "set_code": "AGOV-JP045",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "93039339": {
+                "set_code": "AGOV-JP042",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "94151981": {
+                "set_code": "AGOV-JP039",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "95095116": {
+                "set_code": "AGOV-JP033",
+                "set_rarity": "Rare",
+                "set_rarity_code": "Rare"
+            },
+            "95973569": {
+                "set_code": "AGOV-JP036",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            }
+        }
+    },
+    {
+        "set_name": "(OCG) Duelist Nexus",
+        "tcg_date": "OCG 2023-04-22",
+        "url": "https://yugipedia.com/wiki/Duelist_Nexus",
+        "ocg_pic_url": "https://ms.yugipedia.com//thumb/f/fc/DUNE-BoosterEN.png/257px-DUNE-BoosterEN.png",
+        "done": false,
+        "set_code": "DUNE",
+        "cards": {
+            "43227": {
+                "set_code": "DUNE-EN036",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "653675": {
+                "set_code": "DUNE-EN050",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "821049": {
+                "set_code": "DUNE-EN039",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "1769875": {
+                "set_code": "DUNE-EN033",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "5182107": {
+                "set_code": "DUNE-EN097",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "9709452": {
+                "set_code": "DUNE-EN042",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "10780049": {
+                "set_code": "DUNE-EN075",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "11802691": {
+                "set_code": "DUNE-EN072",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "12397569": {
+                "set_code": "DUNE-EN090",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "13014905": {
+                "set_code": "DUNE-EN027",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "13510157": {
+                "set_code": "DUNE-EN087",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "13836592": {
+                "set_code": "DUNE-EN024",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "14959144": {
+                "set_code": "DUNE-EN021",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "15171722": {
+                "set_code": "DUNE-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "15845914": {
+                "set_code": "DUNE-EN000",
+                "set_rarity": "Quarter Century Secret Rare",
+                "set_rarity_code": "Quarter Century Secret Rare"
+            },
+            "15967552": {
+                "set_code": "DUNE-EN078",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "16893370": {
+                "set_code": "DUNE-EN015",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "22024279": {
+                "set_code": "DUNE-EN069",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "23076639": {
+                "set_code": "DUNE-EN003",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "23746827": {
+                "set_code": "DUNE-EN066",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "23969415": {
+                "set_code": "DUNE-EN063",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24081957": {
+                "set_code": "DUNE-EN060",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "24232799": {
+                "set_code": "DUNE-EN084",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "24269961": {
+                "set_code": "DUNE-EN049",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "24454387": {
+                "set_code": "DUNE-EN081",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "25807544": {
+                "set_code": "DUNE-EN057",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "26988374": {
+                "set_code": "DUNE-EN099",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27015862": {
+                "set_code": "DUNE-EN012",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "27132400": {
+                "set_code": "DUNE-EN009",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "27657173": {
+                "set_code": "DUNE-EN095",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "28954097": {
+                "set_code": "DUNE-EN006",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "34481518": {
+                "set_code": "DUNE-EN046",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "35103106": {
+                "set_code": "DUNE-EN043",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "36320744": {
+                "set_code": "DUNE-EN040",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "36742774": {
+                "set_code": "DUNE-EN051",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "36920182": {
+                "set_code": "DUNE-EN054",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "37442336": {
+                "set_code": "DUNE-EN037",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "38264974": {
+                "set_code": "DUNE-EN034",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "40221691": {
+                "set_code": "DUNE-EN025",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "41165831": {
+                "set_code": "DUNE-EN019",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "41443249": {
+                "set_code": "DUNE-EN022",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "42952160": {
+                "set_code": "DUNE-EN079",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "48386462": {
+                "set_code": "DUNE-EN031",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "49109013": {
+                "set_code": "DUNE-EN028",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "50357013": {
+                "set_code": "DUNE-EN064",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "51849482": {
+                "set_code": "DUNE-EN082",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "52382379": {
+                "set_code": "DUNE-EN016",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53174748": {
+                "set_code": "DUNE-EN076",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "53404966": {
+                "set_code": "DUNE-EN013",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "54126514": {
+                "set_code": "DUNE-EN010",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "55349196": {
+                "set_code": "DUNE-EN007",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "55461744": {
+                "set_code": "DUNE-EN004",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "57296396": {
+                "set_code": "DUNE-EN073",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "58019984": {
+                "set_code": "DUNE-EN070",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "58882608": {
+                "set_code": "DUNE-EN091",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "59131526": {
+                "set_code": "DUNE-EN067",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "59504256": {
+                "set_code": "DUNE-EN088",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "60283232": {
+                "set_code": "DUNE-EN001",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61070601": {
+                "set_code": "DUNE-EN061",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "61292243": {
+                "set_code": "DUNE-EN058",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "61470213": {
+                "set_code": "DUNE-EN047",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "62314831": {
+                "set_code": "DUNE-EN055",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "62592805": {
+                "set_code": "DUNE-EN044",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "62714453": {
+                "set_code": "DUNE-EN041",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "63136489": {
+                "set_code": "DUNE-EN052",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "67853262": {
+                "set_code": "DUNE-EN098",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "69133798": {
+                "set_code": "DUNE-EN093",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "74659582": {
+                "set_code": "DUNE-EN035",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "75771170": {
+                "set_code": "DUNE-EN032",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "76593718": {
+                "set_code": "DUNE-EN029",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "76615300": {
+                "set_code": "DUNE-EN026",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "77832858": {
+                "set_code": "DUNE-EN023",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "78077209": {
+                "set_code": "DUNE-EN096",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "80621253": {
+                "set_code": "DUNE-EN011",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "81743801": {
+                "set_code": "DUNE-EN008",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "84281045": {
+                "set_code": "DUNE-EN074",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "85407683": {
+                "set_code": "DUNE-EN071",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "85520170": {
+                "set_code": "DUNE-EN068",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "86111442": {
+                "set_code": "DUNE-EN086",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "86999951": {
+                "set_code": "DUNE-EN089",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "87837090": {
+                "set_code": "DUNE-EN083",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "88346805": {
+                "set_code": "DUNE-EN080",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "88554436": {
+                "set_code": "DUNE-EN020",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "89569453": {
+                "set_code": "DUNE-EN077",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "89776023": {
+                "set_code": "DUNE-EN017",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "89809665": {
+                "set_code": "DUNE-EN014",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "91262474": {
+                "set_code": "DUNE-EN094",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "92565383": {
+                "set_code": "DUNE-EN005",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "96352712": {
+                "set_code": "DUNE-EN065",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "97474300": {
+                "set_code": "DUNE-EN062",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "97682931": {
+                "set_code": "DUNE-EN002",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "97864322": {
+                "set_code": "DUNE-EN048",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "98319530": {
+                "set_code": "DUNE-EN056",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "Ultra Rare"
+            },
+            "98696958": {
+                "set_code": "DUNE-EN059",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "Secret Rare"
+            },
+            "98986900": {
+                "set_code": "DUNE-EN045",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "Super Rare"
+            },
+            "99531088": {
+                "set_code": "DUNE-EN053",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            },
+            "101201030": {
+                "set_code": "DUNE-EN030",
+                "set_rarity": "Common",
+                "set_rarity_code": "Common"
+            }
+        }
+    }
+]
