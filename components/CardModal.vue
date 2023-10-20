@@ -195,9 +195,19 @@ export default {
 				]
 				const [enCard, chCard, itCard] = await Promise.all(promises)
 				*/
-				const enCard = await this.$axios.$get(
-					`/api/card/${this.cardId}`
+				let enCard = await this.$axios.$get(
+					`https://db.ygoprodeck.com/api/v7/cardinfo.php?id=${this.cardId}`
 				)
+				enCard = enCard.data[0]
+
+				const [cheff, iteff] = await Promise.all([
+					this.$axios.$get(`https://ygobox-nuxt-db.onrender.com/cheff/${this.cardId}`),
+					this.$axios.$get(`https://ygobox-nuxt-db.onrender.com/iteff/${this.cardId}`)
+				])
+
+				enCard.cheff = cheff
+				enCard.iteff = iteff
+
 				const chCard = enCard.cheff
 				const itCard = enCard.iteff
 				this.name = enCard.name

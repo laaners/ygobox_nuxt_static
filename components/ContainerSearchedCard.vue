@@ -16,7 +16,7 @@
 					(card.attribute === undefined ? "" : card.attribute + "/") +
 					card.race
 				}}&ensp;
-				<img v-if="card.level" src="/level.svg" />
+				<img v-if="card.level" src="/ygobox_nuxt_static/level.svg" />
 				{{ card.level === undefined ? " " : card.level }}
 			</span>
 			<span>{{ card.type }}</span>

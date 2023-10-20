@@ -518,7 +518,7 @@
 							:card-id="card.id"
 							:rarity="'Common'"
 							:src="getPicUrl(card.id)"
-							limit-image="/00lim.png"
+							limit-image="/ygobox_nuxt_static/00lim.png"
 						/>
 					</div>
 				</grid-view>
@@ -544,7 +544,7 @@
 							:card-id="card.id"
 							:rarity="'Common'"
 							:src="getPicUrl(card.id)"
-							limit-image="/01lim.png"
+							limit-image="/ygobox_nuxt_static/01lim.png"
 						/>
 					</div>
 				</grid-view>
