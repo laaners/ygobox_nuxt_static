@@ -1,0 +1,7 @@
+backgroundremover -i %1 -o "zz_0.png"
+backgroundremover -i %1 -a -ae 0 -o "zz_1.png"
+backgroundremover -i %1 -a -ae 15 -o "zz_2.png"
+backgroundremover -i %1 -a -ae 25 -o "zz_3.png"
+backgroundremover -i %1 -m "u2net_human_seg" -o "zz_4.png"
+backgroundremover -i %1 -m "u2netp" -o "zz_5.png"
+backgroundremover -i %1 -m "u2net" -o "zz_6.png"
