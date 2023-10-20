@@ -3,6 +3,9 @@ export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	ssr: true,
 	target: "static",
+	router: {
+		base: '/ygobox_nuxt_static/'
+	},
 	/*
 	server: {
 		port: 3000, // default: 3000
