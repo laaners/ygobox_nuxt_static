@@ -570,7 +570,7 @@
 							:card-id="card.id"
 							:rarity="'Common'"
 							:src="getPicUrl(card.id)"
-							limit-image="/02lim.png"
+							limit-image="/ygobox_nuxt_static/02lim.png"
 						/>
 					</div>
 				</grid-view>
@@ -923,7 +923,7 @@ export default {
 		getLimitImage(id) {
 			const banlistCard = this.currentBanlist.find((_) => _.id === id)
 			if (banlistCard !== undefined && banlistCard.status !== 3)
-				return `/0${banlistCard.status}lim.png`
+				return `/ygobox_nuxt_static/0${banlistCard.status}lim.png`
 			return ""
 		},
 		/* BUTTONS FOR YDK AND EXPORTING */

@@ -84,13 +84,13 @@
 			>
 				<img
 					loading="lazy"
-					src="/false/Top-Left.png"
+					src="/ygobox_nuxt_static/false/Top-Left.png"
 					@click="markerEvent"
 				/>
-				<img loading="lazy" src="/false/Top.png" @click="markerEvent" />
+				<img loading="lazy" src="/ygobox_nuxt_static/false/Top.png" @click="markerEvent" />
 				<img
 					loading="lazy"
-					src="/false/Top-Right.png"
+					src="/ygobox_nuxt_static/false/Top-Right.png"
 					@click="markerEvent"
 				/>
 			</grid-view>
@@ -102,13 +102,13 @@
 			>
 				<img
 					loading="lazy"
-					src="/false/Left.png"
+					src="/ygobox_nuxt_static/false/Left.png"
 					@click="markerEvent"
 				/>
 				<div></div>
 				<img
 					loading="lazy"
-					src="/false/Right.png"
+					src="/ygobox_nuxt_static/false/Right.png"
 					@click="markerEvent"
 				/>
 			</grid-view>
@@ -120,17 +120,17 @@
 			>
 				<img
 					loading="lazy"
-					src="/false/Bottom-Left.png"
+					src="/ygobox_nuxt_static/false/Bottom-Left.png"
 					@click="markerEvent"
 				/>
 				<img
 					loading="lazy"
-					src="/false/Bottom.png"
+					src="/ygobox_nuxt_static/false/Bottom.png"
 					@click="markerEvent"
 				/>
 				<img
 					loading="lazy"
-					src="/false/Bottom-Right.png"
+					src="/ygobox_nuxt_static/false/Bottom-Right.png"
 					@click="markerEvent"
 				/>
 			</grid-view>
