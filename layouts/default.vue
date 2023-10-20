@@ -13,9 +13,7 @@
 -->
 <template>
 	<div>
-		<!--
 		<page-header />
-		-->
 		<nuxt class="main" />
 	</div>
 </template>

@@ -45,6 +45,11 @@
 									loading="lazy"
 									:src="getPicUrl(cardId)"
 									:alt="cardId"
+									style="
+										display: block;
+										margin-left: auto;
+										margin-right: auto;
+									"
 								/>
 							</a>
 							<grid-view
@@ -201,8 +206,12 @@ export default {
 				enCard = enCard.data[0]
 
 				const [cheff, iteff] = await Promise.all([
-					this.$axios.$get(`https://ygobox-nuxt-db.onrender.com/cheff/${this.cardId}`),
-					this.$axios.$get(`https://ygobox-nuxt-db.onrender.com/iteff/${this.cardId}`)
+					this.$axios.$get(
+						`https://ygobox-nuxt-db.onrender.com/cheff/${this.cardId}`
+					),
+					this.$axios.$get(
+						`https://ygobox-nuxt-db.onrender.com/iteff/${this.cardId}`
+					),
 				])
 
 				enCard.cheff = cheff
@@ -251,7 +260,7 @@ export default {
 		},
 		formatIteff(desc) {
 			if (desc === undefined) return ""
-			return desc.replace("Effetto pendolo","\n\nEffetto pendolo")
+			return desc.replace("Effetto pendolo", "\n\nEffetto pendolo")
 		},
 		formatCheff(desc) {
 			if (desc === undefined) return ""

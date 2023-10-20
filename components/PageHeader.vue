@@ -65,15 +65,15 @@ export default {
 	data: () => ({
 		isMenuActive: false,
 		navItems: [
-			{ uri: "/deck_editor", name: "Il tuo Deck" },
-			{ uri: "/banned_cards", name: "Carte Bandite" },
-			{ uri: "/pack_info", name: "Info Pacchetto" },
+			// { uri: "/deck_editor", name: "Il tuo Deck" },
+			// { uri: "/banned_cards", name: "Carte Bandite" },
+			// { uri: "/pack_info", name: "Info Pacchetto" },
 			{ uri: "/card_info", name: "Cerca Carta" },
-			{ uri: "/archetypes", name: "Archetipi" },
-			{ uri: "/banlist", name: "Tutte le banlist" },
+			// { uri: "/archetypes", name: "Archetipi" },
+			// { uri: "/banlist", name: "Tutte le banlist" },
 			/* { uri: "/guess_card", name: "Indovina la Carta" }, */
 			// { uri: "/concept_arts", name: "Concept Arts" },
-			{ uri: "/trivia_graph", name: "Trivia" },
+			// { uri: "/trivia_graph", name: "Trivia" },
 		],
 	}),
 	head: () => ({
