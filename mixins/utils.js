@@ -356,9 +356,11 @@ export default {
 				)
 			}
 			*/
+			/*
 			console.log(
 				cards.filter((_) => !res.includes(_)).map((_) => _.type)
-			)
+				)
+			*/
 			return res
 		},
 		getPicUrl(id) {

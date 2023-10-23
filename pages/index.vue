@@ -94,25 +94,25 @@
 						</ul>
 					</div>
 					<grid-view
-						:columns="3"
+						:columns="noArcMode ? 4 : 3"
 						:row-gap="0"
 						:col-gap="1"
 						style="
-							width: 80%;
+							width: 100%;
 							margin-left: auto;
 							margin-right: auto;
 						"
 					>
 						<button-secondary
-							:title="'SALVA IL DECK'"
+							:title="'SALVA'"
 							@click.native="saveDeck()"
 						/>
 						<button-secondary
-							:title="'RESETTA IL DECK'"
+							:title="'RESET'"
 							@click.native="resetDeck()"
 						/>
 						<button-secondary
-							:title="'CARICA UN DECK'"
+							:title="'CARICA'"
 							@click.native="$refs.upload.click()"
 						/>
 						<input
@@ -121,6 +121,11 @@
 							class="text-center"
 							@change="uploadDeck"
 							@click="$refs.upload.value = null"
+						/>
+						<button-secondary
+							v-if="noArcMode"
+							:title="'RANDOM'"
+							@click.native="randomNoArchetypes()"
 						/>
 					</grid-view>
 					<span style="margin-top: var(--space-1)"
@@ -628,6 +633,7 @@ export default {
 		recentlySaved: false,
 		draftMode: false,
 		noArcMode: false,
+		noArcDeckName: "1Deck.ydk",
 		packAppendCards: [],
 		packLoading: false,
 		openedSet: {},
@@ -760,7 +766,7 @@ export default {
 	},
 	async mounted() {
 		this.currentBanlist = []
-		
+
 		this.allcards = await this.getAllCards()
 		const { data } = await this.$axios.$get(
 			"https://db.ygoprodeck.com/api/v7/cardsets.php"
@@ -829,6 +835,120 @@ export default {
 			})
 			this.currentBanlist = this.categorySort(this.currentBanlist)
 		},
+		async randomNoArchetypes() {
+			this.savedCards.forEach((_) => {
+				_.checked = 0
+				this.updateSearchedCard(_.id, 0)
+				this.updatePackCard(_.id, false)
+			})
+			this.reloadDeck(this.savedCards)
+
+			let deckName = ""
+			const hashSavedCardsById = this.hashGroupBy(this.savedCards, "id")
+
+			let card =
+				this.hashAllcards[
+					this.savedCards[
+						Math.floor(Math.random() * this.savedCards.length)
+					].id
+				][0]
+			while (
+				card.type !== undefined &&
+				card.type.includes("Normal Monster")
+			) {
+				card =
+					this.hashAllcards[
+						this.savedCards[
+							Math.floor(Math.random() * this.savedCards.length)
+						].id
+					][0]
+			}
+			deckName = card.name.includes(" ")
+				? card.name.split(" ")[0]
+				: card.name
+
+			for (let i = 0; i < 20 && this.getMainDeck().length < 60; i++) {
+				const suggestions = await this.$axios.$get(
+					`https://ygobox-nuxt-vercel.vercel.app/decksFound/${card.id}`
+					// `http://localhost:4000/decksFound/${card.id}`
+				)
+				console.log(i)
+
+				suggestions.main.forEach((_) => {
+					if (hashSavedCardsById[_] !== undefined)
+						this.addCard(this.hashAllcards[_][0], 0)
+				})
+				suggestions.side.forEach((_) => {
+					if (hashSavedCardsById[_] !== undefined)
+						this.addCard(this.hashAllcards[_][0], 0)
+				})
+				/*
+				 */
+				suggestions.extra.forEach((_) => {
+					if (hashSavedCardsById[_] !== undefined)
+						this.addCard(this.hashAllcards[_][0], 0)
+				})
+
+				const filtered = [
+					...suggestions.main,
+					...suggestions.side,
+					...suggestions.extra,
+				].filter((_) => _ !== card.id)
+
+				card =
+					this.hashAllcards[
+						filtered[Math.floor(Math.random() * filtered.length)]
+					][0]
+				while (
+					card.type !== undefined &&
+					card.type.includes("Normal Monster")
+				) {
+					card =
+						this.hashAllcards[
+							filtered[
+								Math.floor(Math.random() * filtered.length)
+							]
+						][0]
+				}
+				if (deckName.split(" ").length < 3) {
+					deckName += " "
+					deckName += card.name.includes(" ")
+						? card.name.split(" ")[
+								Math.floor(
+									Math.random() * card.name.split(" ").length
+								)
+						  ]
+						: card.name
+				}
+			}
+			alert(deckName)
+			this.noArcDeckName = "1" + deckName + ".ydk"
+		},
+		addCard(card, level) {
+			if (this.getMainDeck().length > 60) return
+			if (this.deck.includes(card)) return
+
+			const savedCard = this.savedCards.find((_) => _.id === card.id)
+
+			/*
+			const isExtra =
+				card.type.includes("XYZ") ||
+				card.type.includes("Synchro") ||
+				card.type.includes("Fusion") ||
+				card.type.includes("Link")
+
+			if (isExtra && savedCard.copies > 0) savedCard.checked = 1
+			else if (!isExtra) savedCard.checked = savedCard.copies
+			*/
+
+			savedCard.checked =
+				savedCard.copies === 3
+					? Math.floor(Math.random() * 3) + 1
+					: savedCard.copies
+
+			this.updateSearchedCard(card.id, savedCard.checked)
+			this.reloadDeck(this.savedCards)
+		},
 		/* DECK CONTAINER */
 		removeFromDeck(e) {
 			if (e?.which === 3) {
@@ -861,9 +981,9 @@ export default {
 					this.deck.push(this.hashAllcards[card.id][0])
 			})
 
-			console.log("activated reload deck")
+			// console.log("activated reload deck")
 			this.deck = this.categorySort(this.deck)
-			console.log("finish sort")
+			// console.log("finish sort")
 		},
 		getMainDeck() {
 			return this.deck.filter((card) => {
@@ -976,7 +1096,7 @@ export default {
 						JSON.stringify(this.savedCards)
 					)
 			} else {
-				this.download("1Deck.ydk", text)
+				this.download(this.noArcDeckName, text)
 			}
 			this.reloadDeck(this.savedCards)
 			this.recentlySaved = true

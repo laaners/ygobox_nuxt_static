@@ -172,6 +172,8 @@ export default {
 			}
 		},
 		async copyName() {
+			await this.$copyText(this.name)
+			/*
 			await this.$copyText(`
 			{
 				"id": ${this.cardId},
@@ -185,7 +187,7 @@ export default {
 				]
 			},
 			`)
-			await this.$copyText(this.name)
+			*/
 			// await this.$copyText(`[${this.name}](https://yugipedia.com/wiki/${this.name.replaceAll(" ","_")})`)
 		},
 		async toggleFullImage() {

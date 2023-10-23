@@ -41,6 +41,30 @@ export default app
 	console.log("Got all the data now!")
 	console.log(`We are in ${process.env.NODE_ENV}`)
 
+	app.get("/decksFound/:id", (req, res) => {
+		// https://ygoprodeck.com/api/card/decksFound.php?cardnumber=65801012
+		const card = req.params.id
+		request(
+			{
+				url: encodeURI(
+					`https://ygoprodeck.com/api/card/decksFound.php?cardnumber=${card}`
+				),
+				method: "GET",
+			},
+			function (error, resp, body) {
+				if (error || resp.statusCode !== 200) {
+					const msg =
+						"ERRORE: " + error
+					console.log(msg)
+					return res.json([])
+				} else {
+					return res.json(JSON.parse(body))
+				}
+			}
+		)
+	})
+	
+
 	app.get("/", async (req, res) => {
 		;({
 			allsets,
