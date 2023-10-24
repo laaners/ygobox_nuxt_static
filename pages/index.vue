@@ -132,6 +132,16 @@
 						>TASTO SINISTRO PER VEDERE L'EFFETTO</span
 					>
 					<span>TASTO DESTRO PER TOGLIERE DAL DECK</span>
+					<div
+						v-if="noArcLoading"
+						class="loader"
+						style="
+							margin-left: auto;
+							margin-right: auto;
+							margin-bottom: var(--space-1);
+							margin-top: var(--space-1) !important;
+						"
+					></div>
 					<h3>MAIN DECK ({{ getMainDeck().length }})</h3>
 					<grid-view
 						:columns="
@@ -634,6 +644,7 @@ export default {
 		draftMode: false,
 		noArcMode: false,
 		noArcDeckName: "1Deck.ydk",
+		noArcLoading: false,
 		packAppendCards: [],
 		packLoading: false,
 		openedSet: {},
@@ -836,6 +847,7 @@ export default {
 			this.currentBanlist = this.categorySort(this.currentBanlist)
 		},
 		async randomNoArchetypes() {
+			this.noArcLoading = true
 			this.savedCards.forEach((_) => {
 				_.checked = 0
 				this.updateSearchedCard(_.id, 0)
@@ -846,47 +858,53 @@ export default {
 			let deckName = ""
 			const hashSavedCardsById = this.hashGroupBy(this.savedCards, "id")
 
-			let card =
-				this.hashAllcards[
-					this.savedCards[
-						Math.floor(Math.random() * this.savedCards.length)
-					].id
-				][0]
-			while (
-				card.type !== undefined &&
-				card.type.includes("Normal Monster")
-			) {
-				card =
-					this.hashAllcards[
-						this.savedCards[
-							Math.floor(Math.random() * this.savedCards.length)
-						].id
-					][0]
-			}
+			let card = this.pickRandomCard(this.savedCards.map((_) => _.id))
+
+			// card = this.hashAllcards[72309040][0]
+
 			deckName = card.name.includes(" ")
 				? card.name.split(" ")[0]
 				: card.name
 
-			for (let i = 0; i < 20 && this.getMainDeck().length < 60; i++) {
-				const suggestions = await this.$axios.$get(
-					`https://ygobox-nuxt-vercel.vercel.app/decksFound/${card.id}`
-					// `http://localhost:4000/decksFound/${card.id}`
+			for (let i = 0; i < 10 && this.getMainDeck().length < 60; i++) {
+				let suggestions = {
+					main: [],
+					extra: [],
+					side: [],
+					ydk: "",
+				}
+
+				try {
+					suggestions = await this.$axios.$get(
+						// `https://ygobox-nuxt-vercel.vercel.app/decksFound/${card.id}`
+						`http://localhost:4000/decksFound/${card.id}`,
+						{
+							timeout: 3000, // Timeout in milliseconds (5 seconds)
+						}
+					)
+					console.log(i)
+				} catch (e) {
+					console.log(e)
+				}
+
+				suggestions.main = suggestions.main.filter(
+					(_) => hashSavedCardsById[_] !== undefined
 				)
-				console.log(i)
+				suggestions.side = suggestions.side.filter(
+					(_) => hashSavedCardsById[_] !== undefined
+				)
+				suggestions.extra = suggestions.extra.filter(
+					(_) => hashSavedCardsById[_] !== undefined
+				)
 
 				suggestions.main.forEach((_) => {
-					if (hashSavedCardsById[_] !== undefined)
-						this.addCard(this.hashAllcards[_][0], 0)
+					this.addCard(this.hashAllcards[_][0], 0)
 				})
 				suggestions.side.forEach((_) => {
-					if (hashSavedCardsById[_] !== undefined)
-						this.addCard(this.hashAllcards[_][0], 0)
+					this.addCard(this.hashAllcards[_][0], 0)
 				})
-				/*
-				 */
 				suggestions.extra.forEach((_) => {
-					if (hashSavedCardsById[_] !== undefined)
-						this.addCard(this.hashAllcards[_][0], 0)
+					this.addCard(this.hashAllcards[_][0], 0)
 				})
 
 				const filtered = [
@@ -895,21 +913,14 @@ export default {
 					...suggestions.extra,
 				].filter((_) => _ !== card.id)
 
-				card =
-					this.hashAllcards[
-						filtered[Math.floor(Math.random() * filtered.length)]
-					][0]
-				while (
-					card.type !== undefined &&
-					card.type.includes("Normal Monster")
-				) {
-					card =
-						this.hashAllcards[
-							filtered[
-								Math.floor(Math.random() * filtered.length)
-							]
-						][0]
+
+				if (filtered.length === 0 || i % 2 === 0) {
+					card = this.pickRandomCard(this.savedCards.map((_) => _.id))
+					continue
 				}
+
+				card = this.pickRandomCard(filtered)
+
 				if (deckName.split(" ").length < 3) {
 					deckName += " "
 					deckName += card.name.includes(" ")
@@ -922,7 +933,35 @@ export default {
 				}
 			}
 			alert(deckName)
+			this.noArcLoading = false
 			this.noArcDeckName = "1" + deckName + ".ydk"
+		},
+		pickRandomCard(idsList) {
+			const random = idsList.sort(() => Math.random() - 0.5)
+			for (const id of random) {
+				const card = this.hashAllcards[id][0]
+				if (
+					!(
+						card.type !== undefined &&
+						card.type.includes("Normal Monster")
+					)
+				)
+					return card
+			}
+			return 0
+
+			/*
+			while (
+				card.type !== undefined &&
+				card.type.includes("Normal Monster")
+			) {
+				card =
+					this.hashAllcards[
+						idsList[Math.floor(Math.random() * idsList.length)]
+					][0]
+			}
+			return card
+			*/
 		},
 		addCard(card, level) {
 			if (this.getMainDeck().length > 60) return
