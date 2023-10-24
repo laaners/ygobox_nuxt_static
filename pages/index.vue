@@ -876,8 +876,8 @@ export default {
 
 				try {
 					suggestions = await this.$axios.$get(
-						// `https://ygobox-nuxt-vercel.vercel.app/decksFound/${card.id}`
-						`http://localhost:4000/decksFound/${card.id}`,
+						`https://ygobox-nuxt-vercel.vercel.app/decksFound/${card.id}`,
+						// `http://localhost:4000/decksFound/${card.id}`,
 						{
 							timeout: 3000, // Timeout in milliseconds (5 seconds)
 						}
