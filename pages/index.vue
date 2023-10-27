@@ -897,29 +897,35 @@ export default {
 					(_) => hashSavedCardsById[_] !== undefined
 				)
 
-				suggestions.main.forEach((_) => {
-					this.addCard(this.hashAllcards[_][0], 0)
-				})
-				suggestions.side.forEach((_) => {
-					this.addCard(this.hashAllcards[_][0], 0)
-				})
-				suggestions.extra.forEach((_) => {
-					this.addCard(this.hashAllcards[_][0], 0)
-				})
-
 				const filtered = [
 					...suggestions.main,
 					...suggestions.side,
 					...suggestions.extra,
-				].filter((_) => _ !== card.id)
+				].filter((_) => {
+					let card = this.hashAllcards[_]
+					if (card === undefined) return false
+					card = card[0]
+					return (
+						!(
+							card.type !== undefined &&
+							card.type.includes("Normal Monster")
+						) && _ !== card.id
+					)
+				})
 
+				this.addCard(card, 0)
+
+				filtered.forEach((_) => {
+					this.addCard(this.hashAllcards[_][0], 0)
+				})
 
 				if (filtered.length === 0 || i % 2 === 0) {
 					card = this.pickRandomCard(this.savedCards.map((_) => _.id))
-					continue
+				} else {
+					card = this.pickRandomCard(filtered)
 				}
 
-				card = this.pickRandomCard(filtered)
+				if (card === undefined) continue
 
 				if (deckName.split(" ").length < 3) {
 					deckName += " "
@@ -948,7 +954,7 @@ export default {
 				)
 					return card
 			}
-			return 0
+			return undefined
 
 			/*
 			while (
