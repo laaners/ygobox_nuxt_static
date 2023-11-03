@@ -1244,8 +1244,10 @@ export default {
 			this.deck = []
 			newSavedCards.forEach((card) => {
 				if (card.checked === 0) return
-				for (let i = 0; i < card.checked; i++)
+				for (let i = 0; i < card.checked; i++) {
+					if (this.hashAllcards[card.id] === undefined) continue
 					this.deck.push(this.hashAllcards[card.id][0])
+				}
 			})
 
 			// console.log("activated reload deck")
@@ -1422,6 +1424,7 @@ export default {
 								return { id: +_ }
 							})
 						newDeck = this.hashGroupBy(newDeck, "id")
+						console.log(newDeck)
 						this.savedCards.forEach((card) => {
 							if (newDeck[card.id] === undefined) card.checked = 0
 							else
@@ -1433,6 +1436,7 @@ export default {
 						})
 						this.reloadDeck(this.savedCards)
 					} catch (error) {
+						console.log(error)
 						alert("Errore, seleziona un file valido!\n" + error)
 						resolve([])
 					}
