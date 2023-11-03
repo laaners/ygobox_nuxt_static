@@ -450,5 +450,46 @@ export default {
 			]
 			return allcards
 		},
+		timeSince(dateString) {
+			const dateObject = new Date(dateString)
+			const milliseconds = dateObject.getTime()
+
+			let nowDate = new Date()
+			nowDate = new Date(
+				nowDate.getUTCFullYear(),
+				nowDate.getUTCMonth(),
+				nowDate.getUTCDate(),
+				nowDate.getUTCHours(),
+				nowDate.getUTCMinutes(),
+				nowDate.getUTCSeconds()
+			)
+
+			const seconds = Math.floor(
+				(nowDate.getTime() - milliseconds) / 1000
+			)
+
+			let interval = seconds / 31536000
+
+			if (interval === 1) return Math.floor(interval) + " anno"
+			if (interval > 1) return Math.floor(interval) + " anni"
+
+			interval = seconds / 2592000
+			if (interval === 1) return Math.floor(interval) + " mese"
+			if (interval > 1) return Math.floor(interval) + " mesi"
+
+			interval = seconds / 86400
+			if (interval === 1) return Math.floor(interval) + " giorno"
+			if (interval > 1) return Math.floor(interval) + " giorni"
+
+			interval = seconds / 3600
+			if (interval === 1) return Math.floor(interval) + " ora"
+			if (interval > 1) return Math.floor(interval) + " ore"
+
+			interval = seconds / 60
+			if (interval === 1) return Math.floor(interval) + " minuto"
+			if (interval > 1) return Math.floor(interval) + " minuti"
+
+			return Math.floor(seconds) + " secondi"
+		},
 	},
 }

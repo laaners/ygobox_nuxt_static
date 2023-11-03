@@ -66,11 +66,11 @@
 				@click.native="noArchetypes"
 			/>
 		</div>
-		<div v-if="savedCards.length > 0" class="flex-col">
+		<div v-if="savedCards.length > 0" class="flex-col" style="width: 100%">
 			<h1>
 				HAI {{ savedCards.length }} CARTE DIVERSE NELLA TUA COLLEZIONE!
 			</h1>
-			<div class="flex-row after-page">
+			<div class="flex-row after-page" style="width: 100%">
 				<div
 					class="flex-col deck-container"
 					oncontextmenu="return false;"
@@ -94,7 +94,7 @@
 						</ul>
 					</div>
 					<grid-view
-						:columns="noArcMode ? 4 : 3"
+						:columns="3"
 						:row-gap="0"
 						:col-gap="1"
 						style="
@@ -121,6 +121,24 @@
 							class="text-center"
 							@change="uploadDeck"
 							@click="$refs.upload.value = null"
+						/>
+					</grid-view>
+					<grid-view
+						v-if="noArcMode"
+						:columns="2"
+						:row-gap="0"
+						:col-gap="1"
+						style="
+							width: 70%;
+							margin-left: auto;
+							margin-right: auto;
+							margin-top: 1%;
+						"
+					>
+						<button-secondary
+							v-if="noArcMode"
+							:title="'PUBBLICA'"
+							@click.native="publishDeck()"
 						/>
 						<button-secondary
 							v-if="noArcMode"
@@ -183,238 +201,368 @@
 						/>
 					</grid-view>
 				</div>
-				<div class="form-container flex-col">
-					<h3>CERCA</h3>
+				<div class="flex-col form-container">
+					<h3 v-if="!noArcMode" style="margin-bottom: 2%">CERCA</h3>
+					<grid-view
+						v-else
+						:columns="2"
+						:row-gap="0"
+						:col-gap="2"
+						style="width: 70%; margin-bottom: 2%"
+					>
+						<button-secondary
+							v-for="searchLabel of ['CERCA CARTA', 'CERCA DECK']"
+							:key="searchLabel"
+							:title="searchLabel"
+							:style="{
+								opacity: searchFilter === searchLabel ? 1 : 0.5,
+							}"
+							@click.native="searchFilter = searchLabel"
+						/>
+					</grid-view>
+					<div v-if="searchFilter === 'CERCA CARTA'" class="flex-col">
+						<div
+							class="flex-col search-form"
+							:style="
+								searchedAppendCards.length > 0
+									? { height: '22vh' }
+									: {}
+							"
+						>
+							<div class="flex-row">
+								<span>Solo carte preferite:&ensp;</span>
+								<input
+									ref="favourite"
+									type="checkbox"
+									@change="bindFavouriteCards"
+								/>
+							</div>
+							<div class="flex-row">
+								<p>Solo dal pacchetto:&ensp;</p>
+								<select
+									ref="selectPack"
+									style="width: 50%"
+									@change="bindSelectedSet"
+								>
+									<option
+										label="Qualunque"
+										selected="selected"
+									></option>
+									<option
+										v-for="(set, i) of savedSets"
+										:key="set + i"
+										:label="set"
+									>
+										{{ set }}
+									</option>
+								</select>
+							</div>
+							<search-form
+								ref="searchForm"
+								class="search-form-component"
+								:hiding-mode="true"
+								:searched-cards.sync="searchedCards"
+							/>
+						</div>
+						<div class="redundant-form-buttons">
+							<button-secondary
+								:title="'CERCA'"
+								@click.native="
+									$el.querySelector(
+										`button[type='submit']`
+									).click()
+								"
+							/>
+							<button-secondary
+								:title="'RESET'"
+								@click.native="
+									$el.querySelector(
+										`button[type='reset']`
+									).click()
+									$refs.favourite.checked = false
+									$refs.selectPack.value = ''
+								"
+							/>
+						</div>
+						<div
+							v-if="searchedAppendCards.length > 0"
+							class="flex-col"
+							style="position: relative"
+						>
+							<h3 style="margin: var(--space-0)">
+								{{ searchedAppendCards.length }} risultati
+								trovati
+							</h3>
+							<div v-if="multiPage" class="flex-col">
+								<grid-view
+									:columns="1"
+									:col-gap="0"
+									:row-gap="20"
+									:style="
+										searchedAppendCards.slice(
+											index * cardsPerPage,
+											(index + 1) * cardsPerPage
+										).length > 1
+											? {
+													position: 'absolute',
+													right: '-11%',
+													top: '15%',
+											  }
+											: {
+													position: 'absolute',
+													right: '-25%',
+													top: '15%',
+											  }
+									"
+								>
+									<multi-page-icon
+										style="
+											height: 4vmax;
+											width: 4vmax;
+											cursor: pointer;
+										"
+										@click.native="multiPage = true"
+									/>
+									<scroll-page-icon
+										style="
+											height: 4vmax;
+											width: 4vmax;
+											cursor: pointer;
+										"
+										@click.native="multiPage = false"
+									/>
+								</grid-view>
+								<grid-view
+									:columns="
+										thereIsNext && thereIsPrev ? 2 : 1
+									"
+									:col-gap="3"
+									:row-gap="0"
+									style="width: 20%"
+								>
+									<button-secondary
+										v-if="thereIsPrev"
+										:title="'<'"
+										@click.native="index -= 1"
+									/>
+									<button-secondary
+										v-if="thereIsNext"
+										:title="'>'"
+										@click.native="index += 1"
+									/>
+								</grid-view>
+								<grid-view
+									class="search-results"
+									:columns="
+										searchedAppendCards.slice(
+											index * cardsPerPage,
+											(index + 1) * cardsPerPage
+										).length > 1
+											? 2
+											: 1
+									"
+									:col-gap="1"
+									:row-gap="0"
+								>
+									<container-searched-card
+										v-for="(
+											card, i
+										) of searchedAppendCards.slice(
+											index * cardsPerPage,
+											(index + 1) * cardsPerPage
+										)"
+										:key="card.id + i * 2 + 1"
+										:card="card"
+										:saved-info="card.saved_info"
+										:src="getPicSmallUrl(card.id)"
+										:form-checked-change.sync="
+											formCheckedChange
+										"
+										:form-favourite-change.sync="
+											formFavouriteChange
+										"
+										:limit-image="getLimitImage(card.id)"
+									/>
+								</grid-view>
+								<p>
+									<input
+										ref="enterInput"
+										type="text"
+										size="1"
+										:value="index + 1"
+										@keypress="enterIndex"
+									/>
+									/
+									{{
+										Math.ceil(
+											searchedAppendCards.length /
+												cardsPerPage
+										)
+									}}
+								</p>
+							</div>
+							<div v-if="!multiPage" class="flex-col">
+								<grid-view
+									:columns="1"
+									:col-gap="0"
+									:row-gap="20"
+									style="
+										position: absolute;
+										right: -11%;
+										top: 15%;
+									"
+								>
+									<multi-page-icon
+										style="
+											height: 4vmax;
+											width: 4vmax;
+											cursor: pointer;
+										"
+										@click.native="multiPage = true"
+									/>
+									<scroll-page-icon
+										style="
+											height: 4vmax;
+											width: 4vmax;
+											cursor: pointer;
+										"
+										@click.native="multiPage = false"
+									/>
+								</grid-view>
+								<grid-view
+									style="overflow-y: scroll; height: 80vh"
+									class="search-results"
+									:columns="
+										searchedAppendCards.length > 1 ? 2 : 1
+									"
+									:col-gap="1"
+									:row-gap="0"
+								>
+									<container-searched-card
+										v-for="(card, i) of searchedAppendCards"
+										:key="card.id + i * 2"
+										:card="card"
+										:saved-info="card.saved_info"
+										:src="getPicSmallUrl(card.id)"
+										:form-checked-change.sync="
+											formCheckedChange
+										"
+										:form-favourite-change.sync="
+											formFavouriteChange
+										"
+										:limit-image="getLimitImage(card.id)"
+									/>
+								</grid-view>
+							</div>
+						</div>
+					</div>
 					<div
-						class="flex-col search-form"
-						:style="
-							searchedAppendCards.length > 0
-								? { height: '22vh' }
-								: {}
+						v-else
+						class="flex-col"
+						style="
+							overflow-y: scroll;
+							overflow-x: hidden;
+							height: 70vh;
+							justify-content: flex-start;
 						"
 					>
 						<div class="flex-row">
-							<span>Solo carte preferite:&ensp;</span>
-							<input
-								ref="favourite"
-								type="checkbox"
-								@change="bindFavouriteCards"
-							/>
-						</div>
-						<div class="flex-row">
-							<p>Solo dal pacchetto:&ensp;</p>
-							<select
-								ref="selectPack"
-								style="width: 50%"
-								@change="bindSelectedSet"
-							>
-								<option
-									label="Qualunque"
-									selected="selected"
-								></option>
-								<option
-									v-for="(set, i) of savedSets"
-									:key="set + i"
-									:label="set"
-								>
-									{{ set }}
-								</option>
-							</select>
-						</div>
-						<search-form
-							ref="searchForm"
-							class="search-form-component"
-							:hiding-mode="true"
-							:searched-cards.sync="searchedCards"
-						/>
-					</div>
-					<div class="redundant-form-buttons">
-						<button-secondary
-							:title="'CERCA'"
-							@click.native="
-								$el.querySelector(
-									`button[type='submit']`
-								).click()
-							"
-						/>
-						<button-secondary
-							:title="'RESET'"
-							@click.native="
-								$el.querySelector(
-									`button[type='reset']`
-								).click()
-								$refs.favourite.checked = false
-								$refs.selectPack.value = ''
-							"
-						/>
-					</div>
-					<div
-						v-if="searchedAppendCards.length > 0"
-						class="flex-col"
-						style="position: relative"
-					>
-						<h3 style="margin: var(--space-0)">
-							{{ searchedAppendCards.length }} risultati trovati
-						</h3>
-						<div v-if="multiPage" class="flex-col">
-							<grid-view
-								:columns="1"
-								:col-gap="0"
-								:row-gap="20"
-								:style="
-									searchedAppendCards.slice(
-										index * cardsPerPage,
-										(index + 1) * cardsPerPage
-									).length > 1
-										? {
-												position: 'absolute',
-												right: '-11%',
-												top: '15%',
-										  }
-										: {
-												position: 'absolute',
-												right: '-25%',
-												top: '15%',
-										  }
-								"
-							>
-								<multi-page-icon
-									style="
-										height: 4vmax;
-										width: 4vmax;
-										cursor: pointer;
-									"
-									@click.native="multiPage = true"
-								/>
-								<scroll-page-icon
-									style="
-										height: 4vmax;
-										width: 4vmax;
-										cursor: pointer;
-									"
-									@click.native="multiPage = false"
-								/>
-							</grid-view>
-							<grid-view
-								:columns="thereIsNext && thereIsPrev ? 2 : 1"
-								:col-gap="3"
-								:row-gap="0"
-								style="width: 20%"
-							>
-								<button-secondary
-									v-if="thereIsPrev"
-									:title="'<'"
-									@click.native="index -= 1"
-								/>
-								<button-secondary
-									v-if="thereIsNext"
-									:title="'>'"
-									@click.native="index += 1"
-								/>
-							</grid-view>
-							<grid-view
-								class="search-results"
-								:columns="
-									searchedAppendCards.slice(
-										index * cardsPerPage,
-										(index + 1) * cardsPerPage
-									).length > 1
-										? 2
-										: 1
-								"
-								:col-gap="1"
-								:row-gap="0"
-							>
-								<container-searched-card
-									v-for="(
-										card, i
-									) of searchedAppendCards.slice(
-										index * cardsPerPage,
-										(index + 1) * cardsPerPage
-									)"
-									:key="card.id + i * 2 + 1"
-									:card="card"
-									:saved-info="card.saved_info"
-									:src="getPicSmallUrl(card.id)"
-									:form-checked-change.sync="
-										formCheckedChange
-									"
-									:form-favourite-change.sync="
-										formFavouriteChange
-									"
-									:limit-image="getLimitImage(card.id)"
-								/>
-							</grid-view>
-							<p>
-								<input
-									ref="enterInput"
-									type="text"
-									size="1"
-									:value="index + 1"
-									@keypress="enterIndex"
-								/>
-								/
-								{{
-									Math.ceil(
-										searchedAppendCards.length /
-											cardsPerPage
-									)
-								}}
-							</p>
-						</div>
-						<div v-if="!multiPage" class="flex-col">
-							<grid-view
-								:columns="1"
-								:col-gap="0"
-								:row-gap="20"
+							<h3
 								style="
-									position: absolute;
-									right: -11%;
-									top: 15%;
+									cursor: pointer;
+									margin: 0;
+									margin-left: 10%;
+									margin-right: 10%;
+								"
+								@click="getPublicDecks"
+							>
+								&#8635;
+							</h3>
+							<h3
+								style="
+									cursor: pointer;
+									margin: 0;
+									margin-left: 10%;
+									margin-right: 10%;
+								"
+								@click="
+									noArcDecks = noArcDecks.sort((a, b) =>
+										a.date >= b.date ? -1 : 1
+									)
 								"
 							>
-								<multi-page-icon
-									style="
-										height: 4vmax;
-										width: 4vmax;
-										cursor: pointer;
-									"
-									@click.native="multiPage = true"
-								/>
-								<scroll-page-icon
-									style="
-										height: 4vmax;
-										width: 4vmax;
-										cursor: pointer;
-									"
-									@click.native="multiPage = false"
-								/>
-							</grid-view>
-							<grid-view
-								style="overflow-y: scroll; height: 80vh"
-								class="search-results"
-								:columns="
-									searchedAppendCards.length > 1 ? 2 : 1
+								&#x25B2;
+							</h3>
+							<h3
+								style="
+									cursor: pointer;
+									margin: 0;
+									margin-left: 10%;
+									margin-right: 10%;
 								"
-								:col-gap="1"
-								:row-gap="0"
+								@click="
+									noArcDecks = noArcDecks.sort((a, b) =>
+										a.date < b.date ? -1 : 1
+									)
+								"
 							>
-								<container-searched-card
-									v-for="(card, i) of searchedAppendCards"
-									:key="card.id + i * 2"
-									:card="card"
-									:saved-info="card.saved_info"
-									:src="getPicSmallUrl(card.id)"
-									:form-checked-change.sync="
-										formCheckedChange
-									"
-									:form-favourite-change.sync="
-										formFavouriteChange
-									"
-									:limit-image="getLimitImage(card.id)"
-								/>
-							</grid-view>
+								&#x25BC;
+							</h3>
+							<h3
+								style="
+									cursor: pointer;
+									margin: 0;
+									margin-left: 10%;
+									margin-right: 10%;
+								"
+								@click="
+									noArcDecks = noArcDecks.sort((a, b) =>
+										a.deckName < b.deckName ? -1 : 1
+									)
+								"
+							>
+								AZ
+							</h3>
 						</div>
+						<grid-view
+							v-if="noArcDecks.length > 0"
+							:columns="2"
+							:row-gap="0.5"
+							:col-gap="1"
+						>
+							<div
+								v-for="(publicDeck, i) of noArcDecks"
+								:key="publicDeck.deckName + i"
+								class="public-deck"
+								:style="{
+									opacity:
+										publicDeck.deckName ===
+										noArcDeckName.replace('.ydk', '')
+											? 1
+											: 0.5,
+								}"
+							>
+								<h4
+									:data-name="publicDeck.deckName"
+									@click="loadPublicDeck"
+								>
+									{{ publicDeck.deckName }}
+								</h4>
+								<p>
+									Creato {{ timeSince(publicDeck.date) }} fa
+								</p>
+							</div>
+						</grid-view>
+						<div
+							v-else
+							class="loader"
+							style="
+								margin-left: auto;
+								margin-right: auto;
+								margin-bottom: var(--space-1);
+								margin-top: var(--space-1) !important;
+							"
+						></div>
 					</div>
 				</div>
 			</div>
@@ -642,9 +790,13 @@ export default {
 
 		recentlySaved: false,
 		draftMode: false,
+
 		noArcMode: false,
 		noArcDeckName: "1Deck.ydk",
 		noArcLoading: false,
+		searchFilter: "CERCA CARTA",
+		noArcDecks: [],
+
 		packAppendCards: [],
 		packLoading: false,
 		openedSet: {},
@@ -774,6 +926,11 @@ export default {
 				}
 			}
 		},
+		searchFilter(newV, olV) {
+			if (newV === "CERCA DECK") {
+				this.getPublicDecks()
+			}
+		},
 	},
 	async mounted() {
 		this.currentBanlist = []
@@ -822,6 +979,7 @@ export default {
 			this.savedCards.sort((a, b) => a.id - b.id)
 			this.recentlySaved = true
 		},
+		/* NO ARCHETYPES */
 		// eslint-disable-next-line require-await
 		async noArchetypes(e) {
 			const noArcPool = await this.$axios.$get(
@@ -877,7 +1035,6 @@ export default {
 				try {
 					suggestions = await this.$axios.$get(
 						`https://ygobox-nuxt-vercel.vercel.app/decksFound/${card.id}`,
-						// `http://localhost:4000/decksFound/${card.id}`,
 						{
 							timeout: 3000, // Timeout in milliseconds (5 seconds)
 						}
@@ -993,6 +1150,71 @@ export default {
 
 			this.updateSearchedCard(card.id, savedCard.checked)
 			this.reloadDeck(this.savedCards)
+		},
+		async publishDeck() {
+			const name = prompt("Dai un nome a questo deck", this.noArcDeckName)
+			if (name === null) {
+				return
+			}
+
+			const mainDeck = this.getMainDeck()
+			const extraDeck = this.getExtraDeck()
+
+			let text = "#main\n"
+			mainDeck.forEach((_) => {
+				text += _.id + "\n"
+			})
+
+			text += "\n#extra\n"
+
+			extraDeck.forEach((_) => {
+				text += _.id + "\n"
+			})
+
+			await this.$axios.$post(
+				"https://ygobox-nuxt-vercel.vercel.app/update_deck",
+				{
+					deckName: name.replace(".ydk", ""),
+					ydk: text,
+				}
+			)
+
+			alert(`Deck "${name.replace(".ydk", "")}" pubblicato con successo`)
+			await this.getPublicDecks()
+		},
+		async getPublicDecks() {
+			this.noArcDecks = await this.$axios.$get(
+				"https://ygobox-nuxt-vercel.vercel.app/get_decks"
+			)
+			/*
+			this.noArcDecks = [...this.noArcDecks, ...this.noArcDecks]
+			this.noArcDecks = [...this.noArcDecks, ...this.noArcDecks]
+			this.noArcDecks = [...this.noArcDecks, ...this.noArcDecks]
+			this.noArcDecks = [...this.noArcDecks, ...this.noArcDecks]
+			*/
+		},
+		loadPublicDeck(e) {
+			const deckName = e.target.attributes["data-name"].value
+			const deck = this.noArcDecks.find((_) => _.deckName === deckName)
+			let newDeck = deck.ydk.toString().split("\r\n")
+			if (newDeck.length < 2) newDeck = deck.ydk.toString().split("\n")
+			newDeck = newDeck
+				.filter((_) => _.length > 0 && !isNaN(_))
+				.map((_) => {
+					return { id: +_ }
+				})
+			newDeck = this.hashGroupBy(newDeck, "id")
+			this.savedCards.forEach((card) => {
+				if (newDeck[card.id] === undefined) card.checked = 0
+				else
+					card.checked =
+						newDeck[card.id].length > card.copies
+							? card.copies
+							: newDeck[card.id].length
+				this.updateSearchedCard(card.id, card.checked)
+			})
+			this.reloadDeck(this.savedCards)
+			this.noArcDeckName = deck.deckName + ".ydk"
 		},
 		/* DECK CONTAINER */
 		removeFromDeck(e) {
@@ -1424,6 +1646,25 @@ export default {
 </script>
 
 <style scoped>
+.public-deck {
+	/* border: 2px solid var(--color-darker); */
+	border-radius: var(--border-radius);
+	background-color: var(--color-darker);
+	opacity: 0.5;
+}
+
+.public-deck > * {
+	color: white;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: var(--space-0);
+}
+
+.public-deck h4 {
+	cursor: pointer;
+}
+
 .after-page {
 	align-items: flex-start;
 }
