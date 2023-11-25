@@ -1041,7 +1041,7 @@ export default {
 				this.updatePackCard(_.id, false)
 			})
 			this.reloadDeck(this.savedCards)
-			while (this.getExtraDeck().length < 15) {
+			while (this.getExtraDeck().length === 0) {
 				this.savedCards.forEach((_) => {
 					_.checked = 0
 					this.updateSearchedCard(_.id, 0)
@@ -1052,6 +1052,8 @@ export default {
 				const card = this.pickRandomCard(
 					this.savedCards.map((_) => _.id)
 				)
+
+				if(card === undefined) continue
 
 				// const card = this.hashAllcards[57844634][0]
 
