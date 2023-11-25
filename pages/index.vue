@@ -1049,11 +1049,11 @@ export default {
 				})
 				this.reloadDeck(this.savedCards)
 
-				// const card = this.pickRandomCard(
-				// 	this.savedCards.map((_) => _.id)
-				// )
+				const card = this.pickRandomCard(
+					this.savedCards.map((_) => _.id)
+				)
 
-				const card = this.hashAllcards[57844634][0]
+				// const card = this.hashAllcards[57844634][0]
 
 				deckName = card.name
 
