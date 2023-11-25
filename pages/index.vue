@@ -62,7 +62,7 @@
 					margin-top: var(--space-1) !important;
 					font-size: var(--font-size-h1);
 				"
-				:title="'NO ARCHETIPI'"
+				:title="'RANDOM'"
 				@click.native="noArchetypes"
 			/>
 		</div>
@@ -982,9 +982,37 @@ export default {
 		/* NO ARCHETYPES */
 		// eslint-disable-next-line require-await
 		async noArchetypes(e) {
+			/*
 			const noArcPool = await this.$axios.$get(
 				`https://raw.githubusercontent.com/laaners/ygobox_nuxt/master/server/data/noArcPool.json`
 			)
+			*/
+			let flist = await this.$axios.$get(
+				"https://raw.githubusercontent.com/ProjectIgnis/LFLists/master/0TCG.lflist.conf"
+			)
+			flist = flist
+				.split("\n")
+				.filter((_) => {
+					const values = _.split(" ")
+					return !isNaN(values[0]) && !isNaN(values[1])
+				})
+				.map((_) => {
+					const values = _.split(" ")
+					return {
+						id: +values[0],
+						copies: +values[1],
+					}
+				})
+			const noArcPool = this.allcards.map((_) => {
+				const fcard = flist.find((e) => e.id === _.id)
+				return {
+					id: _.id,
+					copies: fcard === undefined ? 3 : fcard.copies,
+					checked: 0,
+					favourite: false,
+					sets: [""],
+				}
+			})
 			this.savedCards = noArcPool
 			this.recentlySaved = true
 			this.noArcMode = true
@@ -1005,6 +1033,75 @@ export default {
 			this.currentBanlist = this.categorySort(this.currentBanlist)
 		},
 		async randomNoArchetypes() {
+			let deckName = ""
+			this.noArcLoading = true
+			this.savedCards.forEach((_) => {
+				_.checked = 0
+				this.updateSearchedCard(_.id, 0)
+				this.updatePackCard(_.id, false)
+			})
+			this.reloadDeck(this.savedCards)
+			while (this.getExtraDeck().length < 15) {
+				this.savedCards.forEach((_) => {
+					_.checked = 0
+					this.updateSearchedCard(_.id, 0)
+					this.updatePackCard(_.id, false)
+				})
+				this.reloadDeck(this.savedCards)
+
+				// const card = this.pickRandomCard(
+				// 	this.savedCards.map((_) => _.id)
+				// )
+
+				const card = this.hashAllcards[57844634][0]
+
+				deckName = card.name
+
+				let suggestions = {
+					main: [],
+					extra: [],
+					side: [],
+					ydk: "",
+				}
+
+				try {
+					suggestions = await this.$axios.$get(
+						`https://ygobox-nuxt-vercel.vercel.app/decksFoundOne/${card.id}`,
+						{
+							timeout: 3000, // Timeout in milliseconds (5 seconds)
+						}
+					)
+				} catch (e) {
+					console.log(e)
+				}
+
+				const filtered = [
+					...suggestions.main,
+					// ...suggestions.side,
+					...suggestions.extra,
+				]
+
+				filtered.forEach((cardId) => {
+					const savedCard = this.savedCards.find(
+						(_) =>
+							+_.id === +cardId ||
+							+_.id + 1 === +cardId ||
+							+_.id - 1 === +cardId
+					)
+					if (savedCard === undefined) return
+
+					savedCard.checked +=
+						savedCard.checked < savedCard.copies ? 1 : 0
+
+					this.updateSearchedCard(card.id, savedCard.checked)
+					this.reloadDeck(this.savedCards)
+				})
+			}
+			alert(deckName)
+			this.noArcLoading = false
+			this.noArcDeckName = "1" + deckName + ".ydk"
+		},
+		async randomNoArchetypesOld() {
 			this.noArcLoading = true
 			this.savedCards.forEach((_) => {
 				_.checked = 0
