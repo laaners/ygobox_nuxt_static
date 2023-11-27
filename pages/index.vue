@@ -1053,7 +1053,7 @@ export default {
 					this.savedCards.map((_) => _.id)
 				)
 
-				// const card = this.hashAllcards[71036835][0]
+				// const card = this.hashAllcards[96897184][0]
 
 				if (card === undefined) continue
 
@@ -1082,6 +1082,16 @@ export default {
 					// ...suggestions.side,
 					...suggestions.extra,
 				]
+
+				// check if highlander
+				const counts = {}
+				for (const cardId of filtered) {
+					counts[cardId] = counts[cardId] ? counts[cardId] + 1 : 1
+				}
+				if(Math.max(...Object.entries(counts).map(_=>_[1])) < 2) {
+					console.log("HIghlander")
+					continue
+				}
 
 				filtered.forEach((cardId) => {
 					const savedCard = this.savedCards.find(
