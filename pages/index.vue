@@ -1053,9 +1053,9 @@ export default {
 					this.savedCards.map((_) => _.id)
 				)
 
-				if(card === undefined) continue
+				// const card = this.hashAllcards[71036835][0]
 
-				// const card = this.hashAllcards[57844634][0]
+				if (card === undefined) continue
 
 				deckName = card.name
 
@@ -1070,7 +1070,7 @@ export default {
 					suggestions = await this.$axios.$get(
 						`https://ygobox-nuxt-vercel.vercel.app/decksFoundOne/${card.id}`,
 						{
-							timeout: 3000, // Timeout in milliseconds (5 seconds)
+							timeout: 3000, // Timeout in milliseconds (3 seconds)
 						}
 					)
 				} catch (e) {
@@ -1085,12 +1085,17 @@ export default {
 
 				filtered.forEach((cardId) => {
 					const savedCard = this.savedCards.find(
-						(_) =>
-							+_.id === +cardId ||
-							+_.id + 1 === +cardId ||
-							+_.id - 1 === +cardId
+						(_) => +_.id === +cardId
 					)
 					if (savedCard === undefined) return
+					let _ = this.hashAllcards[+cardId]
+					if (_ === undefined) return
+					_ = _[0]
+					if (
+						(_.type + _.race).includes("Token") ||
+						(_.type + _.race).includes("Skill")
+					)
+						return
 
 					savedCard.checked +=
 						savedCard.checked < savedCard.copies ? 1 : 0
@@ -1099,6 +1104,7 @@ export default {
 					this.reloadDeck(this.savedCards)
 				})
 			}
+			console.log(this.hashAllcards[46986414][0])
 			alert(deckName)
 			this.noArcLoading = false
 			this.noArcDeckName = "1" + deckName + ".ydk"
