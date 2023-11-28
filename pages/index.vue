@@ -150,6 +150,9 @@
 						>TASTO SINISTRO PER VEDERE L'EFFETTO</span
 					>
 					<span>TASTO DESTRO PER TOGLIERE DAL DECK</span>
+					<h3>
+						<a ref="randomDeck" href="" target="_blank"></a>
+					</h3>
 					<div
 						v-if="noArcLoading"
 						class="loader"
@@ -1034,18 +1037,19 @@ export default {
 		},
 		async randomNoArchetypes() {
 			let deckName = ""
+			let url = ""
 			this.noArcLoading = true
 			this.savedCards.forEach((_) => {
 				_.checked = 0
-				this.updateSearchedCard(_.id, 0)
-				this.updatePackCard(_.id, false)
+				// this.updateSearchedCard(_.id, 0)
+				// this.updatePackCard(_.id, false)
 			})
 			this.reloadDeck(this.savedCards)
-			while (this.getExtraDeck().length === 0) {
+			while (this.getExtraDeck().length !== 15) {
 				this.savedCards.forEach((_) => {
 					_.checked = 0
-					this.updateSearchedCard(_.id, 0)
-					this.updatePackCard(_.id, false)
+					// this.updateSearchedCard(_.id, 0)
+					// this.updatePackCard(_.id, false)
 				})
 				this.reloadDeck(this.savedCards)
 
@@ -1057,7 +1061,8 @@ export default {
 
 				if (card === undefined) continue
 
-				deckName = card.name
+				console.log(card.name)
+				console.log("https://ygoprodeck.com/api/card/decksFound.php?cardnumber="+card.id)
 
 				let suggestions = {
 					main: [],
@@ -1069,6 +1074,7 @@ export default {
 				try {
 					suggestions = await this.$axios.$get(
 						`https://ygobox-nuxt-vercel.vercel.app/decksFoundOne/${card.id}`,
+						// `http://localhost:4000/decksFoundOne/${card.id}`,
 						{
 							timeout: 3000, // Timeout in milliseconds (3 seconds)
 						}
@@ -1076,6 +1082,9 @@ export default {
 				} catch (e) {
 					console.log(e)
 				}
+
+				deckName = suggestions.deck_name
+				url = suggestions.url
 
 				const filtered = [
 					...suggestions.main,
@@ -1088,8 +1097,8 @@ export default {
 				for (const cardId of filtered) {
 					counts[cardId] = counts[cardId] ? counts[cardId] + 1 : 1
 				}
-				if(Math.max(...Object.entries(counts).map(_=>_[1])) < 2) {
-					console.log("HIghlander")
+				if (Math.max(...Object.entries(counts).map((_) => _[1])) !== 3) {
+					console.log("Highlander")
 					continue
 				}
 
@@ -1114,7 +1123,8 @@ export default {
 					this.reloadDeck(this.savedCards)
 				})
 			}
-			console.log(this.hashAllcards[46986414][0])
+			this.$refs.randomDeck.innerHTML = deckName
+			this.$refs.randomDeck.href = url
 			alert(deckName)
 			this.noArcLoading = false
 			this.noArcDeckName = "1" + deckName + ".ydk"
