@@ -1045,7 +1045,8 @@ export default {
 				// this.updatePackCard(_.id, false)
 			})
 			this.reloadDeck(this.savedCards)
-			while (this.getExtraDeck().length !== 15) {
+			// while (this.getExtraDeck().length !== 15) {
+			while (this.getMainDeck().length === 0) {
 				this.savedCards.forEach((_) => {
 					_.checked = 0
 					// this.updateSearchedCard(_.id, 0)
