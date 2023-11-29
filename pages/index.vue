@@ -1058,12 +1058,15 @@ export default {
 					this.savedCards.map((_) => _.id)
 				)
 
-				// const card = this.hashAllcards[96897184][0]
+				// const card = this.hashAllcards[21057444][0] // alternate ash
 
 				if (card === undefined) continue
 
 				console.log(card.name)
-				console.log("https://ygoprodeck.com/api/card/decksFound.php?cardnumber="+card.id)
+				console.log(
+					"https://ygoprodeck.com/api/card/decksFound.php?cardnumber=" +
+						card.id
+				)
 
 				let suggestions = {
 					main: [],
@@ -1098,35 +1101,60 @@ export default {
 				for (const cardId of filtered) {
 					counts[cardId] = counts[cardId] ? counts[cardId] + 1 : 1
 				}
-				if (Math.max(...Object.entries(counts).map((_) => _[1])) !== 3) {
+				if (
+					Math.max(...Object.entries(counts).map((_) => _[1])) !== 3
+				) {
 					console.log("Highlander")
 					continue
 				}
 
-				filtered.forEach((cardId) => {
-					const savedCard = this.savedCards.find(
+				// check if draft
+				if (
+					deckName.toLowerCase().includes("draft") ||
+					deckName.toLowerCase().includes("prog") ||
+					deckName.toLowerCase().includes("masochist")
+				) {
+					console.log("Draft or prog")
+					continue
+				}
+
+				for(const initialId of filtered) {
+					let cardId = initialId
+					let savedCard = this.savedCards.find(
 						(_) => +_.id === +cardId
 					)
-					if (savedCard === undefined) return
+					if (savedCard === undefined) { // probably alternate art
+						// find original Id through name
+						const { data } = await this.$axios.get(`https://db.ygoprodeck.com/api/v7/cardinfo.php?id=${cardId}`)
+						if(data.error) continue
+
+						const cardName = data.data[0].name
+						cardId = this.allcards.find(_=>_.name === cardName).id
+						// keep current iteration
+						savedCard = this.savedCards.find(
+							(_) => +_.id === +cardId
+						)
+					}
+
 					let _ = this.hashAllcards[+cardId]
-					if (_ === undefined) return
+					if (_ === undefined) continue
 					_ = _[0]
 					if (
 						(_.type + _.race).includes("Token") ||
 						(_.type + _.race).includes("Skill")
 					)
-						return
+						continue
 
 					savedCard.checked +=
 						savedCard.checked < savedCard.copies ? 1 : 0
 
 					this.updateSearchedCard(card.id, savedCard.checked)
 					this.reloadDeck(this.savedCards)
-				})
+				}
 			}
 			this.$refs.randomDeck.innerHTML = deckName
 			this.$refs.randomDeck.href = url
-			alert(deckName)
+			// alert(deckName)
 			this.noArcLoading = false
 			this.noArcDeckName = "1" + deckName + ".ydk"
 		},
