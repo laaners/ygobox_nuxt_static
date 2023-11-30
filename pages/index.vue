@@ -1110,6 +1110,9 @@ export default {
 					...suggestions.extra,
 				]
 
+				this.randomDeckData.deck_name = suggestions.deck_name
+				this.randomDeckData.pretty_url = suggestions.url
+
 				// check if highlander
 				const counts = {}
 				for (const cardId of filtered) {
@@ -1137,9 +1140,6 @@ export default {
 					console.log("Draft or prog: " + suggestions.url)
 					continue
 				}
-
-				this.randomDeckData.deck_name = suggestions.deck_name
-				this.randomDeckData.pretty_url = suggestions.url
 
 				for (const initialId of filtered) {
 					let cardId = initialId
