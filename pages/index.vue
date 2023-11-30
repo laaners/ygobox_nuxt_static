@@ -150,9 +150,24 @@
 						>TASTO SINISTRO PER VEDERE L'EFFETTO</span
 					>
 					<span>TASTO DESTRO PER TOGLIERE DAL DECK</span>
-					<h3>
-						<a ref="randomDeck" href="" target="_blank"></a>
-					</h3>
+					<div
+						v-if="randomDeckData.deck_name.length > 0"
+						style="
+							opacity: 1;
+							width: 100%;
+							text-align: center;
+							border-radius: var(--border-radius);
+						"
+					>
+						<h3>
+							<a
+								ref="randomDeck"
+								:href="randomDeckData.pretty_url"
+								target="_blank"
+								>{{ randomDeckData.deck_name }}</a
+							>
+						</h3>
+					</div>
 					<div
 						v-if="noArcLoading"
 						class="loader"
@@ -467,6 +482,7 @@
 							overflow-x: hidden;
 							height: 70vh;
 							justify-content: flex-start;
+							width: 100%;
 						"
 					>
 						<div class="flex-row">
@@ -532,6 +548,7 @@
 							:columns="2"
 							:row-gap="0.5"
 							:col-gap="1"
+							style="width: 100%"
 						>
 							<div
 								v-for="(publicDeck, i) of noArcDecks"
@@ -795,10 +812,12 @@ export default {
 		draftMode: false,
 
 		noArcMode: false,
-		noArcDeckName: "1Deck.ydk",
+		noArcDeckName: "Deck.ydk",
 		noArcLoading: false,
 		searchFilter: "CERCA CARTA",
 		noArcDecks: [],
+
+		randomDeckData: { deck_name: "", deck_excerpt: "", pretty_url: "" },
 
 		packAppendCards: [],
 		packLoading: false,
@@ -1036,8 +1055,6 @@ export default {
 			this.currentBanlist = this.categorySort(this.currentBanlist)
 		},
 		async randomNoArchetypes() {
-			let deckName = ""
-			let url = ""
 			this.noArcLoading = true
 			this.savedCards.forEach((_) => {
 				_.checked = 0
@@ -1087,9 +1104,6 @@ export default {
 					console.log(e)
 				}
 
-				deckName = suggestions.deck_name
-				url = suggestions.url
-
 				const filtered = [
 					...suggestions.main,
 					// ...suggestions.side,
@@ -1104,32 +1118,46 @@ export default {
 				if (
 					Math.max(...Object.entries(counts).map((_) => _[1])) !== 3
 				) {
-					console.log("Highlander")
+					console.log("Highlander: " + suggestions.url)
 					continue
 				}
 
 				// check if draft
 				if (
-					deckName.toLowerCase().includes("draft") ||
-					deckName.toLowerCase().includes("prog") ||
-					deckName.toLowerCase().includes("masochist")
+					this.randomDeckData.deck_name
+						.toLowerCase()
+						.includes("draft") ||
+					this.randomDeckData.deck_name
+						.toLowerCase()
+						.includes("prog") ||
+					this.randomDeckData.deck_name
+						.toLowerCase()
+						.includes("masochist")
 				) {
-					console.log("Draft or prog")
+					console.log("Draft or prog: " + suggestions.url)
 					continue
 				}
 
-				for(const initialId of filtered) {
+				this.randomDeckData.deck_name = suggestions.deck_name
+				this.randomDeckData.pretty_url = suggestions.url
+
+				for (const initialId of filtered) {
 					let cardId = initialId
 					let savedCard = this.savedCards.find(
 						(_) => +_.id === +cardId
 					)
-					if (savedCard === undefined) { // probably alternate art
+					if (savedCard === undefined) {
+						// probably alternate art
 						// find original Id through name
-						const { data } = await this.$axios.get(`https://db.ygoprodeck.com/api/v7/cardinfo.php?id=${cardId}`)
-						if(data.error) continue
+						const { data } = await this.$axios.get(
+							`https://db.ygoprodeck.com/api/v7/cardinfo.php?id=${cardId}`
+						)
+						if (data.error) continue
 
 						const cardName = data.data[0].name
-						cardId = this.allcards.find(_=>_.name === cardName).id
+						cardId = this.allcards.find(
+							(_) => _.name === cardName
+						).id
 						// keep current iteration
 						savedCard = this.savedCards.find(
 							(_) => +_.id === +cardId
@@ -1152,11 +1180,9 @@ export default {
 					this.reloadDeck(this.savedCards)
 				}
 			}
-			this.$refs.randomDeck.innerHTML = deckName
-			this.$refs.randomDeck.href = url
 			// alert(deckName)
 			this.noArcLoading = false
-			this.noArcDeckName = "1" + deckName + ".ydk"
+			this.noArcDeckName = this.randomDeckData.deck_name + ".ydk"
 		},
 		async randomNoArchetypesOld() {
 			this.noArcLoading = true
@@ -1348,6 +1374,7 @@ export default {
 			*/
 		},
 		loadPublicDeck(e) {
+			console.log("LOAD")
 			const deckName = e.target.attributes["data-name"].value
 			const deck = this.noArcDecks.find((_) => _.deckName === deckName)
 			let newDeck = deck.ydk.toString().split("\r\n")
@@ -1365,10 +1392,16 @@ export default {
 						newDeck[card.id].length > card.copies
 							? card.copies
 							: newDeck[card.id].length
-				this.updateSearchedCard(card.id, card.checked)
+				// this.updateSearchedCard(card.id, card.checked)
 			})
 			this.reloadDeck(this.savedCards)
+			console.log("LOAD END")
 			this.noArcDeckName = deck.deckName + ".ydk"
+			this.randomDeckData = {
+				deck_name: "",
+				deck_excerpt: "",
+				pretty_url: "",
+			}
 		},
 		/* DECK CONTAINER */
 		removeFromDeck(e) {
