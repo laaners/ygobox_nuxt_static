@@ -958,10 +958,22 @@ export default {
 		this.currentBanlist = []
 
 		this.allcards = await this.getAllCards()
-		const { data } = await this.$axios.$get(
+		this.allsets = await this.$axios.$get(
 			"https://db.ygoprodeck.com/api/v7/cardsets.php"
 		)
-		this.allsets = data
+
+		this.allcards.forEach((card) => {
+			card.tcg_date = "2200-11-11"
+			if (card.card_sets === undefined) return
+			card.card_sets.forEach((set) => {
+				const tcg_date = this.allsets.find(
+					(_) => _.set_name === set.set_name
+				)?.tcg_date
+				// if(tcg_date === undefined) console.log(card+"\n"+set.set_name)
+				if (tcg_date !== undefined && card.tcg_date > tcg_date)
+					card.tcg_date = tcg_date
+			})
+		})
 		this.hashAllcards = this.hashGroupBy(this.allcards, "id")
 		window.addEventListener("scroll", this.fixDeckContainer, false)
 		window.addEventListener("resize", this.fixDeckContainer, false)
@@ -1076,10 +1088,14 @@ export default {
 				)
 
 				// const card = this.hashAllcards[21057444][0] // alternate ash
+				// const card = this.hashAllcards[2759860][0] // graydle impact, prog
 
 				if (card === undefined) continue
 
+				console.log("--------------")
 				console.log(card.name)
+				console.log(card.id)
+				console.log(card.tcg_date)
 				console.log(
 					"https://ygoprodeck.com/api/card/decksFound.php?cardnumber=" +
 						card.id
@@ -1097,11 +1113,16 @@ export default {
 						`https://ygobox-nuxt-vercel.vercel.app/decksFoundOne/${card.id}`,
 						// `http://localhost:4000/decksFoundOne/${card.id}`,
 						{
-							timeout: 3000, // Timeout in milliseconds (3 seconds)
+							timeout: 5000, // Timeout in milliseconds (10 seconds)
 						}
 					)
 				} catch (e) {
 					console.log(e)
+				}
+
+				if (suggestions.main.length === 0) {
+					console.log("Ineligible format: " + suggestions.url)
+					continue
 				}
 
 				const filtered = [
@@ -1112,34 +1133,6 @@ export default {
 
 				this.randomDeckData.deck_name = suggestions.deck_name
 				this.randomDeckData.pretty_url = suggestions.url
-
-				// check if highlander
-				const counts = {}
-				for (const cardId of filtered) {
-					counts[cardId] = counts[cardId] ? counts[cardId] + 1 : 1
-				}
-				if (
-					Math.max(...Object.entries(counts).map((_) => _[1])) !== 3
-				) {
-					console.log("Highlander: " + suggestions.url)
-					continue
-				}
-
-				// check if draft
-				if (
-					this.randomDeckData.deck_name
-						.toLowerCase()
-						.includes("draft") ||
-					this.randomDeckData.deck_name
-						.toLowerCase()
-						.includes("prog") ||
-					this.randomDeckData.deck_name
-						.toLowerCase()
-						.includes("masochist")
-				) {
-					console.log("Draft or prog: " + suggestions.url)
-					continue
-				}
 
 				for (const initialId of filtered) {
 					let cardId = initialId
@@ -1181,6 +1174,7 @@ export default {
 				}
 			}
 			// alert(deckName)
+			console.log("Deck url: " + this.randomDeckData.pretty_url)
 			this.noArcLoading = false
 			this.noArcDeckName = this.randomDeckData.deck_name + ".ydk"
 		},
@@ -1284,10 +1278,9 @@ export default {
 			for (const id of random) {
 				const card = this.hashAllcards[id][0]
 				if (
-					!(
-						card.type !== undefined &&
-						card.type.includes("Normal Monster")
-					)
+					card.type !== undefined &&
+					!card.type.includes("Normal Monster") &&
+					card.tcg_date > "2014-01-01"
 				)
 					return card
 			}
