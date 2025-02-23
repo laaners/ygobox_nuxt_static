@@ -1,5 +1,6 @@
 <template>
 	<div style="position: relative">
+		<!--
 		<img
 			v-if="limitImage !== ''"
 			:style="{
@@ -11,6 +12,7 @@
 			}"
 			:src="limitImage"
 		/>
+		-->
 		<div class="image-loader flex-col">
 			<card-rarity
 				class="small-image"

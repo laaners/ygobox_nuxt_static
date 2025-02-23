@@ -562,15 +562,24 @@
 											: 0.5,
 								}"
 							>
+								<x-icon
+									style="float: right; cursor: pointer"
+									:data-name="publicDeck.deckName"
+									@click.native="
+										deletePublicDeck(publicDeck.deckName)
+									"
+								/>
 								<h4
 									:data-name="publicDeck.deckName"
 									@click="loadPublicDeck"
 								>
 									{{ publicDeck.deckName }}
 								</h4>
+								<!--
 								<p>
 									Creato {{ timeSince(publicDeck.date) }} fa
 								</p>
+								-->
 							</div>
 						</grid-view>
 						<div
@@ -685,7 +694,7 @@
 					Bandite
 				</h3>
 				<grid-view
-					:columns="20"
+					:columns="10"
 					:col-gap="0"
 					:row-gap="0"
 					style="width: 100%"
@@ -711,7 +720,7 @@
 					Limitate
 				</h3>
 				<grid-view
-					:columns="20"
+					:columns="10"
 					:col-gap="0"
 					:row-gap="0"
 					style="width: 100%"
@@ -737,7 +746,7 @@
 					Semi-limitate
 				</h3>
 				<grid-view
-					:columns="20"
+					:columns="10"
 					:col-gap="0"
 					:row-gap="0"
 					style="width: 100%"
@@ -770,11 +779,14 @@ import ButtonSecondary from "../components/ButtonSecondary.vue"
 import MultiPageIcon from "../components/icons/MultiPageIcon.vue"
 import ScrollPageIcon from "../components/icons/ScrollPageIcon.vue"
 import StarIcon from "../components/icons/StarIcon.vue"
+import XIcon from "../components/icons/XIcon.vue"
 import Utils from "~/mixins/utils"
 import Drafting from "~/mixins/drafting"
+
 export default {
 	name: "IndexPage",
 	components: {
+		XIcon,
 		GridView,
 		CardModal,
 		SearchForm,
@@ -1024,6 +1036,18 @@ export default {
 			let flist = await this.$axios.$get(
 				"https://raw.githubusercontent.com/ProjectIgnis/LFLists/master/0TCG.lflist.conf"
 			)
+
+			const world_flist = await this.$axios.$get("/api/world_fl")
+			const hashAllcardsName = this.hashGroupBy(this.allcards, "name")
+			flist = ""
+			for(const key in world_flist) {
+				world_flist[key].split("\r\n").forEach(name=>{
+					if(name === "Black Luster Soldier" || key !== "2")
+						return
+					flist += hashAllcardsName[name][0].id+" "+key+" --"+name+"\n"
+				})
+			}
+
 			flist = flist
 				.split("\n")
 				.filter((_) => {
@@ -1395,6 +1419,48 @@ export default {
 				deck_excerpt: "",
 				pretty_url: "",
 			}
+		},
+		async deletePublicDeck(deckName) {
+			console.log("DELETE")
+			await this.$axios.$post(
+				"https://ygobox-nuxt-vercel.vercel.app/delete_deck",
+				{
+					deckName: deckName.replace(".ydk", ""),
+				}
+			)
+			this.noArcDecks = this.noArcDecks.filter(
+				(_) => _.deckName !== deckName
+			)
+			// await this.getPublicDecks()
+			/*
+			const deck = this.noArcDecks.find((_) => _.deckName === deckName)
+			let newDeck = deck.ydk.toString().split("\r\n")
+			if (newDeck.length < 2) newDeck = deck.ydk.toString().split("\n")
+			newDeck = newDeck
+				.filter((_) => _.length > 0 && !isNaN(_))
+				.map((_) => {
+					return { id: +_ }
+				})
+			newDeck = this.hashGroupBy(newDeck, "id")
+			this.savedCards.forEach((card) => {
+				if (newDeck[card.id] === undefined) card.checked = 0
+				else
+					card.checked =
+						newDeck[card.id].length > card.copies
+							? card.copies
+							: newDeck[card.id].length
+				// this.updateSearchedCard(card.id, card.checked)
+			})
+			this.reloadDeck(this.savedCards)
+			console.log("LOAD END")
+			this.noArcDeckName = deck.deckName + ".ydk"
+			this.randomDeckData = {
+				deck_name: "",
+				deck_excerpt: "",
+				pretty_url: "",
+			}
+			*/
+			console.log("DELETE END")
 		},
 		/* DECK CONTAINER */
 		removeFromDeck(e) {

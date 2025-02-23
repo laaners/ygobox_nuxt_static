@@ -63,6 +63,14 @@ export default app
 			}
 		)
 	})
+
+	app.get("/world_fl", (req,res) => {
+		res.send({
+			"0": fs.readFileSync("server/world_banned.txt").toString(),
+			"1": fs.readFileSync("server/world_limited.txt").toString(),
+			"2": fs.readFileSync("server/world_limited2.txt").toString()
+		})
+	})
 	
 
 	app.get("/", async (req, res) => {
