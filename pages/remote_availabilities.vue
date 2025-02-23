@@ -12,6 +12,7 @@
                 <option label="Fede">Fede</option>
                 <option label="Giorgio">Giorgio</option>
                 <option label="Luiso">Luiso</option>
+                <option label="Riccardo">Riccardo</option>
                 <option label="Richard">Richard</option>
                 <option label="Yu">Yu</option>
             </select>
@@ -73,6 +74,7 @@ export default {
                 this.showAllColors()
                 return
             }
+            // this.availabilities = this.allAvailabilities.find(_ => _.duelist === "Alessio").availabilities
             this.availabilities = this.allAvailabilities.find(_ => _.duelist === this.duelist).availabilities
         },
         availabilities(oldAvailabilities, newAvailabilities) {
@@ -242,6 +244,7 @@ td {
     width: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    white-space: pre;
 }
 
 table {

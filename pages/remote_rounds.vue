@@ -1,6 +1,8 @@
 <!-- eslint-disable vue/first-attribute-linebreak -->
 <template>
     <div class="flex-col">
+        <a href="https://github.com/laaners/yugioh_comprehensive_rulebook/blob/OCG-rulings-DB/remote/rules.md"
+            target="_blank">Regole per il remote duel</a>
         <h2>Classifica</h2>
         <div class="table-container table-container-rankings">
             <table>
@@ -73,10 +75,14 @@ export default {
             },
             {
                 "duelist": "Luiso",
-                "points": 3
+                "points": 0
             },
             {
                 "duelist": "Richard",
+                "points": 0
+            },
+            {
+                "duelist": "Riccard",
                 "points": 0
             },
             {
@@ -123,9 +129,9 @@ export default {
                     },
                     {
                         "player1": "Luiso",
-                        "player2": "",
+                        "player2": "Riccardo",
                         "when": "",
-                        "outcome": "BYE"
+                        "outcome": ""
                     }
                 ],
             },
