@@ -142,8 +142,8 @@ export default {
     async mounted() {
         this.rankings.sort((a, b) => b.points - a.points)
         this.allAvailabilities = await this.$axios.$get(
-            "http://localhost:4000/get_availabilities",
-            // "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
+            // "http://localhost:4000/get_availabilities",
+            "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
         )
     },
     methods: {

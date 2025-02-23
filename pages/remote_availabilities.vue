@@ -65,8 +65,8 @@ export default {
     watch: {
         async duelist(oldDuelist, newDuelist) {
             this.allAvailabilities = await this.$axios.$get(
-                "http://localhost:4000/get_availabilities",
-                // "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
+                // "http://localhost:4000/get_availabilities",
+                "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
             )
             this.showAllNames()
             if (this.duelist === "Tutti") {
@@ -88,8 +88,8 @@ export default {
     },
     async mounted() {
         this.allAvailabilities = await this.$axios.$get(
-            "http://localhost:4000/get_availabilities",
-            // "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
+            // "http://localhost:4000/get_availabilities",
+            "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
         )
         this.showAllNames()
         this.showAllColors()
@@ -208,8 +208,8 @@ export default {
         async submitAvailabilities() {
             const duelist = this.$refs.duelist.value
             await this.$axios.$post(
-                // "https://ygobox-nuxt-vercel.vercel.app/update_deck",
-                "http://localhost:4000/update_availabilities",
+                "https://ygobox-nuxt-vercel.vercel.app/update_deck",
+                // "http://localhost:4000/update_availabilities",
                 {
                     duelist,
                     availabilities: this.availabilities,
