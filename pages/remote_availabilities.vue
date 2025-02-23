@@ -208,7 +208,7 @@ export default {
         async submitAvailabilities() {
             const duelist = this.$refs.duelist.value
             await this.$axios.$post(
-                "https://ygobox-nuxt-vercel.vercel.app/update_deck",
+                "https://ygobox-nuxt-vercel.vercel.app/update_availabilities",
                 // "http://localhost:4000/update_availabilities",
                 {
                     duelist,
