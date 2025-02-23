@@ -82,7 +82,7 @@ export default {
                 "points": 0
             },
             {
-                "duelist": "Riccard",
+                "duelist": "Riccardo",
                 "points": 0
             },
             {
