@@ -216,10 +216,12 @@ table {
 
 .table-container {
     width: 50%;
+    overflow-x: scroll;
 }
 
 .table-container-rankings {
     width: 30%;
+    overflow-x: scroll;
 }
 
 .table-container table {
