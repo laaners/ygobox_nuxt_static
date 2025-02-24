@@ -87,7 +87,7 @@ export default {
             },
             {
                 "duelist": "Yu",
-                "points": 0
+                "points": 3
             },
             {
                 "duelist": "Alessio",
@@ -124,8 +124,8 @@ export default {
                     {
                         "player1": "Fede",
                         "player2": "Yu",
-                        "when": "",
-                        "outcome": ""
+                        "when": "24-02-2025",
+                        "outcome": "Vince Yu"
                     },
                     {
                         "player1": "Luiso",
@@ -154,6 +154,7 @@ export default {
     },
     methods: {
         computeAvailability(match) {
+            if(match.when.length > 1) return match.when
             if (this.allAvailabilities.length === 0) return
             const p1av = this.allAvailabilities.find(_ => _.duelist === match.player1).availabilities
             const p2av = this.allAvailabilities.find(_ => _.duelist === match.player2).availabilities
