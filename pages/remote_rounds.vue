@@ -83,7 +83,7 @@ export default {
             },
             {
                 "duelist": "Riccardo",
-                "points": 0
+                "points": 3
             },
             {
                 "duelist": "Yu",
@@ -91,7 +91,7 @@ export default {
             },
             {
                 "duelist": "Alessio",
-                "points": 0
+                "points": 3
             },
             {
                 "duelist": "Curry",
@@ -106,8 +106,8 @@ export default {
                     {
                         "player1": "Alessio",
                         "player2": "Edoardo",
-                        "when": "",
-                        "outcome": "",
+                        "when": "Svolto il 25-02 alle 21:00",
+                        "outcome": "Vince Alessio",
                     },
                     {
                         "player1": "Curry",
@@ -124,14 +124,14 @@ export default {
                     {
                         "player1": "Fede",
                         "player2": "Yu",
-                        "when": "24-02-2025",
+                        "when": "Svolto il 24-02 alle 21:00",
                         "outcome": "Vince Yu"
                     },
                     {
                         "player1": "Luiso",
                         "player2": "Riccardo",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 24-02 alle 22:00",
+                        "outcome": "Vince Riccardo"
                     }
                 ],
             },
@@ -215,12 +215,12 @@ table {
 }
 
 .table-container {
-    width: 50%;
+    width: 95%;
     overflow-x: scroll;
 }
 
 .table-container-rankings {
-    width: 30%;
+    width: 50%;
     overflow-x: scroll;
 }
 
