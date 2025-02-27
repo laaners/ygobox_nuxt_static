@@ -1,8 +1,16 @@
 <!-- eslint-disable vue/first-attribute-linebreak -->
 <template>
     <div class="flex-col">
-        <a href="https://github.com/laaners/yugioh_comprehensive_rulebook/blob/OCG-rulings-DB/remote/rules.md"
-            target="_blank">Regole per il remote duel</a>
+        <h2>
+
+            <a href="https://github.com/laaners/yugioh_comprehensive_rulebook/blob/OCG-rulings-DB/remote/rules.md"
+                target="_blank">Regole per il remote duel</a>
+        </h2>
+        <h2>
+            <a href="https://youtube.com/playlist?list=PLHNUuTwisx_gDACTx3B4XnP7Rf9mUPrWV&feature=shared" target="_blank">Playlist
+                Youtube dei duelli registrati</a>
+        </h2>
+
         <h2>Classifica</h2>
         <div class="table-container table-container-rankings">
             <table>
@@ -21,8 +29,8 @@
         <div class="flex-row">
             <span><b>Visualizza i pairings del turno:&ensp;</b></span>
             <select ref="round" v-model="round" name="round">
-                <option label="1" selected>1</option>
-                <option label="2">2</option>
+                <option label="2" selected>2</option>
+                <option label="1">1</option>
             </select>
         </div>
         <div class="table-container">
@@ -55,7 +63,7 @@ export default {
     layout: "default_remote",
     data: () => ({
         allAvailabilities: [],
-        round: "1",
+        round: "2",
         rankings: [
             {
                 "duelist": "Edoardo",
@@ -63,7 +71,7 @@ export default {
             },
             {
                 "duelist": "Fabian",
-                "points": 0
+                "points": 3
             },
             {
                 "duelist": "Fede",
@@ -79,7 +87,7 @@ export default {
             },
             {
                 "duelist": "Richard",
-                "points": 0
+                "points": 3
             },
             {
                 "duelist": "Riccardo",
@@ -112,14 +120,14 @@ export default {
                     {
                         "player1": "Curry",
                         "player2": "Richard",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 27-02 alle 21:00",
+                        "outcome": "Vince Richard"
                     },
                     {
                         "player1": "Fabian",
                         "player2": "Giorgio",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 25-02 alle 22:30",
+                        "outcome": "Vince Fabian, Giorgio drop"
                     },
                     {
                         "player1": "Fede",
@@ -131,13 +139,40 @@ export default {
                         "player1": "Luiso",
                         "player2": "Riccardo",
                         "when": "Svolto il 24-02 alle 22:00",
-                        "outcome": "Vince Riccardo"
+                        "outcome": "Vince Riccardo, Luiso drop"
                     }
                 ],
             },
             {
                 "round": 2,
-                "matches": []
+                "matches": [
+                    {
+                        "player1": "Fabian",
+                        "player2": "Riccardo",
+                        "when": "",
+                        "outcome": ""
+                    },
+                    {
+                        "player1": "Richard",
+                        "player2": "Yu",
+                        "when": "",
+                        "outcome": ""
+                    }
+                    ,
+                    {
+                        "player1": "Alessio",
+                        "player2": "Fede",
+                        "when": "",
+                        "outcome": ""
+                    }
+                    ,
+                    {
+                        "player1": "Edoardo",
+                        "player2": "Curry",
+                        "when": "",
+                        "outcome": ""
+                    }
+                ]
             }
         ]
     }),
@@ -154,7 +189,7 @@ export default {
     },
     methods: {
         computeAvailability(match) {
-            if(match.when.length > 1) return match.when
+            if (match.when.length > 1) return match.when
             if (this.allAvailabilities.length === 0) return
             const p1av = this.allAvailabilities.find(_ => _.duelist === match.player1).availabilities
             const p2av = this.allAvailabilities.find(_ => _.duelist === match.player2).availabilities
