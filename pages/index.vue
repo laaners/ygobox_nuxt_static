@@ -1037,6 +1037,7 @@ export default {
 				"https://raw.githubusercontent.com/ProjectIgnis/LFLists/master/0TCG.lflist.conf"
 			)
 
+			/*
 			const world_flist = await this.$axios.$get("/api/world_fl")
 			const hashAllcardsName = this.hashGroupBy(this.allcards, "name")
 			flist = ""
@@ -1047,6 +1048,7 @@ export default {
 					flist += hashAllcardsName[name][0].id+" "+key+" --"+name+"\n"
 				})
 			}
+			*/
 
 			flist = flist
 				.split("\n")
