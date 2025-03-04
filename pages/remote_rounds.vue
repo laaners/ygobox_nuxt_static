@@ -67,7 +67,7 @@ export default {
         rankings: [
             {
                 "duelist": "Edoardo",
-                "points": 0
+                "points": 3
             },
             {
                 "duelist": "Fabian",
@@ -99,7 +99,7 @@ export default {
             },
             {
                 "duelist": "Alessio",
-                "points": 3
+                "points": 6
             },
             {
                 "duelist": "Curry",
@@ -149,28 +149,28 @@ export default {
                     {
                         "player1": "Fabian",
                         "player2": "Riccardo",
-                        "when": "",
+                        "when": "Domenica",
                         "outcome": ""
                     },
                     {
                         "player1": "Richard",
                         "player2": "Yu",
-                        "when": "",
+                        "when": "Giovedì sera",
                         "outcome": ""
                     }
                     ,
                     {
                         "player1": "Alessio",
                         "player2": "Fede",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 04-02 alle 22:00",
+                        "outcome": "Vince Alessio"
                     }
                     ,
                     {
                         "player1": "Edoardo",
                         "player2": "Curry",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 04-02 alle 21:00",
+                        "outcome": "Vince Edoardo"
                     }
                 ]
             }
