@@ -7,7 +7,8 @@
                 target="_blank">Regole per il remote duel</a>
         </h2>
         <h2>
-            <a href="https://youtube.com/playlist?list=PLHNUuTwisx_gDACTx3B4XnP7Rf9mUPrWV&feature=shared" target="_blank">Playlist
+            <a href="https://youtube.com/playlist?list=PLHNUuTwisx_gDACTx3B4XnP7Rf9mUPrWV&feature=shared"
+                target="_blank">Playlist
                 Youtube dei duelli registrati</a>
         </h2>
 
@@ -63,7 +64,7 @@ export default {
     layout: "default_remote",
     data: () => ({
         allAvailabilities: [],
-        round: "2",
+        round: "3",
         rankings: [
             {
                 "duelist": "Edoardo",
@@ -87,15 +88,15 @@ export default {
             },
             {
                 "duelist": "Richard",
-                "points": 3
+                "points": 4
             },
             {
                 "duelist": "Riccardo",
-                "points": 3
+                "points": 6
             },
             {
                 "duelist": "Yu",
-                "points": 3
+                "points": 4
             },
             {
                 "duelist": "Alessio",
@@ -149,28 +150,57 @@ export default {
                     {
                         "player1": "Fabian",
                         "player2": "Riccardo",
-                        "when": "Domenica",
-                        "outcome": ""
+                        "when": "Svolto il 09-03 alle 11:00",
+                        "outcome": "Vince Riccardo"
                     },
                     {
                         "player1": "Richard",
                         "player2": "Yu",
-                        "when": "Giovedì sera",
-                        "outcome": ""
+                        "when": "Svolto il 06-03 alle 21:00",
+                        "outcome": "Pareggio"
                     }
                     ,
                     {
                         "player1": "Alessio",
                         "player2": "Fede",
-                        "when": "Svolto il 04-02 alle 22:00",
+                        "when": "Svolto il 04-03 alle 22:00",
                         "outcome": "Vince Alessio"
                     }
                     ,
                     {
                         "player1": "Edoardo",
                         "player2": "Curry",
-                        "when": "Svolto il 04-02 alle 21:00",
+                        "when": "Svolto il 04-03 alle 21:00",
                         "outcome": "Vince Edoardo"
+                    }
+                ]
+            },
+            {
+                "round": 3,
+                "matches": [
+                    {
+                        "player1": "Riccardo",
+                        "player2": "Alessio",
+                        "when": "",
+                        "outcome": ""
+                    },
+                    {
+                        "player1": "Richard",
+                        "player2": "Fabian",
+                        "when": "",
+                        "outcome": ""
+                    },
+                    {
+                        "player1": "Yu",
+                        "player2": "Edoardo",
+                        "when": "",
+                        "outcome": ""
+                    },
+                    {
+                        "player1": "Fede",
+                        "player2": "Curry",
+                        "when": "",
+                        "outcome": ""
                     }
                 ]
             }
