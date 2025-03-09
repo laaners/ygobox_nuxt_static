@@ -30,7 +30,8 @@
         <div class="flex-row">
             <span><b>Visualizza i pairings del turno:&ensp;</b></span>
             <select ref="round" v-model="round" name="round">
-                <option label="2" selected>2</option>
+                <option label="3" selected>3</option>
+                <option label="2">2</option>
                 <option label="1">1</option>
             </select>
         </div>
