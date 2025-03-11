@@ -101,7 +101,7 @@ export default {
             },
             {
                 "duelist": "Alessio",
-                "points": 6
+                "points": 9
             },
             {
                 "duelist": "Curry",
@@ -182,8 +182,8 @@ export default {
                     {
                         "player1": "Riccardo",
                         "player2": "Alessio",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 11-03 alle 21:00",
+                        "outcome": "Vince Alessio"
                     },
                     {
                         "player1": "Richard",
