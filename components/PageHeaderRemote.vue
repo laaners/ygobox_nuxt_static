@@ -54,7 +54,7 @@ export default {
 		navItems: [
 			// { uri: "/deck_editor", name: "Il tuo Deck" },
 			// { uri: "/banned_cards", name: "Carte Bandite" },
-			// { uri: "/pack_info", name: "Info Pacchetto" },
+			// { uri: "/proposals", name: "Regole Spicy" },
 			{ uri: "/remote_rounds", name: "Turni" },
 			{ uri: "/remote_availabilities", name: "Orari dei Partecipanti" },
 			// { uri: "/archetypes", name: "Archetipi" },

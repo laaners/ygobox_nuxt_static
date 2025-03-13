@@ -69,11 +69,11 @@ export default {
         rankings: [
             {
                 "duelist": "Edoardo",
-                "points": 3
+                "points": 6
             },
             {
                 "duelist": "Fabian",
-                "points": 3
+                "points": 4
             },
             {
                 "duelist": "Fede",
@@ -89,7 +89,7 @@ export default {
             },
             {
                 "duelist": "Richard",
-                "points": 4
+                "points": 5
             },
             {
                 "duelist": "Riccardo",
@@ -188,14 +188,14 @@ export default {
                     {
                         "player1": "Richard",
                         "player2": "Fabian",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 13-03 alle 21:00",
+                        "outcome": "Pareggio"
                     },
                     {
                         "player1": "Yu",
                         "player2": "Edoardo",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 13-03 alle 21:00",
+                        "outcome": "Vince Edoardo"
                     },
                     {
                         "player1": "Fede",
@@ -212,7 +212,7 @@ export default {
         },
     },
     async mounted() {
-        this.rankings.sort((a, b) => b.points - a.points)
+        this.rankings.sort((a, b) => b.duelist > a.duelist ? 1 : -1).sort((a, b) => b.points - a.points)
         this.allAvailabilities = await this.$axios.$get(
             // "http://localhost:4000/get_availabilities",
             "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
