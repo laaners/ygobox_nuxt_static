@@ -105,7 +105,7 @@ export default {
             },
             {
                 "duelist": "Curry",
-                "points": 0
+                "points": 3
             },
         ]
         ,
@@ -200,8 +200,8 @@ export default {
                     {
                         "player1": "Fede",
                         "player2": "Curry",
-                        "when": "",
-                        "outcome": ""
+                        "when": "Svolto il 13-03 alle 22:00",
+                        "outcome": "Vince Curry"
                     }
                 ]
             }
