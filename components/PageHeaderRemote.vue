@@ -1,36 +1,17 @@
 <template>
-	<header
-		class="page-header"
-		:class="{ 'header-collapse-active': isMenuActive }"
-	>
+	<header class="page-header" :class="{ 'header-collapse-active': isMenuActive }">
 		<nav class="container header-grid">
 
 			<div id="header-nav" class="header-nav">
-				<ul
-					class="nav-list nav-collapse"
-					:class="{ 'nav-collapse-active': isMenuActive }"
-				>
-					<li
-						v-for="(item, index) in navItems"
-						:key="index"
-						class="nav-link"
-					>
-						<nuxt-link
-							class="nuxt-link"
-							:to="item.uri"
-							@click.native="isMenuActive = false"
-							>{{ item.name }}</nuxt-link
-						>
+				<ul class="nav-list nav-collapse" :class="{ 'nav-collapse-active': isMenuActive }">
+					<li v-for="(item, index) in navItems" :key="index" class="nav-link">
+						<nuxt-link class="nuxt-link" :to="item.uri" @click.native="isMenuActive = false">{{ item.name
+							}}</nuxt-link>
 					</li>
 				</ul>
 			</div>
-			<button
-				class="nav-menu"
-				aria-label="toggle menu"
-				aria-controls="heaver-nav"
-				:aria-expanded="String(isMenuActive)"
-				@click="isMenuActive = !isMenuActive"
-			>
+			<button class="nav-menu" aria-label="toggle menu" aria-controls="heaver-nav"
+				:aria-expanded="String(isMenuActive)" @click="isMenuActive = !isMenuActive">
 				<menu-icon v-show="!isMenuActive" />
 				<x-icon v-show="isMenuActive" />
 				<!--
@@ -48,13 +29,13 @@ import MenuIcon from "./icons/MenuIcon.vue"
 import XIcon from "./icons/XIcon.vue"
 export default {
 	name: "PageHeaderRemote",
-	components: { XIcon, MenuIcon,  },
+	components: { XIcon, MenuIcon, },
 	data: () => ({
 		isMenuActive: false,
 		navItems: [
 			// { uri: "/deck_editor", name: "Il tuo Deck" },
 			// { uri: "/banned_cards", name: "Carte Bandite" },
-			// { uri: "/proposals", name: "Regole Spicy" },
+			{ uri: "/proposals", name: "Regole Spicy" },
 			{ uri: "/remote_rounds", name: "Turni" },
 			{ uri: "/remote_availabilities", name: "Orari dei Partecipanti" },
 			// { uri: "/archetypes", name: "Archetipi" },
@@ -117,20 +98,24 @@ export default {
 		"title menu"
 		"nav nav";
 }
+
 .header-title {
 	align-self: center;
 	grid-area: title;
 	margin-left: var(--space-0);
 }
+
 .header-title h1 {
 	font-size: var(--font-size-header-title);
 	color: var(--color-light);
 	margin: 0;
 }
+
 .header-title a {
 	display: block;
 	text-decoration: none;
 }
+
 .header-nav {
 	font-size: var(--font-size-h4);
 	align-self: center;
@@ -149,15 +134,17 @@ export default {
 	font-family: var(--font-family-body);
 	font-size: var(--font-size-header-menu);
 }
+
 .nav-menu svg {
 	margin-top: 2px;
 }
+
 .nav-menu svg,
 .nav-menu span {
 	align-self: center;
 }
 
-.nav-menu > * {
+.nav-menu>* {
 	color: var(--color-light);
 	margin-right: var(--space-1);
 }
@@ -168,26 +155,32 @@ export default {
 	margin: 0;
 	padding: 0;
 }
+
 .nav-link {
 	display: block;
 	margin-top: var(--space-0);
 }
+
 .nav-link a {
 	display: block;
 	padding: 0;
 	text-decoration: none;
 	color: var(--color-light);
 }
+
 .nav-link .nuxt-link-active {
 	color: var(--color-light-transparent);
 	text-decoration: underline;
 }
+
 .nav-collapse {
 	display: none;
 }
+
 .nav-collapse-active {
 	display: block;
 }
+
 .header-collapse-active {
 	display: block;
 	position: sticky;
@@ -196,6 +189,7 @@ export default {
 	top: 0;
 	left: 0;
 }
+
 .header-collapse-active .header-grid {
 	border-bottom: 0;
 }
@@ -213,12 +207,15 @@ export default {
 		grid-template-columns: 1fr auto;
 		grid-template-areas: "title nav";
 	}
+
 	.nav-menu {
 		display: none;
 	}
+
 	.nav-collapse {
 		display: block;
 	}
+
 	.header-collapse-active {
 		display: block;
 		position: relative;
@@ -228,17 +225,21 @@ export default {
 		top: auto;
 		left: auto;
 	}
+
 	.nav-link {
 		margin: 0;
 		display: inline-block;
 	}
+
 	.nav-link a {
 		padding: var(--space-0);
 	}
+
 	.nav-link a:hover,
 	.nav-link a:focus {
 		color: var(--color-light-transparent);
 	}
+
 	.nav-link .nuxt-link-active {
 		text-decoration: none;
 		font-weight: bolder;

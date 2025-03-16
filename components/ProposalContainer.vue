@@ -1,11 +1,15 @@
 <template>
 	<div class="proposal-container">
 		<p class="description">{{ description }}</p>
+		<p class="approvers">Votato da:
+			<span v-if="votes.length > 0">
+				{{ votes.slice(0, -1).join(',') + votes.slice(-1) }}
+			</span>
+			<span v-else>-</span>
+		</p>
 		<div class="footer">
-			<h3 class="author">Proposto da: {{ author }}</h3>
-			<div class="votes">
-				<h2>{{ votes }}⬆</h2>
-			</div>
+			<p class="author">Proposto da: {{ author }}</p>
+			<p class="votes" @click="upvote()">{{ votes.length }}⬆</p>
 		</div>
 	</div>
 </template>
@@ -16,7 +20,7 @@ export default {
 	props: {
 		author: { required: true, type: String },
 		description: { required: true, type: String },
-		votes: { required: true, type: Number },
+		votes: { required: true, type: Object },
 	},
 	methods: {
 		upvote() {
@@ -30,15 +34,17 @@ export default {
 .proposal-container {
 	border: 1px solid #ddd;
 	padding: 16px;
+	padding-bottom: 0px;
 	border-radius: 8px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 	margin-bottom: 12px;
-	width: 90%;
+	min-width: 90%;
 }
 
-.description {
+.description,
+.approvers {
 	font-size: 16px;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 }
 
 .footer {
@@ -50,6 +56,17 @@ export default {
 .votes {
 	display: flex;
 	align-items: center;
+	font-size: 24px;
+	font-weight: bolder;
+
+	cursor: pointer;
+
+	margin: 0;
+}
+
+.author {
+	font-size: 18px;
+	font-weight: bolder;
 }
 
 button {

@@ -1,55 +1,171 @@
 <!-- eslint-disable vue/first-attribute-linebreak -->
 <template>
     <div class="flex-col">
-        <div class="flex-row">
-            <h1>Tu sei:&ensp;</h1>
-            <select ref="duelist" v-model="duelist" name="duelist">
-                <option label="Alessio" selected="selected">Alessio</option>
-                <option label="Curry">Curry</option>
-                <option label="Fabian">Fabian</option>
-                <option label="Edoardo">Edoardo</option>
-                <option label="Fede">Fede</option>
-                <option label="Giorgio">Giorgio</option>
-                <option label="Luiso">Luiso</option>
-                <option label="Riccardo">Riccardo</option>
-                <option label="Richard">Richard</option>
-                <option label="Yu">Yu</option>
-            </select>
+        <div v-if="proposals.length === 0" class="loader" style="
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: var(--space-1);
+				margin-top: var(--space-1) !important;
+			"></div>
+        <div v-else class="flex-col" style="width: 100%">
+            <div v-if="user.length < 1" class="flex-col" style="width: 40%; margin-bottom: 10%">
+                <h1>Tu sei:</h1>
+                <grid-view :columns="1" :row-gap="3" :col-gap="3" style="width: 100%">
+                    <button-secondary v-for="u of users" :key="u" :title="u" style="font-size: 24px"
+                        @click.native="user = u" />
+                </grid-view>
+            </div>
+            <div v-else class="flex-col" style="width: 100%">
+                <form class="flex-col" @submit.prevent="sendProposal()">
+                    <h1 style="text-align: center;">Proponi qualcosa qua (proponi una cosa alla volta!):</h1>
+                    <textarea v-model="form.proposal" class="make-proposal" name="proposal"></textarea>
+                    <button-secondary :title="'INVIA'" style="font-size: 18px" type="submit" />
+                </form>
+
+                <div v-for="proposal of proposals" :key="proposal.id" class="proposal-container">
+                    <p class="description">{{ proposal.description }}</p>
+                    <p class="approvers">
+                        Votato da:
+                        <span v-if="proposal.votes.length > 0">
+                            {{
+                                proposal.votes
+                            }}
+                        </span>
+                        <span v-else>-</span>
+                    </p>
+                    <div class="footer">
+                        <p class="author">Proposto da: {{ proposal.author }}</p>
+                        <p class="votes" @click="voteUnvote(proposal)">
+                            {{ proposal.votes.length }}
+                            <span>
+                                <svg id="like-svg" xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                    viewBox="0 0 24 24" :fill="proposal.votes.includes(user)
+                                        ? 'red'
+                                        : 'black'
+                                        ">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <proposal-container :author="Alessio" :description="'Usare un D12 prima di iniziare la partita INFLAZIONE le carte che hanno un costo di attivazione devono pagarlo 2 volte per essere attivate, se non possono farlo non possono essere attivate.TERRENO A MOLLA Tutti i mostri evocati sul terreno passano immediatamente sotto il controllo dellavversario OFFERTA ALLE DIVINITÀ ESTERNE Una volta per duello, durante il turno di qualsiasi giocatore (effetto rapido) un giocatore può scartare 1 carta per scegliere una carta dal suo side deck e aggiungerla alla mano.LIBRERIA INFINITA DEL MONDO CHIUSOAllinizio di ogni turno il giocatore di turno bandisce a faccia in giù le prime 10 carte del suo deck, dopodiché ne può scegliere una da aggiungere alla mano.CONNESSIONE ISTANTANEAI giocatori rivelano il proprio extra deck e mescolano tutti i mostri link nel loro main deck, dopodiché pescano 2 carte. Quando un giocatore pesca un mostro link esso DEVE essere evocato istantaneamente sul terreno in qualunque zona CARTA ignorando le condizioni di evocazione.SORVEGLIANZA ASSOLUTA IMPERIALEI giocatori ogni volta che devono aggiungere o pescare una carta (anche allinizio della partita)passano il deck allavversario che sceglierà la carta da mettere in cima al deck per pescarla oppure il target CORRETTO da aggiungere alla mano.'" :votes="5" />
     </div>
 </template>
 
 <script>
-import ProposalContainer from "../components/ProposalContainer.vue"
-import Utils from "~/mixins/utils"
+import GridView from "../components/GridView.vue";
+import ButtonSecondary from "../components/ButtonSecondary.vue";
+import Utils from "~/mixins/utils";
 
 export default {
     name: "RemoteLocal",
     // eslint-disable-next-line vue/no-unused-components
-    components: { ProposalContainer },
+    components: {
+        GridView,
+        ButtonSecondary,
+    },
     mixins: [Utils],
     layout: "default_remote",
     data: () => ({
-        weekDays: ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"],
-        timeHours: [
-            8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24
+        user: "",
+        users: [
+            "Alessio",
+            "Curry",
+            "Fabian",
+            "Edoardo",
+            "Fede",
+            "Giorgio",
+            "Ignazio",
+            "Luiso",
+            "Riccardo",
+            "Richard",
+            "Stefano",
+            "Yu",
         ],
-        availabilities: {},
-        allAvailabilities: [],
-        duelist: "Alessio"
+        proposals: [],
+        form: {
+            proposal: "",
+        },
+        // apiPoint: "http://localhost:4000"
+        apiPoint: "https://ygobox-nuxt-vercel.vercel.app"
     }),
-    watch: {
-    },
+    watch: {},
     async mounted() {
-
+        this.proposals = await this.$axios.$get(
+            this.apiPoint + "/get_proposals"
+        );
+        this.proposals.sort((a, b) => b.votes.length - a.votes.length)
+        console.log(this.proposals.map(_ => _.description))
     },
     methods: {
-    }
-}
+        async sendProposal() {
+            // console.log(this.form.proposal)
+            const id = new Date().getTime().toString();
+            await this.$axios.$post(
+                this.apiPoint + "/update_proposal",
+                {
+                    id,
+                    author: this.user,
+                    description: this.form.proposal,
+                    votes: [this.user],
+                }
+            );
+
+            this.proposals = await this.$axios.$get(
+                this.apiPoint + "/get_proposals",
+            );
+            this.proposals.sort((a, b) => b.votes.length - a.votes.length)
+        },
+        async voteUnvote(proposal) {
+            proposal.votes.includes(this.user);
+            await this.$axios.$post(
+                this.apiPoint + "/update_proposal",
+                {
+                    id: proposal.id,
+                    author: proposal.user,
+                    description: proposal.description,
+                    votes:
+                        proposal.votes.includes(this.user)
+                            ? proposal.votes.filter((_) => _ !== this.user)
+                            : [...proposal.votes, this.user],
+                }
+            );
+
+            this.proposals = await this.$axios.$get(
+                this.apiPoint + "/get_proposals",
+            );
+            this.proposals.sort((a, b) => b.votes.length - a.votes.length)
+        },
+    },
+};
 </script>
 
 <style scoped>
+form {
+    width: 60%;
+}
+
+.make-proposal {
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    padding: 16px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+
+    height: 100px;
+    resize: none;
+}
+
+h1 {
+    font-size: 24px;
+}
+
 .flex-col>* {
     margin: var(--space-0);
 }
@@ -86,10 +202,54 @@ table {
 .submit-table-container table {
     width: 100%;
     margin: 0;
-
 }
 
 .submit-table-container table td {
     cursor: pointer;
+}
+
+/*Proposals ----------------------------------------*/
+
+.proposal-container {
+    border: 1px solid #ddd;
+    padding: 16px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+    width: 90%;
+}
+
+.description,
+.approvers,
+.approvers span {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.description {
+    white-space: pre-line
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.votes {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+
+    cursor: pointer;
+
+    margin: 0;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bolder;
 }
 </style>
