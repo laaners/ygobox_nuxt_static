@@ -102,6 +102,7 @@ export default {
     },
     methods: {
         async sendProposal() {
+            this.proposals = []
             // console.log(this.form.proposal)
             const id = new Date().getTime().toString();
             await this.$axios.$post(
@@ -118,6 +119,7 @@ export default {
                 this.apiPoint + "/get_proposals",
             );
             this.proposals.sort((a, b) => b.votes.length - a.votes.length)
+
         },
         async voteUnvote(proposal) {
             proposal.votes.includes(this.user);
