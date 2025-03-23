@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/first-attribute-linebreak -->
 <template>
-    <div class="flex-col">
+    <div :class="remoteData === undefined ? 'flex-col' : ''">
         <div v-if="remoteData === undefined" class="loader" style="
 				margin-left: auto;
 				margin-right: auto;
@@ -226,8 +226,7 @@ table {
 }
 
 .table-container table {
-    width: 100%;
-    margin: 0;
+    width: 100%; margin: 0;
 
 }
 </style>
