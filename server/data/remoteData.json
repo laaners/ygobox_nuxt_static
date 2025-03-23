@@ -1,0 +1,141 @@
+{
+    "rankings": [
+        {
+            "duelist": "Edoardo",
+            "points": 6
+        },
+        {
+            "duelist": "Fabian",
+            "points": 4
+        },
+        {
+            "duelist": "Fede",
+            "points": 0
+        },
+        {
+            "duelist": "Giorgio",
+            "points": 0
+        },
+        {
+            "duelist": "Luiso",
+            "points": 0
+        },
+        {
+            "duelist": "Richard",
+            "points": 5
+        },
+        {
+            "duelist": "Riccardo",
+            "points": 6
+        },
+        {
+            "duelist": "Yu",
+            "points": 4
+        },
+        {
+            "duelist": "Alessio",
+            "points": 9
+        },
+        {
+            "duelist": "Curry",
+            "points": 3
+        }
+    ],
+    "allPairings": [
+        {
+            "round": 1,
+            "matches": [
+                {
+                    "player1": "Alessio",
+                    "player2": "Edoardo",
+                    "when": "Svolto il 25-02 alle 21:00",
+                    "outcome": "Vince Alessio"
+                },
+                {
+                    "player1": "Curry",
+                    "player2": "Richard",
+                    "when": "Svolto il 27-02 alle 21:00",
+                    "outcome": "Vince Richard"
+                },
+                {
+                    "player1": "Fabian",
+                    "player2": "Giorgio",
+                    "when": "Svolto il 25-02 alle 22:30",
+                    "outcome": "Vince Fabian, Giorgio drop"
+                },
+                {
+                    "player1": "Fede",
+                    "player2": "Yu",
+                    "when": "Svolto il 24-02 alle 21:00",
+                    "outcome": "Vince Yu"
+                },
+                {
+                    "player1": "Luiso",
+                    "player2": "Riccardo",
+                    "when": "Svolto il 24-02 alle 22:00",
+                    "outcome": "Vince Riccardo, Luiso drop"
+                }
+            ]
+        },
+        {
+            "round": 2,
+            "matches": [
+                {
+                    "player1": "Fabian",
+                    "player2": "Riccardo",
+                    "when": "Svolto il 09-03 alle 11:00",
+                    "outcome": "Vince Riccardo"
+                },
+                {
+                    "player1": "Richard",
+                    "player2": "Yu",
+                    "when": "Svolto il 06-03 alle 21:00",
+                    "outcome": "Pareggio"
+                }
+                ,
+                {
+                    "player1": "Alessio",
+                    "player2": "Fede",
+                    "when": "Svolto il 04-03 alle 22:00",
+                    "outcome": "Vince Alessio"
+                }
+                ,
+                {
+                    "player1": "Edoardo",
+                    "player2": "Curry",
+                    "when": "Svolto il 04-03 alle 21:00",
+                    "outcome": "Vince Edoardo"
+                }
+            ]
+        },
+        {
+            "round": 3,
+            "matches": [
+                {
+                    "player1": "Riccardo",
+                    "player2": "Alessio",
+                    "when": "Svolto il 11-03 alle 21:00",
+                    "outcome": "Vince Alessio"
+                },
+                {
+                    "player1": "Richard",
+                    "player2": "Fabian",
+                    "when": "Svolto il 13-03 alle 21:00",
+                    "outcome": "Pareggio"
+                },
+                {
+                    "player1": "Yu",
+                    "player2": "Edoardo",
+                    "when": "Svolto il 13-03 alle 21:00",
+                    "outcome": "Vince Edoardo"
+                },
+                {
+                    "player1": "Fede",
+                    "player2": "Curry",
+                    "when": "Svolto il 13-03 alle 22:00",
+                    "outcome": "Vince Curry"
+                }
+            ]
+        }
+    ]
+}

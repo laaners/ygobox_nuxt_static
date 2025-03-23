@@ -123,6 +123,7 @@ export default {
         },
         async voteUnvote(proposal) {
             proposal.votes.includes(this.user);
+            // this.proposals = []
             await this.$axios.$post(
                 this.apiPoint + "/update_proposal",
                 {
@@ -135,7 +136,6 @@ export default {
                             : [...proposal.votes, this.user],
                 }
             );
-
             this.proposals = await this.$axios.$get(
                 this.apiPoint + "/get_proposals",
             );
