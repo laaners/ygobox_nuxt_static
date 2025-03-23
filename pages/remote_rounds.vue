@@ -91,16 +91,11 @@ export default {
             "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
         )
 
-        /*
         this.remoteData = {
-            rankings: [
+            "rankings": [
                 {
                     "duelist": "Edoardo",
-                    "points": 6
-                },
-                {
-                    "duelist": "Fabian",
-                    "points": 4
+                    "points": 0
                 },
                 {
                     "duelist": "Fede",
@@ -116,101 +111,45 @@ export default {
                 },
                 {
                     "duelist": "Richard",
-                    "points": 5
-                },
-                {
-                    "duelist": "Riccardo",
-                    "points": 6
-                },
-                {
-                    "duelist": "Yu",
-                    "points": 4
-                },
-                {
-                    "duelist": "Alessio",
-                    "points": 9
+                    "points": 0
                 },
                 {
                     "duelist": "Curry",
-                    "points": 3
-                },
+                    "points": 0
+                }
             ],
-            allPairings: [
+            "allPairings": [
                 {
                     "round": 1,
                     "matches": [
                         {
-                            "player1": "Alessio",
+                            "player1": "Richard",
                             "player2": "Edoardo",
-                            "when": "Svolto il 25-02 alle 21:00",
-                            "outcome": "Vince Alessio",
-                        },
-                        {
-                            "player1": "Curry",
-                            "player2": "Richard",
-                            "when": "Svolto il 27-02 alle 21:00",
-                            "outcome": "Vince Richard"
-                        },
-                        {
-                            "player1": "Fabian",
-                            "player2": "Giorgio",
-                            "when": "Svolto il 25-02 alle 22:30",
-                            "outcome": "Vince Fabian, Giorgio drop"
+                            "when": "",
+                            "outcome": ""
                         },
                         {
                             "player1": "Fede",
-                            "player2": "Yu",
-                            "when": "Svolto il 24-02 alle 21:00",
-                            "outcome": "Vince Yu"
+                            "player2": "Curry",
+                            "when": "",
+                            "outcome": ""
                         },
                         {
                             "player1": "Luiso",
-                            "player2": "Riccardo",
-                            "when": "Svolto il 24-02 alle 22:00",
-                            "outcome": "Vince Riccardo, Luiso drop"
-                        }
-                    ],
-                },
-                {
-                    "round": 2,
-                    "matches": [
-                        {
-                            "player1": "Fabian",
-                            "player2": "Riccardo",
-                            "when": "Svolto il 09-03 alle 11:00",
-                            "outcome": "Vince Riccardo"
-                        },
-                        {
-                            "player1": "Richard",
-                            "player2": "Yu",
-                            "when": "Svolto il 06-03 alle 21:00",
-                            "outcome": "Pareggio"
-                        }
-                        ,
-                        {
-                            "player1": "Alessio",
-                            "player2": "Fede",
-                            "when": "Svolto il 04-03 alle 22:00",
-                            "outcome": "Vince Alessio"
-                        }
-                        ,
-                        {
-                            "player1": "Edoardo",
-                            "player2": "Curry",
-                            "when": "Svolto il 04-03 alle 21:00",
-                            "outcome": "Vince Edoardo"
+                            "player2": "Giorgio",
+                            "when": "",
+                            "outcome": ""
                         }
                     ]
                 }
             ]
         }
-        */
         /*
-        */
         this.remoteData = await this.$axios.$get(
             // "https://raw.githubusercontent.com/laaners/ygobox_nuxt_static/refs/heads/master/server/data/remoteData.json"
             "https://raw.githubusercontent.com/laaners/ygobox_nuxt/refs/heads/master/server/data/remoteData.json"
         )
+        */
         this.rankings = this.remoteData.rankings
         this.allPairings = this.remoteData.allPairings
     },
