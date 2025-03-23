@@ -205,9 +205,11 @@ export default {
             ]
         }
         */
+        /*
+        */
         this.remoteData = await this.$axios.$get(
-            "https://raw.githubusercontent.com/laaners/ygobox_nuxt_static/refs/heads/master/server/data/remoteData.json"
-            // "https://raw.githubusercontent.com/laaners/ygobox_nuxt/master/server/data/remoteData.json"
+            // "https://raw.githubusercontent.com/laaners/ygobox_nuxt_static/refs/heads/master/server/data/remoteData.json"
+            "https://raw.githubusercontent.com/laaners/ygobox_nuxt/refs/heads/master/server/data/remoteData.json"
         )
         this.rankings = this.remoteData.rankings
         this.allPairings = this.remoteData.allPairings
