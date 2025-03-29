@@ -85,7 +85,6 @@ export default {
         ]
     }),
     async mounted() {
-        this.rankings.sort((a, b) => b.duelist > a.duelist ? 1 : -1).sort((a, b) => b.points - a.points)
         this.allAvailabilities = await this.$axios.$get(
             // "http://localhost:4000/get_availabilities",
             "https://ygobox-nuxt-vercel.vercel.app/get_availabilities"
@@ -111,10 +110,18 @@ export default {
                 },
                 {
                     "duelist": "Richard",
-                    "points": 0
+                    "points": 3
                 },
                 {
                     "duelist": "Curry",
+                    "points": 0
+                },
+                {
+                    "duelist": "Riccardo",
+                    "points": 3
+                },
+                {
+                    "duelist": "Alessio",
                     "points": 0
                 }
             ],
@@ -125,8 +132,8 @@ export default {
                         {
                             "player1": "Richard",
                             "player2": "Edoardo",
-                            "when": "",
-                            "outcome": ""
+                            "when": "Svolto il 27/03",
+                            "outcome": "Vince Richard"
                         },
                         {
                             "player1": "Fede",
@@ -139,6 +146,12 @@ export default {
                             "player2": "Giorgio",
                             "when": "",
                             "outcome": ""
+                        },
+                        {
+                            "player1": "Alessio",
+                            "player2": "Riccardo",
+                            "when": "Svolto il 29/03",
+                            "outcome": "Vince Riccardo"
                         }
                     ]
                 }
@@ -151,6 +164,7 @@ export default {
         )
         */
         this.rankings = this.remoteData.rankings
+        this.rankings.sort((a, b) => b.duelist > a.duelist ? 1 : -1).sort((a, b) => b.points - a.points)
         this.allPairings = this.remoteData.allPairings
     },
     methods: {
