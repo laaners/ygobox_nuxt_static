@@ -77,7 +77,7 @@ export default {
     data: () => ({
         allAvailabilities: [],
         remoteData: undefined,
-        round: 1,
+        round: 2,
         rankings: [
         ]
         ,
@@ -98,11 +98,11 @@ export default {
                 },
                 {
                     "duelist": "Fede",
-                    "points": 0
+                    "points": 1
                 },
                 {
                     "duelist": "Giorgio",
-                    "points": 0
+                    "points": 3
                 },
                 {
                     "duelist": "Luiso",
@@ -114,7 +114,7 @@ export default {
                 },
                 {
                     "duelist": "Curry",
-                    "points": 0
+                    "points": 1
                 },
                 {
                     "duelist": "Riccardo",
@@ -139,19 +139,48 @@ export default {
                             "player1": "Fede",
                             "player2": "Curry",
                             "when": "",
-                            "outcome": ""
+                            "outcome": "Pareggio"
                         },
                         {
                             "player1": "Luiso",
                             "player2": "Giorgio",
                             "when": "",
-                            "outcome": ""
+                            "outcome": "Vince Giorgio"
                         },
                         {
                             "player1": "Alessio",
                             "player2": "Riccardo",
                             "when": "Svolto il 29/03",
                             "outcome": "Vince Riccardo"
+                        }
+                    ]
+                },
+                {
+                    "round": 2,
+                    "matches": [
+                        {
+                            "player1": "Richard",
+                            "player2": "Giorgio",
+                            "when": "",
+                            "outcome": ""
+                        },
+                        {
+                            "player1": "Riccardo",
+                            "player2": "Curry",
+                            "when": "",
+                            "outcome": ""
+                        },
+                        {
+                            "player1": "Fede",
+                            "player2": "Luiso",
+                            "when": "",
+                            "outcome": ""
+                        },
+                        {
+                            "player1": "Edoardo",
+                            "player2": "Alessio",
+                            "when": "",
+                            "outcome": ""
                         }
                     ]
                 }
@@ -240,7 +269,8 @@ table {
 }
 
 .table-container table {
-    width: 100%; margin: 0;
+    width: 100%;
+    margin: 0;
 
 }
 </style>
