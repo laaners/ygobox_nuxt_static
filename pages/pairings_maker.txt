@@ -1,0 +1,33 @@
+Make pairings of 2 people based on how much points they've gathered (a player with more points should be paired with another player with more or less the same points) for match
+
+Richard	3
+Edoardo	0
+Fede	1
+Curry	1
+Luiso	0
+Giorgio	3
+Alessio 0
+Riccardo 3
+
+Also the following pairings already happened
+
+Richard vs Edoardo
+Fede vs Curry
+Luiso vs Giorgio
+Riccardo vs Alessio
+
+Also put them in a json like this:
+
+[
+    {
+        "player1": "p1",
+        "player2": "p2",
+        "when": "",
+        "outcome": ""
+    },
+]
+
+Also show me the pairings like this:
+
+p1 vs p2
+...

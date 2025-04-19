@@ -102,7 +102,7 @@ export default {
                 },
                 {
                     "duelist": "Giorgio",
-                    "points": 3
+                    "points": 6
                 },
                 {
                     "duelist": "Luiso",
@@ -118,11 +118,11 @@ export default {
                 },
                 {
                     "duelist": "Riccardo",
-                    "points": 3
+                    "points": 6
                 },
                 {
                     "duelist": "Alessio",
-                    "points": 0
+                    "points": 3
                 }
             ],
             "allPairings": [
@@ -161,14 +161,14 @@ export default {
                         {
                             "player1": "Richard",
                             "player2": "Giorgio",
-                            "when": "",
-                            "outcome": ""
+                            "when": "Sulla playlist",
+                            "outcome": "Vince Giorgio"
                         },
                         {
                             "player1": "Riccardo",
                             "player2": "Curry",
-                            "when": "",
-                            "outcome": ""
+                            "when": ".",
+                            "outcome": "Vince Riccardo"
                         },
                         {
                             "player1": "Fede",
@@ -179,8 +179,8 @@ export default {
                         {
                             "player1": "Edoardo",
                             "player2": "Alessio",
-                            "when": "",
-                            "outcome": ""
+                            "when": "Sulla playlist",
+                            "outcome": "Vince Alessio"
                         }
                     ]
                 }
