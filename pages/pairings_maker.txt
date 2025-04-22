@@ -1,13 +1,13 @@
 Make pairings of 2 people based on how much points they've gathered (a player with more points should be paired with another player with more or less the same points) for match
 
+Riccardo	6
+Giorgio	6
+Fede	4
 Richard	3
-Edoardo	0
-Fede	1
+Alessio	3
 Curry	1
 Luiso	0
-Giorgio	3
-Alessio 0
-Riccardo 3
+Edoardo	0
 
 Also the following pairings already happened
 
@@ -15,6 +15,10 @@ Richard vs Edoardo
 Fede vs Curry
 Luiso vs Giorgio
 Riccardo vs Alessio
+Richard	vs Giorgio
+Riccardo vs	Curry
+Fede vs	Luiso
+Edoardo vs Alessio
 
 Also put them in a json like this:
 

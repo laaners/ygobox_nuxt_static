@@ -77,7 +77,7 @@ export default {
     data: () => ({
         allAvailabilities: [],
         remoteData: undefined,
-        round: 2,
+        round: 3,
         rankings: [
         ]
         ,
@@ -98,7 +98,7 @@ export default {
                 },
                 {
                     "duelist": "Fede",
-                    "points": 1
+                    "points": 4
                 },
                 {
                     "duelist": "Giorgio",
@@ -174,13 +174,42 @@ export default {
                             "player1": "Fede",
                             "player2": "Luiso",
                             "when": "",
-                            "outcome": ""
+                            "outcome": "Vince Fede"
                         },
                         {
                             "player1": "Edoardo",
                             "player2": "Alessio",
                             "when": "Sulla playlist",
                             "outcome": "Vince Alessio"
+                        }
+                    ]
+                },
+                {
+                    "round": 3,
+                    "matches": [
+                        {
+                            "player1": "Riccardo",
+                            "player2": "Giorgio",
+                            "when": "",
+                            "outcome": ""
+                        },
+                        {
+                            "player1": "Fede",
+                            "player2": "Alessio",
+                            "when": "",
+                            "outcome": ""
+                        },
+                        {
+                            "player1": "Richard",
+                            "player2": "Curry",
+                            "when": "",
+                            "outcome": ""
+                        },
+                        {
+                            "player1": "Luiso",
+                            "player2": "Edoardo",
+                            "when": "",
+                            "outcome": ""
                         }
                     ]
                 }
