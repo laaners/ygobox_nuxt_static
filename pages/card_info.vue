@@ -18,6 +18,7 @@
 					:card-id="card.id"
 					:rarity="'Common'"
 					:src="getPicUrl(card.id)"
+					:card-name="card.name"
 				/>
 			</grid-view>
 			<p>

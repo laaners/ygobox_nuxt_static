@@ -6,6 +6,7 @@
 			:card-id="card.id"
 			:rarity="'Common'"
 			:limit-image="limitImage"
+			:card-name="card.name"
 		/>
 		<div class="flex-col info">
 			<p style="text-align: center; font-size: 0.9vmax !important">
