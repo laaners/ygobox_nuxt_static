@@ -789,8 +789,6 @@ export default {
 				"Zoodiac Ratpier": 50
 			}
 
-			console.log(this.cardName)
-			console.log(points[this.cardName])
 			return points[this.cardName] === undefined ? 0 : points[this.cardName]
 		}
 	},

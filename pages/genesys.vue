@@ -1141,6 +1141,7 @@ export default {
 
         this.allcards.forEach((card) => {
             card.tcg_date = "2200-11-11"
+            card.points = points[card.name] === undefined ? 0 : points[card.name]
             if (card.card_sets === undefined) return
             card.card_sets.forEach((set) => {
                 const tcg_date = this.allsets.find(
@@ -1150,7 +1151,6 @@ export default {
                 if (tcg_date !== undefined && card.tcg_date > tcg_date)
                     card.tcg_date = tcg_date
             })
-            card.points = points[card.name] === undefined ? 0 : points[card.name]
         })
         this.hashAllcards = this.hashGroupBy(this.allcards, "id")
 
@@ -1594,7 +1594,10 @@ export default {
             let ris = 0
             // eslint-disable-next-line no-return-assign
             this.deck.forEach(_ => {
-                ris += this.hashAllcards[_.id][0].points
+                console.log( _.name)
+                console.log( +this.hashAllcards[_.id][0].points)
+                console.log( this.hashAllcards[_.id][0])
+                ris += +this.hashAllcards[_.id][0].points
             })
             return ris
         },
