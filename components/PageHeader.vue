@@ -68,6 +68,7 @@ export default {
 			// { uri: "/deck_editor", name: "Il tuo Deck" },
 			// { uri: "/banned_cards", name: "Carte Bandite" },
 			// { uri: "/pack_info", name: "Info Pacchetto" },
+			{ uri: "/genesys", name: "Genesys" },
 			{ uri: "/card_info", name: "Cerca Carta" },
 			// { uri: "/archetypes", name: "Archetipi" },
 			// { uri: "/banlist", name: "Tutte le banlist" },
